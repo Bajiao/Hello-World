@@ -126,12 +126,12 @@ class MenuIngredientDiseaseGraph:
             if self.G.nodes[n].get('type') == 'ingredient'
         }
     def connect_graph_from_menu_title_to_ingredient_to_disease(self, 
-            menu_file = 'data/standardized_menu_ingredients.csv',
+            menu_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data/standardized_menu_ingredients.csv'),
             disease_files = {
-                "diabetes": "./data/ingredient_diabetes_relation.csv",
-                "cardiovascular disease": "./data/ingredient_cardiovascular_disease_relation.csv",
-                "kidney disease": "./data/ingredient_kidney_disease_relation.csv"
-            }                                                               
+            "diabetes": os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/ingredient_diabetes_relation.csv"),
+            "cardiovascular disease": os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/ingredient_cardiovascular_disease_relation.csv"), 
+            "kidney disease": os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/ingredient_kidney_disease_relation.csv")
+            }                                                                
         ):
         """
         connect_graph_from_menu_title_to_ingredient_to_disease reads standardized_menu_ingredients.csv to build graph for menu title to ingredient;
