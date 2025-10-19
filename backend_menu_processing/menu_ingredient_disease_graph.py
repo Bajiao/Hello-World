@@ -1,5 +1,4 @@
-
-import os
+import os, sys
 import matplotlib.pyplot as plt
 import networkx as nx
 import csv
@@ -127,11 +126,11 @@ class MenuIngredientDiseaseGraph:
             if self.G.nodes[n].get('type') == 'ingredient'
         }
     def connect_graph_from_menu_title_to_ingredient_to_disease(self, 
-            menu_file = 'standardized_menu_ingredients.csv',
+            menu_file = 'data/standardized_menu_ingredients.csv',
             disease_files = {
-                "diabetes": "ingredient_diabetes_relation.csv",
-                "cardiovascular disease": "ingredient_cardiovascular_disease_relation.csv",
-                "kidney disease": "ingredient_kidney_disease_relation.csv"
+                "diabetes": "./data/ingredient_diabetes_relation.csv",
+                "cardiovascular disease": "./data/ingredient_cardiovascular_disease_relation.csv",
+                "kidney disease": "./data/ingredient_kidney_disease_relation.csv"
             }                                                               
         ):
         """
@@ -181,7 +180,7 @@ class MenuIngredientDiseaseGraph:
         # Step 1: Build graph from menu title to ingredient
         if not os.path.exists(menu_file):
             print(f"{menu_file} not found.")
-            return
+            sys.exit(1)
 
         # Read menu file with utf-8-sig to handle BOM and ensure correct decoding
         with open(menu_file, 'r', encoding='utf-8-sig', errors='replace') as f:
@@ -211,8 +210,8 @@ class MenuIngredientDiseaseGraph:
 
         for disease, file_path in disease_files.items():
             if not os.path.exists(file_path):
-                print(f"{file_path} not found. Skipping {disease}.")
-                continue
+                print(f"{file_path} not found. ERROR LOADING FILE FOR {disease}!!!")
+                sys.exit(1)
             with open(file_path, 'r', encoding='utf-8-sig', errors='replace') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
