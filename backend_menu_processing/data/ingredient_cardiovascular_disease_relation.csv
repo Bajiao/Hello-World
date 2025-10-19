@@ -1,0 +1,1634 @@
+ingredient,effect,reason
+acacia honey,negative,"A source of free sugars, which can increase triglycerides and other cardiovascular risk factors when consumed in excess."
+achiote,neutral,
+achiote seed,neutral,
+active dry yeast,neutral,
+adobo sauce,negative,"Typically very high in sodium, which can raise blood pressure, a major risk factor for cardiovascular disease."
+adobo seasoning,negative,"A salt-based seasoning, making it very high in sodium, which can raise blood pressure."
+aji amarillo,positive,"Contains capsaicin and antioxidants, which may improve blood flow and reduce inflammation."
+aji amarillo chile paste,negative,"Processed pastes are often very high in added sodium, a risk factor for high blood pressure."
+aji amarillo chili paste,negative,"Processed pastes are often very high in added sodium, a risk factor for high blood pressure."
+aji amarillo pepper,positive,"Contains capsaicin and antioxidants, which may improve blood flow and reduce inflammation."
+aji chile,positive,"Chili peppers contain capsaicin, which has anti-inflammatory properties and may support heart health."
+aji dulce pepper,positive,A good source of vitamins and antioxidants with anti-inflammatory benefits.
+aji pepper,positive,"Chili peppers contain capsaicin, which has anti-inflammatory properties and may support heart health."
+ajies dulce pepper,positive,A good source of vitamins and antioxidants with anti-inflammatory benefits.
+ale,negative,"Excessive alcohol consumption can lead to high blood pressure, heart failure, and increased triglycerides."
+aleppo chile,positive,"Contains capsaicin and antioxidants, which may improve blood flow and reduce inflammation."
+aleppo chili flake,positive,"Contains capsaicin and antioxidants, which may improve blood flow and reduce inflammation."
+aleppo pepper flake,positive,"Contains capsaicin and antioxidants, which may improve blood flow and reduce inflammation."
+aleppo red pepper flake,positive,"Contains capsaicin and antioxidants, which may improve blood flow and reduce inflammation."
+all purpose flour,negative,"A refined carbohydrate that lacks fiber and can contribute to higher blood sugar and triglycerides, increasing heart disease risk."
+allspice,neutral,
+allspice berry,neutral,
+almond,positive,"Rich in monounsaturated fats, fiber, and vitamin E, which help lower LDL (bad) cholesterol and support heart health."
+almond extract,neutral,
+almond flour,positive,"Made from ground almonds, it retains heart-healthy fats and nutrients and is a better alternative to refined flour."
+almond half,positive,"Rich in monounsaturated fats, fiber, and vitamin E, which help lower LDL (bad) cholesterol and support heart health."
+almond meal,positive,"Made from ground almonds, it retains heart-healthy fats and nutrients and is a better alternative to refined flour."
+almond milk,neutral,"Unsweetened versions are low in saturated fat and calories, but also low in most beneficial nutrients. Its impact is largely neutral."
+almond paste,negative,"Very high in added sugar, which is a significant risk factor for cardiovascular disease."
+almond sliver,positive,"Rich in monounsaturated fats, fiber, and vitamin E, which help lower LDL (bad) cholesterol and support heart health."
+aluminum foil,neutral,
+amaretto liqueur,negative,"Contains both alcohol and high amounts of sugar, which are risk factors for cardiovascular disease."
+american cheese,very negative,"Highly processed and very high in both sodium and saturated fat, which contribute to high blood pressure and high cholesterol."
+ancho chile pepper,positive,"Contains capsaicin and antioxidants, which have anti-inflammatory properties beneficial for heart health."
+ancho chili powder,positive,"Contains capsaicin and antioxidants, which have anti-inflammatory properties beneficial for heart health."
+anchovy,positive,"Excellent source of heart-healthy omega-3 fatty acids, which can lower triglycerides and blood pressure. Often high in sodium, so use in moderation."
+anchovy fillet,positive,"Excellent source of heart-healthy omega-3 fatty acids, which can lower triglycerides and blood pressure. Often high in sodium, so use in moderation."
+angostura bitter,neutral,
+anise extract,neutral,
+anise oil,neutral,
+anise seed,neutral,
+anise seed powder,neutral,
+annatto powder,neutral,
+annatto seed,neutral,
+apple,positive,"High in soluble fiber (pectin) and flavonoids, which help lower cholesterol and reduce heart disease risk."
+apple brandy,negative,Excessive alcohol consumption is a significant risk factor for high blood pressure and other cardiovascular problems.
+apple cider,negative,"Typically high in sugar without the fiber of whole apples, contributing to increased cardiovascular risk."
+apple cider vinegar,positive,Some studies suggest it may help lower cholesterol and blood pressure in moderation as part of a healthy diet.
+apple juice,negative,"A concentrated source of sugar without the beneficial fiber of whole fruit, linked to negative cardiovascular outcomes."
+apple pie filling,very negative,"Extremely high in added sugar and often contains refined starches, contributing to multiple cardiovascular risk factors."
+applesauce,positive,A good source of fiber and potassium. Choose unsweetened varieties to avoid added sugars.
+apricot,positive,"Rich in fiber, potassium, and antioxidants, which help manage blood pressure and cholesterol."
+apricot jam,negative,"Typically very high in added sugar, which can contribute to weight gain, inflammation, and elevated triglycerides."
+apricot jelly,negative,"Typically very high in added sugar, which can contribute to weight gain, inflammation, and elevated triglycerides."
+apricot preserve,negative,"Typically very high in added sugar, which can contribute to weight gain, inflammation, and elevated triglycerides."
+arborio rice,negative,"A refined carbohydrate with a high glycemic index, which can negatively impact blood sugar and triglyceride levels."
+artichoke heart,positive,"Excellent source of fiber and potassium, which support blood pressure and cholesterol management."
+arugula,positive,"A leafy green rich in dietary nitrates, which can help lower blood pressure."
+asafoetida powder,neutral,
+asiago cheese,negative,"High in sodium and saturated fat, which can increase blood pressure and LDL (bad) cholesterol."
+asian fish sauce,negative,"Extremely high in sodium, which can significantly raise blood pressure."
+asian five spice powder,neutral,
+asian pear,positive,"Provides dietary fiber and potassium, which are beneficial for blood pressure and heart health."
+asparagus,positive,"Contains fiber, folate, and potassium, which support heart health by managing blood pressure and homocysteine levels."
+asturian fabada bean,positive,"All beans are high in soluble fiber, which helps lower LDL (bad) cholesterol."
+avocado,positive,"Rich in heart-healthy monounsaturated fats and potassium, which help lower bad cholesterol and blood pressure."
+baby bella mushroom,positive,"Provides potassium and fiber, and is low in sodium, supporting healthy blood pressure."
+baby bok choy,positive,A leafy green vegetable rich in vitamins and minerals that support overall cardiovascular health.
+baby carrot,positive,"A source of fiber and antioxidants like beta-carotene, which are beneficial for heart health."
+baby corn ear,positive,A vegetable that provides fiber and is low in fat and sodium.
+baby pea,positive,"Rich in fiber and plant-based protein, which can help manage cholesterol and blood pressure."
+baby potato,positive,"A good source of potassium, which helps regulate blood pressure. Best consumed with the skin on."
+baby red potato,positive,"A good source of potassium, which helps regulate blood pressure. Best consumed with the skin on."
+baby spinach leaf,positive,"Rich in nitrates, potassium, and magnesium, which help lower blood pressure and support heart function."
+bacon,very negative,"Extremely high in saturated fat and sodium, and is a processed meat linked to increased cardiovascular disease risk."
+bacon dripping,very negative,"A concentrated source of saturated fat and sodium, which significantly raises LDL cholesterol and blood pressure."
+bacon strip,very negative,"Extremely high in saturated fat and sodium, and is a processed meat linked to increased cardiovascular disease risk."
+bakers ammonia,neutral,
+baking potato,positive,"Excellent source of potassium, which is crucial for managing blood pressure."
+baking powder,negative,"Contains sodium, which can contribute to high blood pressure when consumed in excess."
+baking soda,negative,"Is a source of sodium (sodium bicarbonate), which can contribute to high blood pressure."
+balsamic vinegar,positive,Contains antioxidants and may help improve cholesterol levels and blood pressure.
+bamboo shoot,positive,"High in fiber and potassium, which are beneficial for blood pressure and cholesterol management."
+bamboo skewer,neutral,
+banana,positive,"Very high in potassium, a key mineral for controlling blood pressure."
+banana extract,neutral,
+banana pepper,positive,"A vegetable providing vitamins and capsaicin, which may have modest benefits for circulation."
+barbecue sauce,negative,"Usually high in both added sugar and sodium, which can negatively impact blood pressure and triglycerides."
+barberry,positive,"Contains berberine, a compound that may help lower cholesterol and blood sugar levels."
+basil,positive,Rich in antioxidants and anti-inflammatory compounds that support cardiovascular health.
+basil leaf,positive,Rich in antioxidants and anti-inflammatory compounds that support cardiovascular health.
+basmati rice,negative,A refined carbohydrate that can raise blood sugar levels; whole grain alternatives are better for heart health.
+bavarian style sauerkraut,negative,"While fermented, it is typically extremely high in sodium, which can significantly raise blood pressure."
+bay leaf,neutral,
+bay powder,neutral,
+bean,positive,"Excellent source of soluble fiber, which actively lowers LDL (bad) cholesterol, and potassium."
+bean sprout,positive,A low-calorie vegetable that provides fiber and nutrients without sodium or unhealthy fats.
+bean thread,neutral,A refined starch noodle with minimal fiber or nutrients; its impact is minor compared to other refined grains.
+beef,negative,"Can be high in saturated fat, which raises LDL (bad) cholesterol. Lean cuts in moderation are a better choice."
+beef base,negative,"A concentrated flavoring that is typically very high in sodium, which contributes to high blood pressure."
+beef birria,negative,"Typically made with fatty cuts of beef, high in saturated fat and sodium, which can increase cholesterol and blood pressure."
+beef bouillon,very negative,"Extremely high in sodium, which is a major contributor to high blood pressure."
+beef bouillon cube,very negative,"Extremely high in sodium, which is a major contributor to high blood pressure."
+beef bouillon granule,very negative,"Extremely high in sodium, which is a major contributor to high blood pressure."
+beef broth,negative,"Commercial versions are typically very high in sodium, which can raise blood pressure."
+beef chuck,negative,"A fatty cut of red meat, high in saturated fat which can raise LDL ('bad') cholesterol levels."
+beef chuck roast,negative,"A fatty cut of red meat, high in saturated fat which can raise LDL ('bad') cholesterol levels."
+beef consomme,very negative,"Typically extremely high in sodium, which is a major contributor to high blood pressure."
+beef cube steak,negative,"A cut of red meat; while often lean, red meat consumption is associated with increased cardiovascular risk."
+beef eye of round roast,negative,"A lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef fat,very negative,"Primarily composed of saturated fat, which directly contributes to elevated LDL ('bad') cholesterol and atherosclerosis."
+beef flank steak,negative,"A lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef gravy,very negative,Typically very high in both saturated fat (from drippings) and sodium.
+beef oxtail,negative,"A very fatty and gelatinous cut of meat, high in saturated fat."
+beef pot roast,negative,"Often made with fatty cuts of beef (like chuck), making it high in saturated fat."
+beef ravioli,negative,"A processed food, typically high in sodium, saturated fat, and refined carbohydrates."
+beef rib eye steak,very negative,"A heavily marbled cut of beef, making it extremely high in saturated fat."
+beef roast,negative,"A general term for red meat, which is high in saturated fat and linked to increased cardiovascular risk."
+beef round,negative,"A lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef round steak,negative,"A lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef rump roast,negative,"A moderately fatty cut of red meat, high in saturated fat."
+beef short rib,very negative,"A very fatty cut of beef, extremely high in saturated fat."
+beef shoulder,negative,"A moderately fatty cut of red meat, high in saturated fat."
+beef sirloin,negative,"A lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef sirloin steak,negative,"A lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef skirt steak,negative,"A moderately fatty cut of red meat, high in saturated fat."
+beef soup bone,negative,Contributes saturated fat from marrow and is used to make high-sodium broths.
+beef steak,negative,"A general term for red meat, which is high in saturated fat and linked to increased cardiovascular risk."
+beef stew meat,negative,"Often from fatty cuts like chuck, making it high in saturated fat."
+beef stock,negative,"Commercial versions are typically very high in sodium, which can raise blood pressure."
+beef tenderloin,negative,"A very lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef tenderloin steak,negative,"A very lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef tongue,very negative,Extremely high in saturated fat and cholesterol.
+beef top round steak,negative,"A very lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef top sirloin,negative,"A lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef top sirloin steak,negative,"A lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beef tri tip,negative,"A moderately lean cut of red meat; while lower in saturated fat, high consumption of red meat is linked to cardiovascular risk."
+beer,negative,"Excessive alcohol consumption can lead to high blood pressure, heart failure, and increased triglycerides."
+beet,positive,"Rich in dietary nitrates, which can help lower blood pressure and improve blood flow."
+belacan,very negative,"A fermented shrimp paste that is extremely high in sodium, a major contributor to high blood pressure."
+belacan shrimp paste,very negative,"A fermented shrimp paste that is extremely high in sodium, a major contributor to high blood pressure."
+bell pepper,positive,"Excellent source of potassium, fiber, and antioxidants like vitamin C, which support heart health."
+birds eye chile,positive,"Contains capsaicin, which may help improve circulation and reduce cholesterol."
+bitter melon,positive,"Studies suggest it may help lower cholesterol and blood sugar levels, both of which are risk factors for heart disease."
+bitter orange marinade,negative,"Bitter orange contains synephrine, which can increase heart rate and blood pressure. Marinades are also often high in sodium."
+bitter,neutral,
+bittersweet chocolate,positive,"Rich in flavanols (especially with >70% cocoa), which can help lower blood pressure and improve blood vessel function."
+black bean,positive,"High in soluble fiber, which helps lower cholesterol, and rich in heart-healthy minerals like magnesium and potassium."
+black bean paste,negative,"Often prepared with high amounts of sodium, which can increase blood pressure."
+black bean sauce,very negative,"Commercially prepared sauces are typically extremely high in sodium, a major contributor to high blood pressure."
+black cardamom,positive,Contains antioxidants and has been studied for potential benefits in lowering blood pressure.
+black cardamom pod,positive,Contains antioxidants and has been studied for potential benefits in lowering blood pressure.
+black cardamom seed,positive,Contains antioxidants and has been studied for potential benefits in lowering blood pressure.
+black cumin,positive,"Studies suggest it may help lower blood pressure, cholesterol, and inflammation."
+black cumin seed,positive,"Studies suggest it may help lower blood pressure, cholesterol, and inflammation."
+black garbanzo bean,positive,"A legume high in fiber, which helps lower cholesterol and supports heart health."
+black italian olive,negative,"While a source of monounsaturated fats, olives are typically cured in brine, making them very high in sodium, a risk factor for high blood pressure."
+black mustard seed,positive,Contains heart-healthy omega-3 fatty acids (ALA) and anti-inflammatory compounds.
+black olive,negative,"While a source of monounsaturated fats, olives are typically cured in brine, making them very high in sodium, a risk factor for high blood pressure."
+black pepper,positive,"Contains piperine, an antioxidant that may help manage cholesterol levels and reduce inflammation."
+black peppercorn,positive,"Contains piperine, an antioxidant that may help manage cholesterol levels and reduce inflammation."
+black sesame seed,positive,"Rich in healthy fats, fiber, and minerals like magnesium that support blood pressure control."
+black soy sauce,very negative,"Extremely high in sodium, which is a primary driver of high blood pressure and cardiovascular strain."
+black tea,positive,"Contains flavonoids, which are antioxidants linked to improved cholesterol levels and better blood vessel function."
+black tea leaf,positive,"Contains flavonoids, which are antioxidants linked to improved cholesterol levels and better blood vessel function."
+black treacle,negative,"A concentrated form of added sugar. High sugar intake is linked to increased triglycerides, inflammation, and heart disease risk."
+blackberry,positive,Rich in fiber and heart-protective antioxidants called anthocyanins.
+blood sausage,very negative,"A processed meat that is typically very high in saturated fat, cholesterol, and sodium, all major risk factors for cardiovascular disease."
+blue food coloring,neutral,
+blueberry,positive,"High in anthocyanins, antioxidants known to help lower blood pressure and improve blood vessel elasticity."
+bok choy,positive,"A nutrient-dense, low-calorie leafy green vegetable that is a key component of a heart-healthy diet."
+bologna slice,very negative,"A highly processed meat, very high in sodium, saturated fat, and preservatives linked to heart disease."
+bone in beef shank,negative,"Red meat is a source of saturated fat, and high consumption is associated with an increased risk of cardiovascular disease."
+boneless chuck roast,negative,"Red meat is a source of saturated fat, and high consumption is associated with an increased risk of cardiovascular disease."
+boneless country style pork rib,negative,"Often a fatty cut of pork, high in saturated fat, which is a risk factor for heart disease."
+bonito flake,positive,"A source of heart-healthy omega-3 fatty acids, which can help reduce triglycerides and inflammation."
+bonito shaving,positive,"A source of heart-healthy omega-3 fatty acids, which can help reduce triglycerides and inflammation."
+boston lettuce,positive,"A low-calorie, nutrient-dense leafy green vegetable, which is a key component of a heart-healthy diet."
+bourbon whiskey,negative,"Excessive alcohol intake is a risk factor for high blood pressure, heart failure, and stroke."
+braising liquid,neutral,"Effect is entirely dependent on its composition (e.g., high-sodium broth vs. vegetable-based)."
+brandy,negative,"Excessive alcohol intake is a risk factor for high blood pressure, heart failure, and stroke."
+brandy based orange liqueur,negative,"Contains both alcohol and high amounts of added sugar, which are risk factors for cardiovascular disease."
+branzino,positive,"A lean fish that provides protein and omega-3 fatty acids, which are beneficial for heart health."
+bratwurst,very negative,"A processed sausage, typically very high in saturated fat and sodium, strongly linked to cardiovascular disease."
+bratwurst sausage,very negative,"A processed sausage, typically very high in saturated fat and sodium, strongly linked to cardiovascular disease."
+bread,negative,"Typically refers to refined white bread, which lacks fiber and can negatively impact blood sugar and heart health risk factors."
+bread crumb,negative,"Typically made from refined white bread, which lacks fiber and can negatively impact blood sugar and heart health risk factors."
+bread dough,negative,"Typically made from refined white flour, which lacks fiber and can negatively impact blood sugar and heart health risk factors."
+bread flour,negative,"A refined flour that lacks the fiber and nutrients of whole grains, which are protective for the heart."
+bread machine yeast,neutral,
+breast chop,negative,"Assumed to be a cut of meat (e.g., pork, lamb) which contains saturated fat, a risk factor for heart disease."
+broccoli,positive,"High in fiber, vitamins, and antioxidants that are protective against heart disease."
+broccoli floret,positive,"High in fiber, vitamins, and antioxidants that are protective against heart disease."
+broccoli in cheese sauce,very negative,The high saturated fat and sodium content of the cheese sauce negates the benefits of the broccoli and is detrimental to heart health.
+broth,negative,"Commercially prepared broths are typically very high in sodium, a major risk factor for high blood pressure."
+brown gravy mix,very negative,"A highly processed product, extremely high in sodium and often containing unhealthy fats and refined starches."
+brown lentil,positive,"Excellent source of heart-healthy fiber, plant-based protein, and potassium."
+brown rice,positive,"A whole grain rich in fiber, which is linked to a lower risk of heart disease compared to refined grains."
+brown sugar,negative,"An added sugar, which contributes to inflammation, high triglycerides, and increased cardiovascular risk."
+browning,negative,"Typically a sauce (e.g., Kitchen Bouquet) that is very high in sodium and additives."
+browning sauce,negative,"Typically high in sodium, which can increase blood pressure."
+brushing,neutral,
+bulgur,positive,"A whole grain rich in fiber, which helps lower cholesterol and improve heart health."
+bulgur wheat,positive,"A whole grain rich in fiber, which helps lower cholesterol and improve heart health."
+butter,very negative,"High in saturated fat, which raises LDL (bad) cholesterol levels, a major risk factor for heart disease."
+butter bean,positive,"A legume rich in soluble fiber and potassium, which help lower cholesterol and blood pressure."
+butter flavoring,neutral,
+butter flavored shortening,very negative,"High in saturated and/or trans fats, which significantly raise LDL (bad) cholesterol and increase heart disease risk."
+buttermilk,neutral,Modern cultured buttermilk is typically low in fat; its impact is minimal.
+butternut squash,positive,"High in potassium, fiber, and antioxidants, which support healthy blood pressure and overall heart health."
+button mushroom,positive,"Low in calories and sodium, and provides potassium and fiber, which are beneficial for heart health."
+cabbage,positive,"Rich in fiber, vitamins, and antioxidants, which can help reduce inflammation and lower cholesterol."
+cabbage leaf,positive,"Rich in fiber, vitamins, and antioxidants, which can help reduce inflammation and lower cholesterol."
+cabernet sauvignon wine,neutral,"The effects of alcohol are complex; while moderate red wine intake is linked to some benefits, excessive alcohol is harmful."
+cacao powder,positive,"Unsweetened cacao is rich in flavonoids, which can help lower blood pressure and improve blood flow."
+cachaca,negative,"Alcohol can raise blood pressure and triglyceride levels, and excessive intake is a risk factor for heart disease."
+cacho de cabra pepper,positive,"Contains capsaicin, which may have benefits for circulation and cholesterol levels."
+cake flour,negative,"A refined carbohydrate, which can contribute to elevated triglycerides and other risk factors when consumed in excess."
+calabresa,very negative,"A processed meat high in sodium and saturated fat, both of which are major risk factors for high blood pressure and heart disease."
+calamari ring,neutral,"A source of lean protein, but its health impact depends heavily on preparation (e.g., fried vs. grilled)."
+canadian bacon,negative,"A processed meat that is high in sodium, which can contribute to high blood pressure."
+candied cherry,negative,"High in added sugar, which contributes to risk factors like high triglycerides, inflammation, and obesity."
+candied citron,negative,"High in added sugar, which contributes to risk factors like high triglycerides, inflammation, and obesity."
+candied lemon peel,negative,"High in added sugar, which contributes to risk factors like high triglycerides, inflammation, and obesity."
+candied mixed fruit peel,negative,"High in added sugar, which contributes to risk factors like high triglycerides, inflammation, and obesity."
+candied orange peel,negative,"High in added sugar, which contributes to risk factors like high triglycerides, inflammation, and obesity."
+candlenut,neutral,
+candy sprinkle,negative,"Composed almost entirely of sugar, which contributes to various cardiovascular risk factors."
+cane vinegar,neutral,
+cannellini bean,positive,"A legume rich in soluble fiber, potassium, and magnesium, which help lower cholesterol and blood pressure."
+canola oil,positive,"High in monounsaturated fats and a source of omega-3s, which can help lower LDL (bad) cholesterol."
+caper,negative,"Typically preserved in brine, making them very high in sodium, which can raise blood pressure."
+caraway seed,positive,A source of antioxidants and fiber; can be used to flavor food in place of salt.
+carbonated water,neutral,
+cardamom,positive,Contains antioxidants and may have properties that help lower blood pressure.
+cardamom flavored extract,neutral,
+cardamom pod,positive,Contains antioxidants and may have properties that help lower blood pressure.
+cardamom seed,positive,Contains antioxidants and may have properties that help lower blood pressure.
+carrot,positive,"Excellent source of potassium, fiber, and antioxidants, which support healthy blood pressure and heart function."
+carrot matchstick,positive,"Excellent source of potassium, fiber, and antioxidants, which support healthy blood pressure and heart function."
+cashew,positive,"Source of heart-healthy monounsaturated fats, which can help improve cholesterol levels. Best consumed unsalted."
+cashew half,positive,"Source of heart-healthy monounsaturated fats, which can help improve cholesterol levels. Best consumed unsalted."
+cassava flour,negative,"A refined starch that can negatively impact blood sugar and triglyceride levels, which are risk factors for heart disease."
+catfish fillet,positive,"A source of lean protein and some omega-3 fatty acids, which are beneficial for heart health."
+cauliflower,positive,"Rich in fiber, vitamins, and antioxidants, which help reduce inflammation and support overall heart health."
+cayenne,positive,"Contains capsaicin, which may help improve circulation, reduce blood pressure, and lower cholesterol."
+cayenne pepper,positive,"Contains capsaicin, which may help improve circulation, reduce blood pressure, and lower cholesterol."
+celery,positive,Contains potassium and compounds that may help lower blood pressure; it is also low in calories.
+celery rib,positive,Contains potassium and compounds that may help lower blood pressure; it is also low in calories.
+celery salt,very negative,"Primarily composed of salt (sodium), which significantly contributes to high blood pressure, a major risk factor for cardiovascular disease."
+celery seed,positive,Contains compounds like phthalides that may help relax artery walls and lower blood pressure.
+celery stalk,positive,"Good source of fiber and potassium, which help manage blood pressure."
+cellophane noodle,neutral,
+chai tea bag,positive,"Black tea contains flavonoids, which are antioxidants beneficial for heart health. Spices like cinnamon can also have positive effects."
+chamoy,negative,"Typically very high in sodium and sugar, both of which contribute to high blood pressure and other cardiovascular risks."
+champagne,neutral,"Excessive alcohol is negative, but moderate consumption has unclear/mixed effects. In small amounts, it is considered neutral."
+champagne vinegar,neutral,
+chana dal,positive,"A type of legume rich in soluble fiber and plant-based protein, which helps lower LDL cholesterol and manage blood pressure."
+charcoal,neutral,"Used as a food additive (e.g., for color), it is inert and not absorbed by the body, having no nutritional impact."
+chayote squash,positive,"A low-calorie vegetable high in fiber, potassium, and antioxidants, which supports overall heart health."
+cheddar cheese,negative,"High in saturated fat and sodium, which can contribute to elevated LDL cholesterol and high blood pressure."
+cheese curd,negative,"High in saturated fat and sodium, similar to other cheeses."
+cheese ravioli,negative,Combines refined flour pasta with a cheese filling high in saturated fat and sodium.
+cheese sauce,very negative,"Typically extremely high in saturated fat, sodium, and calories, significantly increasing cardiovascular risk."
+cheesecloth,neutral,"A kitchen tool, not a food ingredient that is consumed."
+cherry,positive,"Rich in potassium and polyphenol antioxidants like anthocyanins, which help reduce inflammation and blood pressure."
+cherry tomato,positive,"Excellent source of lycopene, an antioxidant linked to lower risk of heart disease, as well as potassium and vitamin C."
+chestnut,positive,Lower in fat and higher in fiber than other nuts; a good source of heart-healthy minerals like potassium.
+chicken,neutral,"This term is too general. The effect depends on the cut (e.g., lean breast vs. fatty wing) and preparation method."
+chicken base,very negative,"A concentrated flavor product that is extremely high in sodium, a major contributor to high blood pressure."
+chicken bone,neutral,"Not consumed directly. Used to make broth, whose health impact depends on added salt."
+chicken bouillon,very negative,"Extremely high in sodium, which significantly raises blood pressure."
+chicken bouillon granule,very negative,"Extremely high in sodium, which significantly raises blood pressure."
+chicken breast,positive,"An excellent source of lean protein, low in saturated fat, which is a cornerstone of a heart-healthy diet."
+chicken breast half,positive,"An excellent source of lean protein, low in saturated fat."
+chicken breast meat,positive,"An excellent source of lean protein, low in saturated fat."
+chicken breast tenderloin,positive,"A very lean cut of chicken, providing protein with minimal saturated fat."
+chicken broth,negative,Commercially prepared versions are typically very high in sodium. Low-sodium or homemade versions can be positive.
+chicken chunk,negative,"Often refers to processed, breaded, and fried chicken, which is high in sodium, unhealthy fats, and refined carbohydrates."
+chicken drumette,negative,"A part of the wing with a high skin-to-meat ratio, making it high in saturated fat."
+chicken drumstick,negative,"Dark meat with skin, which is higher in saturated fat and cholesterol compared to breast meat."
+chicken gizzard,negative,Organ meat that is high in dietary cholesterol.
+chicken leg,negative,"Dark meat with skin, which is higher in saturated fat and cholesterol compared to breast meat."
+chicken leg quarter,negative,"Dark meat with skin, which is higher in saturated fat and cholesterol compared to breast meat."
+chicken liver,negative,"Extremely high in dietary cholesterol, which can be a concern for individuals at risk for cardiovascular disease."
+chicken meat,neutral,This term is too general. The effect depends on the cut and preparation method.
+chicken part,neutral,This term is too general. The effect depends on the specific part and preparation method.
+chicken piece,neutral,This term is too general. The effect depends on the specific piece and preparation method.
+chicken soup base,very negative,A concentrated flavor product that is extremely high in sodium.
+chicken stock,negative,Commercially prepared versions are typically very high in sodium. Low-sodium or homemade versions can be positive.
+chicken tender,positive,"Refers to the tenderloin, a very lean cut of chicken breast. (Note: breaded/fried 'chicken tenders' would be negative)."
+chicken thigh,negative,"Dark meat, which is higher in saturated fat than chicken breast, especially when consumed with the skin."
+chicken wing,negative,"High skin-to-meat ratio makes it very high in saturated fat, and it is often fried and served with high-sodium sauces."
+chicken wing drumette,negative,"Part of the chicken wing, making it high in saturated fat from the skin."
+chickpea,positive,"Excellent source of soluble fiber, which helps lower LDL cholesterol, and potassium, which helps manage blood pressure."
+chickpea flour,positive,"Made from ground chickpeas, it retains the high fiber and protein content beneficial for heart health."
+chile flake,positive,"Contains capsaicin, which has anti-inflammatory properties and may improve circulation and blood vessel function."
+chile garlic sauce,negative,"Typically very high in sodium, which contributes to high blood pressure."
+chile padi,positive,"Also known as bird's eye chili, it contains capsaicin, which has anti-inflammatory and circulatory benefits."
+chile paste,negative,Commercially prepared versions are generally very high in sodium.
+chile pepper,positive,"Contains capsaicin, which has anti-inflammatory properties and may help improve blood pressure and cholesterol levels."
+chile powder,positive,"Contains capsaicin from ground chiles, which may improve cardiovascular markers like blood pressure and cholesterol."
+chile sauce,negative,"Often high in sodium and added sugars, which can contribute to high blood pressure and other cardiovascular risks."
+chilean sea bass fillet,positive,"Rich in omega-3 fatty acids, which are known to reduce inflammation, lower blood pressure, and decrease triglycerides."
+chili bean paste,negative,"Typically very high in sodium, which is a major contributor to high blood pressure."
+chili garlic sauce,negative,High sodium and often added sugar content can negatively impact blood pressure and overall cardiovascular health.
+chili lime seasoning,negative,"Usually contains a very high amount of sodium, which can increase blood pressure."
+chili oil,neutral,
+chili pepper,positive,"Contains capsaicin, which has anti-inflammatory properties and may help improve blood pressure and cholesterol levels."
+chili powder,positive,"Contains capsaicin from ground chiles, which may improve cardiovascular markers like blood pressure and cholesterol."
+chili sauce,negative,"Often high in sodium and added sugars, which can contribute to high blood pressure and other cardiovascular risks."
+chili seasoning mix,negative,"Typically very high in sodium, which can contribute to high blood pressure."
+chinese barbequed pork,very negative,"A processed red meat, high in sodium, saturated fat, and often sugar, all of which are strongly linked to increased cardiovascular disease risk."
+chinese broccoli,positive,"A leafy green vegetable rich in fiber, vitamins, and antioxidants, which support heart health by lowering cholesterol and blood pressure."
+chinese cabbage,positive,"A low-calorie vegetable rich in fiber, potassium, and antioxidants that support cardiovascular health."
+chinese chive,positive,"Contains beneficial compounds like allicin, which may help lower cholesterol and blood pressure."
+chinese cooking wine,negative,High in sodium and contains alcohol; excessive intake can negatively impact blood pressure.
+chinese egg noodle,negative,"Made from refined flour, which can negatively impact blood sugar and triglyceride levels when consumed in excess."
+chinese egg noodle nest,negative,"Made from refined flour, which can negatively impact blood sugar and triglyceride levels when consumed in excess."
+chinese eggplant,positive,"A good source of fiber and antioxidants (like nasunin), which are beneficial for heart health."
+chinese five spice powder,positive,"A blend of spices (e.g., cinnamon, cloves) with antioxidant and anti-inflammatory properties beneficial for cardiovascular health."
+chinese hot prepared mustard,negative,"Prepared mustards are typically very high in sodium, which can increase blood pressure."
+chinese moo shu pancake,negative,"Made from refined white flour, a simple carbohydrate that can negatively impact metabolic health."
+chinese rice vinegar,neutral,
+chinese rice wine,negative,Contains alcohol; excessive intake can negatively impact blood pressure and contribute to high triglycerides.
+chinese roasted pork,very negative,"A red meat dish, typically high in saturated fat and sodium, which are major risk factors for cardiovascular disease."
+chipotle chile powder,positive,"Contains capsaicin from ground chiles, which may improve cardiovascular markers like blood pressure and cholesterol."
+chipotle chili powder,positive,"Contains capsaicin from ground chiles, which may improve cardiovascular markers like blood pressure and cholesterol."
+chipotle mayonnaise,negative,"High in calories, unhealthy fats (typically from soybean oil), and sodium, which are detrimental to cardiovascular health."
+chipotle pepper,positive,"Contains capsaicin, which has anti-inflammatory properties and may help improve blood pressure and cholesterol levels."
+chive,positive,"Part of the allium family, contains compounds that may help lower cholesterol and blood pressure."
+chocolate chip,negative,"Typically high in sugar and saturated fat, which can contribute to elevated cholesterol and triglycerides."
+chocolate mix,negative,"Typically very high in added sugar, which is linked to an increased risk of obesity, high blood pressure, and cardiovascular disease."
+chocolate sprinkle,negative,Primarily composed of sugar and hydrogenated fats with no nutritional benefit.
+chocolate wafer cookie,negative,"A processed food high in refined flour, sugar, and unhealthy fats, which are detrimental to heart health."
+chorizo,very negative,"A processed red meat, extremely high in saturated fat and sodium, both strongly linked to cardiovascular disease."
+chorizo de bilbao,very negative,"A processed red meat, extremely high in saturated fat and sodium, both strongly linked to cardiovascular disease."
+chorizo sausage,very negative,"A processed red meat, extremely high in saturated fat and sodium, both strongly linked to cardiovascular disease."
+chourico,very negative,"A processed red meat, high in saturated fat and sodium, which are significant risk factors for heart disease."
+chourico sausage,very negative,"A processed red meat, high in saturated fat and sodium, which are significant risk factors for heart disease."
+chow mein noodle,negative,"Typically fried and made from refined flour, making them high in unhealthy fats and simple carbohydrates."
+chutney,negative,"Typically very high in added sugar and often sodium, which can negatively impact heart health."
+ciabatta sandwich roll,negative,"Made from refined white flour, which lacks fiber and can negatively impact blood sugar levels and cardiovascular health."
+cider vinegar,positive,"May help improve blood sugar control and cholesterol levels, contributing to better cardiovascular health."
+cilantro,positive,An herb rich in antioxidants and vitamins that can help reduce inflammation and oxidative stress.
+cilantro leaf,positive,An herb rich in antioxidants and vitamins that can help reduce inflammation and oxidative stress.
+cilantro stem,positive,An herb rich in antioxidants and vitamins that can help reduce inflammation and oxidative stress.
+cinnamon,positive,"Has anti-inflammatory properties and may help lower blood sugar, cholesterol, and triglycerides."
+cinnamon stick,positive,"Has anti-inflammatory properties and may help lower blood sugar, cholesterol, and triglycerides."
+cinnamon sugar,negative,"Primarily consists of sugar, which is detrimental to cardiovascular health, negating the minor benefits of cinnamon."
+citric acid,neutral,
+clam,neutral,
+clarified butter,neutral,
+clove,neutral,
+club soda,neutral,
+coarse salt,neutral,
+cocoa,neutral,
+cocoa mix,neutral,
+cocoa powder,neutral,
+coconut,neutral,
+coconut cream,neutral,
+coconut extract,neutral,
+coconut flake,neutral,
+coconut flavored rum,neutral,
+coconut flour,neutral,
+coconut milk,neutral,
+coconut milk powder,neutral,
+coconut oil,neutral,
+coconut preserve,neutral,
+coconut sugar,neutral,
+coconut water,neutral,
+cod,neutral,
+cod fish,neutral,
+cod fillet,neutral,
+coffee,neutral,
+coffee bean,neutral,
+coffee flavored liqueur,neutral,
+cola,neutral,
+cola flavored carbonated beverage,neutral,
+colby longhorn cheese,neutral,
+coleslaw mix,neutral,
+collard green,neutral,
+colored sprinkle,neutral,
+condensed beef broth,neutral,
+condensed cream of chicken soup,neutral,
+condensed cream of mushroom soup,neutral,
+condensed milk,neutral,
+condensed tomato soup,neutral,
+confectioners sugar,neutral,
+cooking oil,neutral,
+cooking sherry,neutral,
+cooking spray,neutral,
+cooking wine,neutral,
+coriander,neutral,
+coriander powder,neutral,
+coriander seed,neutral,
+corn,neutral,
+corn flour,neutral,
+corn husk,neutral,
+corn kernel,neutral,
+corn oil,negative,"A refined oil high in omega-6 fatty acids, which can be pro-inflammatory when consumed in excess compared to omega-3s."
+corn syrup,negative,"A form of added sugar that can contribute to weight gain, high triglycerides, and other cardiovascular risk factors."
+corn tortilla,neutral,
+corned beef,very negative,"Processed red meat, very high in sodium and saturated fat, and contains nitrates, all strongly linked to cardiovascular disease."
+corned beef brisket,very negative,"Processed red meat, very high in sodium and saturated fat, and contains nitrates, all strongly linked to cardiovascular disease."
+cornflakes cereal,negative,"A refined carbohydrate with a high glycemic index, often containing added sugar and sodium."
+cornichon,negative,"A pickled food, which is typically very high in sodium."
+cornmeal,neutral,
+cornstarch,neutral,
+cottage cheese,negative,"Can be very high in sodium, which contributes to high blood pressure."
+country style pork rib,negative,A cut of red meat that is high in saturated fat.
+couscous,neutral,
+cover,neutral,
+crab meat,positive,"A lean source of protein and omega-3 fatty acids, which are beneficial for heart health."
+cranberry,positive,Rich in antioxidants (polyphenols) that can improve blood vessel function and reduce inflammation.
+cranberry juice,negative,"Typically contains very high amounts of added sugar, which is a risk factor for cardiovascular disease."
+cranberry sauce,negative,Typically contains very high amounts of added sugar.
+cream,negative,"High in saturated fat, which can raise LDL (bad) cholesterol levels."
+cream cheese,negative,High in saturated fat and often contains significant amounts of sodium.
+cream of coconut,very negative,Extremely high in both saturated fat and added sugar.
+cream of tartar,neutral,
+cream of wheat cereal,neutral,
+creme fraiche,negative,"High in saturated fat, which can raise LDL (bad) cholesterol levels."
+crescent roll,negative,"Made with refined flour, sodium, and unhealthy fats (saturated and sometimes trans fats)."
+crescent roll dough,negative,"Made with refined flour, sodium, and unhealthy fats (saturated and sometimes trans fats)."
+crystallized ginger,negative,"While ginger has benefits, this form is coated in a large amount of added sugar."
+cuban bread,negative,"Typically made with refined white flour and lard, which is high in saturated fat."
+cube,neutral,
+cube steak,negative,"A cut of red meat, which contains saturated fat."
+cucumber,positive,"Low in calories, hydrating, and a source of fiber and antioxidants."
+culantro,neutral,
+cultured buttermilk,neutral,
+cumin,positive,A spice with anti-inflammatory and antioxidant properties.
+cumin seed,positive,A spice with anti-inflammatory and antioxidant properties.
+curing salt,very negative,"Extremely high in sodium and contains nitrites, which are used for processed meats and linked to cardiovascular damage."
+currant,positive,"A fruit rich in fiber, vitamin C, and heart-healthy antioxidants."
+curry leaf,positive,An herb with potent antioxidant and anti-inflammatory properties.
+curry paste,negative,Often very high in sodium and can contain saturated fats from oils or coconut milk.
+curry powder,positive,A blend of spices (like turmeric and cumin) with anti-inflammatory and antioxidant benefits.
+custard powder,negative,"Primarily consists of cornstarch and sugar, which are refined carbohydrates."
+daikon,positive,A low-calorie vegetable that is a good source of fiber and vitamin C.
+daikon radish,positive,A low-calorie vegetable that is a good source of fiber and vitamin C.
+damask rose petal,neutral,
+danish butter,negative,"High in saturated fat, which can raise LDL (bad) cholesterol levels."
+dark brown sugar,negative,A form of added sugar that contributes to cardiovascular risk factors when consumed in excess.
+dark chocolate,positive,"Rich in flavanols, which can help lower blood pressure and improve blood flow (in high-cocoa, low-sugar forms)."
+dark chocolate chip,neutral,
+dark corn syrup,negative,"A highly processed sweetener with no nutritional benefits, contributing to cardiovascular risk factors."
+dark raisin,neutral,
+dark rum,negative,"Excessive alcohol consumption is a significant risk factor for high blood pressure, heart failure, and stroke."
+dark soy sauce,neutral,
+dashi granule,neutral,
+dashi kombu,neutral,
+dashi stock,neutral,
+date,neutral,
+date paste,neutral,
+deep frying,neutral,
+deli roast pork loin,neutral,
+dende oil,neutral,
+diakon radish,neutral,
+diamond crystal,neutral,
+diced tomato,neutral,
+diet lemon lime soda,neutral,
+dijon mustard,neutral,
+dijon style mustard,neutral,
+dill,neutral,
+dill pickle,neutral,
+dill pickle juice,neutral,
+dill pickle slice,neutral,
+dill pickle spear,neutral,
+dill seed,neutral,
+dill weed,neutral,
+dinner roll dough,neutral,
+distilled white vinegar,neutral,
+double crust pie pastry,neutral,
+dragon fruit,neutral,
+dried apricot,neutral,
+dried bonito flake,neutral,
+dried chourico sausage,neutral,
+dried coconut,neutral,
+dried purple corn,neutral,
+dried red chili flake,neutral,
+dry corn muffin mix,neutral,
+dry egg noodle,neutral,
+dry kidney bean,neutral,
+dry milk powder,neutral,
+dry mushroom gravy mix,neutral,
+dry mustard,neutral,
+dry onion soup mix,neutral,
+dry red wine,neutral,
+dry white wine,neutral,
+dry yeast,neutral,
+duck blood,neutral,
+duck breast half,neutral,
+duck fat,neutral,
+duck leg,neutral,
+dulce de leche,neutral,
+dumpling wrapper,neutral,
+dungeness crab,neutral,
+durian,neutral,
+dusting,neutral,
+edible flower,neutral,
+egg,positive,Good source of protein and nutrients like choline. Dietary cholesterol in eggs has minimal impact on blood cholesterol for most people.
+egg noodle,negative,"Typically made from refined flour, which can negatively impact blood sugar and triglyceride levels."
+egg roll wrapper,negative,"Made from refined flour, high in sodium, and often deep-fried, adding unhealthy fats."
+egg substitute,neutral,Highly variable by brand; often made of egg whites (positive) but can contain sodium and additives.
+egg white,positive,Excellent source of lean protein with no cholesterol or saturated fat.
+egg yolk,neutral,"Contains beneficial nutrients like choline and vitamin D, but also dietary cholesterol and saturated fat. Impact is neutral in moderation."
+eggnog,very negative,"Extremely high in saturated fat, added sugar, and calories, all of which are major risk factors for cardiovascular disease."
+eggplant,positive,"Rich in fiber, potassium, and antioxidants which can help lower blood pressure and cholesterol."
+elbow macaroni,negative,A refined carbohydrate product that lacks fiber and can contribute to high triglycerides and blood sugar.
+elephant garlic,positive,Contains allicin and other compounds that may help lower cholesterol and blood pressure.
+elk steak,positive,"A very lean red meat, significantly lower in saturated fat and higher in omega-3 fatty acids compared to beef."
+emmental cheese,negative,"High in saturated fat and sodium, which can increase LDL cholesterol and blood pressure."
+empanada dough,negative,"Typically made with refined flour and solid fats (like lard or butter), making it high in refined carbs and saturated fat."
+empanada pastry disc,negative,"Typically made with refined flour and solid fats (like lard or butter), making it high in refined carbs and saturated fat."
+empanada pastry round,negative,"Typically made with refined flour and solid fats (like lard or butter), making it high in refined carbs and saturated fat."
+english cucumber,positive,"High in water, fiber, and potassium, which helps with hydration and blood pressure management."
+english mustard,neutral,Used in small quantities; any potential negative effect from sodium is typically negligible.
+english walnut,positive,"Excellent source of plant-based omega-3 fatty acids (ALA), which are known to reduce inflammation and improve heart health."
+enoki mushroom,positive,"Low-calorie source of fiber, B vitamins, and antioxidants that may have cholesterol-lowering properties."
+evaporated milk,negative,"A concentrated source of dairy fat, contributing saturated fat and calories to the diet."
+extra virgin olive oil,positive,"High in monounsaturated fats and antioxidants, which help lower bad (LDL) cholesterol and reduce inflammation."
+farina,negative,"A refined wheat product that lacks the fiber of whole grains, leading to potential blood sugar spikes."
+farina cereal,negative,A refined wheat product that lacks fiber and often contains added sugar.
+farmers cheese,negative,"A source of saturated fat and sodium, which can negatively impact cholesterol and blood pressure."
+fava bean,positive,"Rich in soluble fiber, which helps lower cholesterol, and a good source of heart-healthy minerals like magnesium and potassium."
+fennel seed,positive,"A good source of fiber, potassium, and other nutrients that support blood pressure control."
+fenugreek,positive,Contains soluble fiber and compounds that may help lower cholesterol and blood sugar levels.
+fenugreek leaf,positive,Rich in antioxidants and may help manage blood sugar and cholesterol levels.
+fenugreek seed,positive,"High in soluble fiber, which has been shown to help reduce LDL (bad) cholesterol."
+fermented black bean,negative,"Extremely high in sodium, a major contributor to high blood pressure."
+fermented soybean,positive,"Source of plant-based protein, fiber, and probiotics. Some forms (like natto) contain enzymes that may improve circulation."
+feta cheese,negative,Very high in sodium and a significant source of saturated fat.
+fettuccine pasta,negative,A refined carbohydrate product that lacks fiber and can contribute to high triglycerides and blood sugar.
+fettuccini noodle,negative,A refined carbohydrate product that lacks fiber and can contribute to high triglycerides and blood sugar.
+fiddlehead fern,positive,"Good source of antioxidants, omega-3 fatty acids, and fiber."
+filling,neutral,This term is too generic to classify; its health impact depends entirely on the specific ingredients.
+fines herb,neutral,"A mix of herbs used in small quantities, having a negligible overall impact on cardiovascular health."
+fire roasted diced tomato,positive,"Tomatoes are an excellent source of lycopene and potassium, which are linked to lower blood pressure and reduced heart disease risk."
+firm silken tofu,positive,"A low-saturated-fat, plant-based protein source. Soy protein can help lower LDL (bad) cholesterol."
+firm tofu,positive,"A low-saturated-fat, plant-based protein source. Soy protein can help lower LDL (bad) cholesterol."
+fish sauce,very negative,"Extremely high in sodium, which is a primary driver of high blood pressure, a major risk factor for cardiovascular disease."
+fish stock,neutral,"Impact is highly dependent on sodium content. Commercial versions are often very high in sodium, while homemade can be low."
+five spice powder,neutral,
+flank steak,negative,Red meat is a source of saturated fat and its consumption is associated with an increased risk of cardiovascular disease.
+flat iron steak,negative,Red meat is a source of saturated fat and its consumption is associated with an increased risk of cardiovascular disease.
+flat leaf italian parsley,positive,"Rich in vitamin K and antioxidants, which have anti-inflammatory properties beneficial for heart health."
+flat leaf parsley,positive,"Rich in vitamin K and antioxidants, which have anti-inflammatory properties beneficial for heart health."
+flat rice noodle,negative,"Made from refined rice flour, which lacks fiber and can negatively impact blood sugar levels."
+flaxseed meal,positive,"Excellent source of omega-3 fatty acids (ALA), fiber, and lignans, which help lower cholesterol and blood pressure."
+flaxseed oil,positive,"Concentrated source of heart-healthy omega-3 fatty acids (ALA), which can reduce inflammation."
+flour,negative,"Typically refers to refined white flour, a simple carbohydrate that can raise triglycerides and lacks the fiber of whole grains."
+flour tortilla,negative,Usually made from refined flour and can be high in sodium and unhealthy fats.
+foil,neutral,
+food coloring,neutral,
+french baguette,negative,"Made from refined white flour, which can negatively impact blood sugar and triglyceride levels."
+french bread,negative,"Made from refined white flour, which can negatively impact blood sugar and triglyceride levels."
+french bread baguette,negative,"Made from refined white flour, which can negatively impact blood sugar and triglyceride levels."
+french cut green bean,positive,"Green beans are a good source of fiber, vitamins, and minerals beneficial for heart health."
+french fry,very negative,"Typically deep-fried, making them high in unhealthy fats (including trans fats), sodium, and calories, all strongly linked to heart disease."
+french green lentil,positive,"Lentils are rich in heart-healthy fiber, plant-based protein, and folate."
+french sandwich roll,negative,"Made from refined white flour, which can negatively impact blood sugar and triglyceride levels."
+french style green bean,positive,"Green beans are a good source of fiber, vitamins, and minerals beneficial for heart health."
+french fried onion,very negative,"Deep-fried and high in sodium and unhealthy fats, negating any benefits of the onion."
+fresh ginger,positive,Contains anti-inflammatory and antioxidant compounds that may help lower blood pressure and cholesterol.
+freshly ground black pepper,positive,"Contains piperine, an antioxidant with anti-inflammatory properties."
+fresno chile,positive,"Contains capsaicin, which has anti-inflammatory properties and may improve cardiovascular health."
+fresno chile pepper,positive,"Contains capsaicin, which has anti-inflammatory properties and may improve cardiovascular health."
+fried pork skin,very negative,"Extremely high in saturated fat and sodium, which contribute to high cholesterol and blood pressure."
+fried shallot,negative,Frying adds significant amounts of unhealthy fats and calories.
+frozen puff pastry,very negative,"Typically made with high amounts of saturated and/or trans fats from butter, shortening, or palm oil."
+fruit cocktail,negative,"Often canned in heavy syrup, adding significant amounts of refined sugar."
+fruit jam,negative,"High in added sugar, which can contribute to high triglycerides and weight gain."
+fruit preserve,negative,"High in added sugar, which can contribute to high triglycerides and weight gain."
+fruity red wine,positive,"In moderation, contains antioxidants like resveratrol that may benefit heart health. Excess intake is harmful."
+frying,very negative,"A cooking method that adds large amounts of unhealthy fats and calories, and can create harmful compounds."
+full fat plain greek yogurt,positive,"Good source of protein and probiotics. Despite saturated fat, studies suggest fermented dairy has neutral or positive heart effects."
+furikake seasoning,negative,"Typically very high in sodium, which can increase blood pressure."
+gai lan,positive,"A leafy green vegetable rich in fiber, vitamins, and antioxidants."
+galangal,positive,Contains anti-inflammatory and antioxidant properties beneficial for cardiovascular health.
+galangal powder,positive,A concentrated source of galangal's anti-inflammatory and antioxidant compounds.
+gandule,positive,Pigeon peas are legumes high in heart-healthy fiber and plant-based protein.
+garam masala,positive,A blend of spices with antioxidant and anti-inflammatory properties.
+garbanzo bean,positive,"Excellent source of soluble fiber, which helps lower cholesterol."
+garlic,positive,Well-known for its potential to help lower blood pressure and cholesterol.
+garlic basil spread,negative,Prepared spreads are typically high in fat and sodium.
+garlic chili sauce,negative,Typically very high in sodium and often contains added sugar.
+garlic clove,positive,"The raw form of garlic, known for its potential to help lower blood pressure and cholesterol."
+garlic marinade,negative,Marinades are typically very high in sodium.
+garlic paste,positive,"A convenient form of garlic that retains its heart-healthy compounds, assuming low sodium."
+garlic powder,positive,Dehydrated garlic that retains some beneficial compounds and is a good salt-free flavor alternative.
+garlic salt,very negative,"Primarily salt, which is extremely high in sodium and a major contributor to high blood pressure."
+gelatin,neutral,
+german bologna block,very negative,"A highly processed meat, very high in sodium, saturated fat, and nitrates, all linked to heart disease."
+german stone ground mustard,positive,"A low-calorie condiment made from mustard seeds, which contain beneficial compounds. A healthier choice than many other sauces."
+ghee,negative,"A form of clarified butter that is very high in saturated fat, which can raise LDL (bad) cholesterol."
+gin,negative,"Excess alcohol consumption is detrimental to heart health, and unlike red wine, gin lacks beneficial antioxidants."
+ginger,positive,Contains anti-inflammatory and antioxidant compounds that may help lower blood pressure and cholesterol.
+ginger garlic paste,positive,"A combination of two heart-healthy ingredients, assuming low sodium."
+ginger paste,positive,"Contains gingerol, which has anti-inflammatory and antioxidant properties that may help lower blood pressure and cholesterol."
+ginger root,positive,"Contains gingerol, which has anti-inflammatory and antioxidant properties that may help lower blood pressure and cholesterol."
+gingersnap cookie,very negative,"High in refined sugar, refined flour, and often contains unhealthy fats, which contribute to inflammation, high blood sugar, and poor cholesterol levels."
+gluten free all purpose baking flour,neutral,
+glutinous rice flour,neutral,
+glutinous sweet rice,neutral,
+glutinous sticky white rice,neutral,
+glutinous white rice,neutral,
+goat cheese,negative,"High in saturated fat and sodium, which can contribute to high blood pressure and elevated cholesterol levels."
+goat meat,neutral,
+goat stew meat,neutral,
+gochugaru,positive,"Contains capsaicin from chili peppers, which has anti-inflammatory properties and may help improve circulation and lower blood pressure."
+gochujang,negative,"Typically very high in sodium and added sugars, which are risk factors for high blood pressure and cardiovascular disease."
+gold potato,neutral,
+golden mushroom soup,very negative,"Canned soups are typically extremely high in sodium, a major contributor to high blood pressure."
+golden raisin,neutral,
+golden syrup,very negative,"A form of refined sugar, which contributes to inflammation, high triglycerides, and weight gain, all risk factors for cardiovascular disease."
+gouda cheese,negative,"High in saturated fat and sodium, which can contribute to high blood pressure and elevated cholesterol levels."
+graham cracker,negative,"Made with refined flour and added sugar, offering little nutritional value and contributing to high blood sugar."
+graham cracker crumb,negative,"Made with refined flour and added sugar, offering little nutritional value and contributing to high blood sugar."
+graham cracker crust,very negative,"High in refined flour, sugar, and saturated fat (from added butter), which are all detrimental to cardiovascular health."
+gram flour,positive,"Made from chickpeas, it is high in fiber and protein, which can help manage cholesterol and blood sugar levels."
+granny smith apple,positive,"Rich in soluble fiber (pectin) and flavonoids, which help lower cholesterol and blood pressure."
+granulated onion,positive,"Contains beneficial plant compounds and adds flavor without sodium, supporting blood pressure control."
+granulated sugar,very negative,"A refined sugar that contributes to inflammation, high triglycerides, weight gain, and insulin resistance, all major risk factors for cardiovascular disease."
+grape leaf,positive,"A low-calorie source of fiber and micronutrients, often used in heart-healthy Mediterranean dishes."
+grape tomato,positive,"Excellent source of lycopene and potassium, which are antioxidants that support heart health and help regulate blood pressure."
+grapefruit juice,negative,Can dangerously interact with common cardiovascular medications like statins and blood pressure drugs. Juice also lacks fiber.
+grapeseed oil,neutral,
+great northern bean,positive,"Excellent source of soluble fiber, plant-based protein, and potassium, which help lower cholesterol and blood pressure."
+greek black olive,negative,"While a source of healthy fats, they are typically packed in brine and are very high in sodium, which increases blood pressure."
+greek oregano,positive,A herb rich in antioxidants that allows for flavoring food without adding sodium.
+greek seasoning,negative,"Typically a salt-based blend, and high sodium intake is a major risk factor for high blood pressure."
+greek style yogurt,neutral,
+greek yogurt,neutral,
+green apple,positive,"Rich in soluble fiber and flavonoids, which help lower cholesterol and blood pressure."
+green banana,positive,"High in resistant starch and potassium, which can help regulate blood sugar and blood pressure."
+green bean,positive,"A low-calorie vegetable rich in fiber and micronutrients, supporting overall heart health."
+green bell pepper,positive,"Rich in antioxidants, including vitamin C, which help reduce inflammation and oxidative stress."
+green cabbage,positive,A cruciferous vegetable high in fiber and anti-inflammatory compounds that support cardiovascular health.
+green cardamom,positive,A spice with antioxidant and anti-inflammatory properties that may help lower blood pressure.
+green chile,positive,"Contains capsaicin, which has anti-inflammatory properties and may help improve circulation and lower blood pressure."
+green chile paste,positive,"Contains capsaicin from chiles, which has anti-inflammatory and blood pressure-lowering potential. Check for high sodium content."
+green chile pepper,positive,"Contains capsaicin, which has anti-inflammatory properties and may help improve circulation and lower blood pressure."
+green curry paste,negative,"Commercial pastes are typically very high in sodium, a major contributor to high blood pressure."
+green garlic,positive,Contains compounds like allicin that are known to help lower blood pressure and cholesterol.
+green gel food coloring,neutral,
+green grape,positive,"Contain antioxidants like resveratrol and flavonoids, which are beneficial for blood vessel health."
+green lentil,positive,"Excellent source of soluble fiber, plant-based protein, and magnesium, which help lower cholesterol and support healthy blood pressure."
+green mango,positive,"A good source of fiber and vitamins with less sugar than ripe mangoes, supporting overall health."
+green mung bean,positive,"Rich in fiber, potassium, and magnesium, which help lower cholesterol and blood pressure."
+green olive,negative,"Typically cured in brine, making them very high in sodium, which can increase blood pressure."
+green onion,positive,Contains antioxidants and compounds that may help lower blood pressure and cholesterol.
+green onion top,positive,Contains antioxidants and compounds that may help lower blood pressure and cholesterol.
+green papaya,positive,"Rich in heart-healthy antioxidants, vitamins, and fiber."
+green pea,positive,"Good source of fiber, potassium, and magnesium, which help regulate blood pressure and cholesterol."
+green pepper,positive,"High in vitamin C and antioxidants, which help reduce inflammation and oxidative stress."
+green plantain,positive,"Good source of potassium and fiber, which help control blood pressure."
+green tea powder,positive,Rich in catechins (antioxidants) that are known to improve cholesterol levels and blood vessel function.
+grill,neutral,
+grill seasoning,negative,"Often very high in sodium, which can contribute to high blood pressure."
+ground beef,negative,"A red meat high in saturated fat, which can raise LDL (bad) cholesterol."
+ground black pepper,positive,"Contains piperine, an antioxidant with anti-inflammatory properties."
+ground cumin,positive,Contains antioxidants and may help improve cholesterol and triglyceride levels.
+ground lamb,negative,"A red meat high in saturated fat, which is linked to an increased risk of heart disease."
+ground pork,negative,"Can be high in saturated fat, contributing to elevated cholesterol levels."
+gruyere cheese,negative,"High in saturated fat and sodium, which can raise cholesterol and blood pressure."
+guava paste,negative,"Typically very high in added sugar, which is a risk factor for heart disease."
+habanero pepper,positive,"Contains capsaicin, which may help lower blood pressure and cholesterol."
+half and half,negative,"Contains a significant amount of saturated fat, which can raise LDL (bad) cholesterol."
+half and half cream,negative,"Contains a significant amount of saturated fat, which can raise LDL (bad) cholesterol."
+halloumi cheese,negative,"Very high in sodium and saturated fat, which are risk factors for high blood pressure and cholesterol."
+ham,very negative,"A processed meat high in sodium and preservatives, strongly linked to an increased risk of heart disease and hypertension."
+ham bone,negative,Adds significant sodium and saturated fat to dishes.
+ham hock,very negative,"A processed meat very high in sodium and saturated fat, linked to increased cardiovascular risk."
+hard boiled egg,neutral,
+hash brown potato,negative,"Typically high in sodium and prepared with unhealthy fats, increasing cardiovascular risk."
+hazelnut,positive,"Rich in heart-healthy monounsaturated fats, fiber, and antioxidants, which help lower bad cholesterol."
+heavy cream,very negative,"Extremely high in saturated fat, which significantly raises LDL (bad) cholesterol levels."
+heavy whipping cream,very negative,"Extremely high in saturated fat, which significantly raises LDL (bad) cholesterol levels."
+herbes de provence,positive,A blend of antioxidant-rich herbs that can be used as a salt substitute to reduce sodium intake.
+herring fillet,positive,"An oily fish rich in omega-3 fatty acids, which are highly beneficial for heart health."
+hibiscus petal,positive,"Studies suggest hibiscus, often consumed as tea, can help lower blood pressure."
+hickory flavored liquid smoke,negative,Can be high in sodium and may contain potentially harmful compounds.
+hijiki seaweed,negative,"Can contain high levels of inorganic arsenic, which is a risk factor for cardiovascular disease."
+hoagie roll,negative,"Typically made from refined white flour, which lacks fiber and can negatively impact blood sugar and triglyceride levels."
+hog casing,negative,High in saturated fat and cholesterol.
+hoisin sauce,negative,"Very high in sodium and sugar, both of which contribute to cardiovascular risk."
+hominy,positive,"A whole grain that is a good source of fiber, which is beneficial for cholesterol and blood sugar control."
+honey,negative,"A form of added sugar; high intake can lead to weight gain, increased triglycerides, and other cardiovascular risks."
+honey ham,very negative,"A processed meat high in sodium, with added sugar, combining multiple major risk factors for heart disease."
+horseradish,positive,Contains antioxidant and anti-inflammatory compounds.
+hot chile paste,negative,"Commercial varieties are often very high in sodium, which can increase blood pressure."
+hot chile pepper,positive,"Contains capsaicin, which may help lower blood pressure and cholesterol."
+hot chocolate mix,negative,"Very high in added sugar and can contain saturated fats, both of which are risk factors for heart disease."
+hot italian sausage,very negative,"A processed meat that is very high in sodium and saturated fat, strongly linked to increased cardiovascular risk."
+hot pepper,positive,"Contains capsaicin, which may help lower blood pressure and cholesterol."
+hot pepper flake,positive,"A concentrated source of capsaicin, which has beneficial effects on blood pressure and cholesterol."
+hot pepper sauce,negative,"Typically very high in sodium, which outweighs the benefits of capsaicin for cardiovascular health."
+hot red pepper,positive,"Contains capsaicin, which may help lower blood pressure and cholesterol."
+hot sauce,negative,"Typically very high in sodium, which can increase blood pressure."
+hummus,positive,"Made from chickpeas and olive oil, providing fiber and healthy monounsaturated fats that can help lower cholesterol."
+hungarian hot paprika,positive,"Contains capsaicin and antioxidants, which may have anti-inflammatory and cholesterol-lowering effects."
+hungarian sweet paprika,positive,A rich source of antioxidants which help combat oxidative stress linked to heart disease.
+ice,neutral,
+ice cube,neutral,
+iceberg lettuce,neutral,"Primarily water and low in nutrients; not harmful, but less beneficial than other leafy greens."
+icing sugar,negative,"A refined sugar that can contribute to weight gain, inflammation, and elevated triglycerides when consumed in excess."
+imitation crab,negative,"Highly processed, high in sodium, and often contains added starches and sugar."
+imitation crab meat,negative,"Highly processed, high in sodium, and often contains added starches and sugar."
+instant chocolate pudding mix,very negative,"Extremely high in added sugar and sodium, contributing to risk factors like obesity, high blood pressure, and high triglycerides."
+instant coffee granule,positive,"Contains antioxidants, and moderate consumption is associated with a lower risk of some cardiovascular events."
+instant coffee powder,positive,"Contains antioxidants, and moderate consumption is associated with a lower risk of some cardiovascular events."
+instant dry milk powder,neutral,
+instant nonfat dry milk,positive,A good source of calcium and protein without the saturated fat found in whole milk.
+instant vanilla pudding mix,very negative,"Extremely high in added sugar and sodium, contributing to risk factors like obesity, high blood pressure, and high triglycerides."
+instant yeast,neutral,
+italian cheese blend,negative,"Typically high in saturated fat and sodium, which can raise LDL cholesterol and blood pressure."
+italian flat leaf parsley,positive,Rich in vitamins (like K) and antioxidants that support heart health and reduce inflammation.
+italian flat leaf parsley leaf,positive,Rich in vitamins (like K) and antioxidants that support heart health and reduce inflammation.
+italian herb seasoning,positive,A source of antioxidants from dried herbs; can be used to flavor food in place of salt.
+italian hot sausage link,very negative,"A processed meat high in sodium and saturated fat, which are strongly linked to an increased risk of cardiovascular disease."
+italian parsley,positive,Rich in vitamins (like K) and antioxidants that support heart health and reduce inflammation.
+italian plum,positive,"A good source of fiber, potassium, and antioxidants, which help manage cholesterol and blood pressure."
+italian prune plum,positive,"A good source of fiber, potassium, and antioxidants, which help manage cholesterol and blood pressure."
+italian sausage,very negative,"A processed meat high in sodium and saturated fat, which are strongly linked to an increased risk of cardiovascular disease."
+italian seasoning,positive,A source of antioxidants from dried herbs; can be used to flavor food in place of salt.
+italian style crushed tomato,positive,"Tomatoes are rich in lycopene, an antioxidant beneficial for heart health. Check labels for low-sodium versions."
+italian style salad dressing,negative,"Often high in sodium, unhealthy fats, and added sugars."
+italian tomato,positive,"Excellent source of lycopene, potassium, and vitamin C, which are beneficial for blood pressure and overall heart health."
+italian vegetable salad,positive,"A mix of vegetables provides fiber, vitamins, and antioxidants that are protective for the cardiovascular system."
+jaa jang myun noodle,negative,"Typically made from refined wheat flour, which lacks fiber and can negatively impact blood sugar and triglyceride levels."
+jalapeno chile pepper,positive,"Contains capsaicin, which has anti-inflammatory properties and may help improve circulation and lower blood pressure."
+jalapeno pepper,positive,"Contains capsaicin, which has anti-inflammatory properties and may help improve circulation and lower blood pressure."
+jamaican curry powder,positive,"Contains a blend of spices like turmeric, which has potent anti-inflammatory properties beneficial for heart health."
+jamaican style curry powder,positive,"Contains a blend of spices like turmeric, which has potent anti-inflammatory properties beneficial for heart health."
+japanese mayonnaise,negative,High in fat and sodium.
+japanese purple sweet potato,positive,"Rich in fiber and anthocyanin antioxidants, which are linked to improved blood vessel health and lower blood pressure."
+jasmine rice,negative,"A refined carbohydrate with a high glycemic index, which can negatively impact blood sugar levels when eaten frequently."
+jellyfish,neutral,"Low in fat and calories, but its health impact depends heavily on its preparation, which often adds high amounts of sodium."
+jerk paste,negative,"Typically extremely high in sodium, which can raise blood pressure."
+jerk sauce,negative,"Typically extremely high in sodium, which can raise blood pressure."
+jerk seasoning,negative,Commercial blends are often very high in sodium.
+jerk seasoning mix,negative,Commercial blends are often very high in sodium.
+jicama,positive,"An excellent source of dietary fiber, which helps lower cholesterol and supports overall heart health."
+juice,negative,"Lacks the fiber of whole fruit and is a concentrated source of sugar, which can raise triglycerides and contribute to weight gain."
+juniper berry,positive,"Used in small amounts as a spice, it contains antioxidants and flavonoids that may have a beneficial effect."
+kabob skewer,neutral,"A cooking utensil, not a food ingredient."
+kaiser roll,negative,"Typically made from refined white flour, which lacks fiber and can negatively impact blood sugar levels."
+kalamata olive,negative,"While a source of healthy monounsaturated fats, they are cured in brine and are extremely high in sodium, which can increase blood pressure."
+kale,positive,"Rich in antioxidants, fiber, and potassium, which support heart health by lowering blood pressure and cholesterol."
+kashmiri chile pepper,neutral,
+kasseri cheese,negative,"High in saturated fat and sodium, which can contribute to high blood pressure and elevated cholesterol levels."
+kecap manis,negative,"Very high in added sugar and sodium, both of which are detrimental to cardiovascular health."
+kefir,positive,Contains probiotics and peptides that may help lower blood pressure and cholesterol. Choose low-fat versions for best results.
+ketchup,negative,"Typically high in added sugar and sodium, which can contribute to high blood pressure and other cardiovascular risk factors."
+key lime juice,positive,"A good source of vitamin C and antioxidants, with no sodium or fat."
+kidney bean,positive,"High in soluble fiber, which helps lower cholesterol, and potassium, which helps control blood pressure."
+kielbasa,very negative,"A highly processed meat, very high in sodium and saturated fat, which are major risk factors for cardiovascular disease."
+kielbasa sausage,very negative,"A highly processed meat, very high in sodium and saturated fat, which are major risk factors for cardiovascular disease."
+kimchi,negative,"Very high in sodium, which can increase blood pressure, despite containing beneficial probiotics from fermentation."
+kiwi,positive,"Rich in potassium, fiber, and antioxidants like vitamin C, which support heart health."
+kluski noodle,neutral,
+kohlrabi bulb,positive,"Good source of fiber and potassium, which are beneficial for blood pressure and overall heart health."
+kombu,neutral,"While a source of minerals, it can be very high in sodium. Its overall effect depends on the amount consumed."
+korean chile paste,negative,Typically very high in sodium and often contains added sugars.
+korean chile powder,neutral,
+korean chili pepper flake,neutral,
+korean dang myun noodle,neutral,
+korean fish cake,negative,A processed food that is typically high in sodium.
+korean red chile flake,neutral,
+korean red pepper flake,neutral,
+korean red pepper powder,neutral,
+korean soy bean paste,negative,"Extremely high in sodium, which is a major contributor to high blood pressure."
+korean style short rib,negative,"A fatty cut of red meat, and marinades are often high in sodium and sugar."
+kosher salt,negative,"High in sodium, which is a major contributor to high blood pressure."
+lager beer,negative,"Alcohol consumption can raise blood pressure, triglyceride levels, and contribute to weight gain."
+lamb,negative,"A red meat high in saturated fat, which can raise LDL (bad) cholesterol levels."
+lamb chop,negative,"A cut of red meat containing saturated fat, which can raise LDL (bad) cholesterol."
+lamb loin chop,negative,"A cut of red meat containing saturated fat, which can raise LDL (bad) cholesterol."
+lamb meat,negative,"A red meat high in saturated fat, which can raise LDL (bad) cholesterol levels."
+lamb shank,negative,"A fatty cut of red meat, high in saturated fat."
+lamb shoulder,negative,"A fatty cut of red meat, high in saturated fat."
+lamb stew meat,negative,"Often from tougher, fattier cuts of red meat, high in saturated fat."
+lard,very negative,"Extremely high in saturated fat, which significantly raises LDL (bad) cholesterol, a major risk factor for cardiovascular disease."
+lasagna noodle,neutral,
+lavash bread,neutral,
+lavender flower,neutral,
+lean beef,neutral,"While lower in saturated fat than other cuts, it is still a source of it. Best consumed in moderation."
+lean beef rib eye steak,negative,"Despite being labeled 'lean', rib eye is a naturally fatty cut of red meat, high in saturated fat."
+lean ground beef,neutral,"While lower in saturated fat than regular ground beef, it is still a source of it. Best consumed in moderation."
+lean pork,neutral,"Leaner cuts are better choices, but should still be consumed in moderation as part of a balanced diet."
+leek,positive,"Part of the allium family, it contains heart-healthy compounds like flavonoids and is a good source of fiber."
+leg of lamb,negative,"A cut of red meat containing saturated fat, which can raise LDL (bad) cholesterol."
+lemon,positive,"Excellent source of vitamin C and antioxidants, which help protect blood vessels from damage."
+lemon basil,neutral,
+lemon extract,neutral,
+lemon flavored rum,negative,"Contains alcohol and likely added sugars, both of which can negatively impact heart health."
+lemon flavored soda,negative,"High in added sugar, which contributes to weight gain, inflammation, and other risk factors for heart disease."
+lemon grass,neutral,
+lemon juice,positive,Source of vitamin C and antioxidants; can be used as a salt substitute to lower sodium intake.
+lemon lime soda,negative,"High in added sugar, which is a risk factor for obesity, type 2 diabetes, and heart disease."
+lemon peel,positive,Contains beneficial flavonoids and fiber.
+lemon pepper,neutral,
+lemon pepper seasoning,negative,"Typically very high in sodium, which can raise blood pressure."
+lemon rind,positive,Contains beneficial flavonoids and fiber.
+lemon slice,positive,"A whole fruit source of vitamin C, antioxidants, and fiber."
+lemon wedge,positive,"A whole fruit source of vitamin C, antioxidants, and fiber."
+lemon zest,positive,Contains beneficial flavonoids and fiber.
+lemonade concentrate,negative,Extremely high in added sugar.
+lemongrass,positive,Contains antioxidants and has anti-inflammatory properties.
+lemongrass paste,neutral,
+lentil,positive,"Excellent source of heart-healthy fiber, plant-based protein, and folate."
+lettuce,positive,"Low in calories and a source of vitamins and hydration, contributing to a healthy dietary pattern."
+lettuce leaf,positive,"Low in calories and a source of vitamins and hydration, contributing to a healthy dietary pattern."
+light beer,negative,Alcohol consumption can raise blood pressure and contribute to other cardiovascular risks.
+light brown sugar,negative,"A form of added sugar, which is a risk factor for cardiovascular disease."
+light corn syrup,negative,"A form of added sugar, which is a risk factor for cardiovascular disease."
+light cream,negative,"Contains saturated fat, which can raise LDL (bad) cholesterol levels."
+light rum,negative,Alcohol consumption can raise blood pressure and contribute to other cardiovascular risks.
+light soy sauce,negative,"Typically very high in sodium, which can raise blood pressure."
+lima bean,positive,"Good source of heart-healthy fiber, potassium, and plant-based protein."
+lime,positive,Source of vitamin C and antioxidants.
+lime juice,positive,Source of vitamin C and antioxidants; can be used as a salt substitute to lower sodium intake.
+lime peel,positive,Contains beneficial flavonoids and fiber.
+lime slice,positive,"A whole fruit source of vitamin C, antioxidants, and fiber."
+lime wedge,positive,"A whole fruit source of vitamin C, antioxidants, and fiber."
+lime zest,positive,Contains beneficial flavonoids and fiber.
+lingonberry,positive,"Rich in antioxidants and polyphenols, which are beneficial for vascular health."
+linguica,very negative,"A processed sausage high in sodium and saturated fat, both major risk factors for heart disease."
+linguica sausage,very negative,"A processed sausage high in sodium and saturated fat, both major risk factors for heart disease."
+linguine,negative,"A refined carbohydrate, which can negatively impact blood sugar and is associated with increased cardiovascular risk compared to whole grains."
+linguine pasta,negative,"A refined carbohydrate, which can negatively impact blood sugar and is associated with increased cardiovascular risk compared to whole grains."
+liquid smoke,neutral,
+liquid smoke flavoring,neutral,
+liquor,negative,Excessive alcohol consumption is a significant risk factor for high blood pressure and other cardiovascular diseases.
+llautias,positive,"A type of root vegetable, providing heart-healthy fiber, potassium, and vitamins."
+lobster,positive,"A good source of lean protein and omega-3 fatty acids. Best when steamed or baked, not fried or served with butter."
+lobster meat,positive,A good source of lean protein and omega-3 fatty acids.
+lobster tail,positive,A good source of lean protein and omega-3 fatty acids.
+long grain basmati rice,negative,"A refined carbohydrate, which lacks the fiber of whole grains."
+long grain brown rice,positive,"A whole grain, rich in fiber, magnesium, and other nutrients that are protective for the heart."
+long grain rice,negative,"Typically refers to white rice, a refined carbohydrate that lacks the fiber of whole grains."
+long grain white rice,negative,"A refined carbohydrate, which lacks the fiber of whole grains."
+longhorn cheese,negative,"High in saturated fat and sodium, which can raise LDL cholesterol and blood pressure."
+low sodium soy sauce,neutral,
+lumpia wrapper,negative,"Made from refined flour and often deep-fried, contributing refined carbs and unhealthy fats."
+luncheon meat,very negative,"Highly processed meat, extremely high in sodium, preservatives, and saturated fat."
+lutefisk,neutral,
+macadamia nut,positive,"Rich in heart-healthy monounsaturated fats, which can help lower LDL (bad) cholesterol."
+macapuno,negative,"A type of coconut, which is high in saturated fat."
+macapuno string,negative,"A type of coconut, which is high in saturated fat."
+macaroni,negative,A refined carbohydrate which can raise triglyceride levels and contribute to weight gain if consumed in excess.
+mace,neutral,
+mackerel,positive,"An oily fish, excellent source of heart-healthy omega-3 fatty acids (EPA and DHA)."
+madras curry powder,positive,A blend of spices (like turmeric) which have anti-inflammatory properties.
+mahlab,neutral,
+mahleb,neutral,
+makrut lime leaf,positive,A herb that contains beneficial antioxidants.
+malt vinegar,neutral,
+mandarin orange peel,positive,"A source of beneficial flavonoids like hesperidin, which may support blood vessel health."
+mango nectar,negative,"Typically contains a high amount of added sugar, which is a risk factor for cardiovascular disease."
+manzanilla olive,negative,"While olives contain healthy fats, they are typically brined and extremely high in sodium, which raises blood pressure."
+maple syrup,negative,"A form of added sugar, which contributes to risk factors like obesity and high triglycerides."
+maraschino cherry,negative,"Processed with a large amount of added sugar and artificial coloring, lacking the nutrients of fresh cherries."
+margarine,negative,"Can be a source of saturated and trans fats (depending on the type), and is a highly processed food."
+marjoram,positive,A herb that contains beneficial antioxidants.
+marsala,neutral,
+marzipan,negative,"Extremely high in sugar, which is detrimental to cardiovascular health."
+masa harina,positive,"A whole-grain corn flour that provides fiber, which is beneficial for heart health."
+masala curry powder,positive,A blend of spices which often have anti-inflammatory properties.
+mascarpone cheese,very negative,Extremely high in saturated fat and calories.
+matzo cake meal,negative,"A refined carbohydrate product, similar to white flour, which can negatively impact blood sugar levels."
+matzo meal,negative,"A refined carbohydrate product, similar to white flour, which can negatively impact blood sugar levels."
+mayonnaise,negative,"High in calories, fat, and often sodium."
+mayonnaise style sandwich spread,negative,"High in calories, fat, sodium, and often contains added sugars."
+mcintosh apple,positive,"A good source of soluble fiber (pectin) and flavonoids, which help lower cholesterol and blood pressure."
+meat tenderizer,very negative,"Primary ingredient is typically salt (sodium), which significantly raises blood pressure."
+meatball,very negative,Typically made from red meat high in saturated fat and prepared with high amounts of sodium.
+meatloaf mix,negative,Usually high in sodium and refined carbohydrates (breadcrumbs).
+medium grain rice,negative,"Typically refers to white rice, a refined carbohydrate that can raise blood sugar and lacks fiber."
+medium grain white rice,negative,"A refined carbohydrate stripped of fiber, bran, and nutrients, which can negatively impact blood sugar."
+medjool date,positive,"A good source of fiber and potassium, which are beneficial for blood pressure control and heart health."
+metal skewer,neutral,
+mexican cheese blend,very negative,A mix of cheeses that is very high in saturated fat and sodium.
+mexican oregano,positive,A herb that contains beneficial antioxidants.
+miami style sazon seasoning,very negative,Seasoning blends like this are typically extremely high in sodium.
+mild cheddar cheese,very negative,High in saturated fat and sodium.
+mild italian sausage,very negative,"A processed meat, which is high in saturated fat, sodium, and nitrates, all linked to increased CVD risk."
+mild italian sausage link,very negative,"A processed meat, which is high in saturated fat, sodium, and nitrates, all linked to increased CVD risk."
+milk,negative,"Unless specified as low-fat, milk (especially whole or 2%) is a significant source of saturated fat."
+milk cracker crumb,negative,"A processed, refined carbohydrate, often containing added sodium and unhealthy fats."
+milkfish,positive,An oily fish that is a good source of heart-healthy omega-3 fatty acids.
+millet,positive,"A whole grain rich in fiber, magnesium, and other nutrients beneficial for heart health."
+miniature cocktail sausage,very negative,"A highly processed meat product, very high in sodium, saturated fat, and preservatives."
+miniature marshmallow,negative,Composed almost entirely of added sugar with no nutritional value.
+mint,positive,A herb that contains beneficial antioxidants.
+mint leaf,positive,A herb that contains beneficial antioxidants.
+mint sprig,positive,A herb that contains beneficial antioxidants.
+mirin,negative,A sweet cooking wine that contributes added sugar to dishes.
+miso paste,negative,"High in sodium, which can increase blood pressure."
+mixed berry,positive,Rich in antioxidants and flavonoids that improve blood vessel function and lower blood pressure.
+mixed candied fruit,very negative,"Extremely high in added sugar, a major risk factor for obesity, high triglycerides, and inflammation."
+mixed color bell pepper,positive,"Excellent source of vitamin C and antioxidants, which help reduce inflammation."
+mixed fruit,positive,"Provides fiber, vitamins, and antioxidants beneficial for heart health."
+mixed herb,positive,Rich in antioxidants and can be used to reduce salt in cooking.
+mixed spice,positive,Contain anti-inflammatory compounds and can be used as a salt substitute for flavor.
+mixed vegetable,positive,"High in fiber, vitamins, and minerals while being low in calories, supporting overall cardiovascular health."
+mixed wild mushroom,positive,"Source of potassium, fiber, and antioxidants that support heart health."
+mochiko,negative,A refined carbohydrate that can raise blood sugar and triglycerides without providing significant fiber.
+mojo marinade,negative,"Typically very high in sodium and oil, which can negatively impact blood pressure and cholesterol."
+molasses,negative,"A concentrated source of sugar, which contributes to cardiovascular risk factors when consumed in excess."
+monkfish,positive,"A lean fish providing protein and some omega-3 fatty acids, which are beneficial for heart health."
+monosodium glutamate,negative,"Contains sodium, which contributes to high blood pressure."
+monterey jack cheese,negative,"High in saturated fat and sodium, both of which are risk factors for heart disease."
+montreal style steak seasoning,negative,"Typically very high in sodium, a primary driver of high blood pressure."
+morcilla sausage,very negative,"A processed meat high in sodium, saturated fat, and cholesterol, strongly linked to increased cardiovascular risk."
+mozzarella cheese,negative,"Source of saturated fat and sodium, which should be limited for heart health."
+multicolored candy sprinkle,very negative,"Composed almost entirely of sugar and artificial additives with no nutritional value, contributing to heart disease risk factors."
+mung bean,positive,"Excellent source of fiber and potassium, which help lower cholesterol and blood pressure."
+mung bean sprout,positive,Low-calorie source of vitamins and fiber.
+muscatel wine,negative,"As an alcoholic beverage, it can raise blood pressure and triglycerides; sweet wines also contain more sugar."
+mushroom,positive,"Low in calories and sodium, and a good source of potassium and antioxidants."
+mushroom cap,positive,"Same as whole mushrooms; low in calories and sodium, and a good source of potassium and antioxidants."
+mussel,positive,Excellent source of heart-healthy omega-3 fatty acids and lean protein.
+mustard,negative,"Prepared mustard is often high in sodium, which can increase blood pressure."
+mustard green,positive,"A leafy green rich in vitamins (especially K), fiber, and antioxidants."
+mustard oil,negative,"Some varieties are high in erucic acid, which has been linked to heart problems in animal studies."
+mustard powder,positive,Ground mustard seed can add flavor without sodium and contains beneficial plant compounds.
+mustard seed,positive,Rich in antioxidants and anti-inflammatory compounds.
+napa cabbage,positive,A low-calorie vegetable providing fiber and vitamins beneficial for heart health.
+navel orange,positive,"High in vitamin C, potassium, and soluble fiber, which can help lower cholesterol."
+navy bean,positive,"Rich in soluble fiber, which is highly effective at lowering LDL (bad) cholesterol."
+new potato,positive,"Good source of potassium, which helps regulate blood pressure, especially when eaten with the skin."
+new york strip steak,very negative,"A cut of red meat high in saturated fat, linked to an increased risk of cardiovascular disease."
+non dairy creamer,very negative,"Often contains hydrogenated oils (trans fats) and sugar, which are extremely damaging to cardiovascular health."
+nonfat evaporated milk,neutral,
+nonfat plain yogurt,positive,Provides protein and calcium without saturated fat or added sugars.
+noodle,negative,"Typically a refined carbohydrate, which can negatively impact blood sugar and triglyceride levels."
+nori,positive,A low-calorie seaweed containing minerals and a small amount of omega-3 fatty acids.
+nori seaweed,positive,A low-calorie seaweed containing minerals and a small amount of omega-3 fatty acids.
+nori seaweed sheet,positive,A low-calorie seaweed containing minerals and a small amount of omega-3 fatty acids.
+nuoc mam,very negative,"Extremely high in sodium, a major contributor to high blood pressure."
+nut,positive,"Rich in unsaturated fats, fiber, and plant sterols, which help lower bad cholesterol."
+nutmeg,neutral,
+oat,positive,"Contains beta-glucan, a soluble fiber proven to lower cholesterol."
+oatmeal,positive,"Made from oats, it is rich in beta-glucan, a soluble fiber proven to lower cholesterol."
+octopus,positive,A lean source of protein that is low in saturated fat.
+oil,neutral,"The effect depends entirely on the type of oil (e.g., olive oil is positive, hydrogenated oil is very negative)."
+okra,positive,"High in soluble fiber, which helps lower cholesterol and manage blood sugar."
+okra pod,positive,"High in soluble fiber, which can help lower cholesterol and blood sugar levels."
+olive,positive,Rich in heart-healthy monounsaturated fats and antioxidants that reduce inflammation.
+olive oil,positive,"A primary source of monounsaturated fats, which helps lower bad (LDL) cholesterol and reduce inflammation."
+onion,positive,"Contains antioxidants like quercetin, which may help lower blood pressure and reduce inflammation."
+onion powder,positive,"A concentrated source of onion's beneficial compounds, like antioxidants."
+onion salt,negative,"Very high in sodium, which can raise blood pressure, a major risk factor for heart disease."
+orange,positive,"Good source of potassium, vitamin C, and flavonoids, which support blood vessel health and may lower blood pressure."
+orange bell pepper,positive,Excellent source of vitamin C and other antioxidants that protect against cellular damage.
+orange blossom,neutral,
+orange blossom honey,negative,A form of added sugar. High intake of added sugars is linked to increased risk factors for heart disease.
+orange blossom water,neutral,
+orange flower water,neutral,
+orange gel food coloring,neutral,
+orange juice,negative,"A concentrated source of sugar without the fiber of the whole fruit, which can negatively impact blood sugar and weight."
+orange juice concentrate,negative,"A highly concentrated source of sugar, often with added sugars, lacking the beneficial fiber of whole fruit."
+orange liqueur,negative,"Contains both alcohol and high amounts of sugar, which can contribute to high blood pressure and triglycerides."
+orange peel,positive,"Rich in flavonoids like hesperidin, which may help lower cholesterol and blood pressure."
+orange zest,positive,"Rich in flavonoids like hesperidin, which may help lower cholesterol and blood pressure."
+oregano,positive,Rich in antioxidants that help combat inflammation and oxidative stress.
+oregano leaf,positive,Rich in antioxidants that help combat inflammation and oxidative stress.
+orzo pasta,neutral,
+oxtail,negative,"A fatty cut of red meat, high in saturated fat which can raise LDL (bad) cholesterol."
+oyster sauce,negative,"Typically very high in sodium, which contributes to high blood pressure."
+palm oil,very negative,"Very high in saturated fat (palmitic acid), which significantly raises LDL (bad) cholesterol."
+palm sugar,negative,"A form of added sugar, which contributes to risk factors like obesity and high triglycerides when consumed in excess."
+panang curry paste,negative,Typically very high in sodium and can contain saturated fats.
+pandan leaf,neutral,
+pandan paste,negative,Primarily a source of added sugar and flavorings.
+paneer,negative,"A source of saturated fat, which can increase LDL (bad) cholesterol levels."
+panko bread crumb,neutral,
+panko crumb,neutral,
+panquehue cheese,negative,"High in saturated fat and sodium, both of which are risk factors for heart disease."
+paprika,positive,"Contains antioxidants like carotenoids, which help protect against oxidative stress."
+parmesan cheese,negative,"Very high in sodium and saturated fat, which can negatively impact blood pressure and cholesterol."
+parmigiano reggiano,negative,"Very high in sodium and saturated fat, which can negatively impact blood pressure and cholesterol."
+parmigiano reggiano cheese,negative,"Very high in sodium and saturated fat, which can negatively impact blood pressure and cholesterol."
+parsley,positive,"Rich in vitamin K and antioxidants, which support heart and blood vessel health."
+parsley leaf,positive,"Rich in vitamin K and antioxidants, which support heart and blood vessel health."
+parsnip,positive,"Good source of potassium and fiber, which help manage blood pressure and cholesterol."
+partridge breast half,neutral,
+passata,positive,"Made from tomatoes, which are rich in lycopene and potassium, beneficial for heart health. Assumes no added salt."
+passion fruit,positive,"High in dietary fiber and potassium, which can help lower cholesterol and blood pressure."
+pasta,neutral,
+pasta sauce,negative,Commercially prepared versions are often very high in sodium and added sugars.
+pastry,very negative,"Typically made with refined flour and high amounts of saturated or trans fats, which raise bad cholesterol."
+pastry double crust pie,very negative,"High in refined carbohydrates, saturated and/or trans fats, and often sugar."
+pastry flour,neutral,
+pate,very negative,"Typically very high in saturated fat, cholesterol, and sodium."
+pea,positive,"Good source of heart-healthy fiber, plant-based protein, and minerals."
+pea pod,positive,"Excellent source of dietary fiber and vitamins, which support overall cardiovascular health."
+peach,positive,"Rich in fiber, potassium, and antioxidants which support heart health."
+peach flavored vodka,negative,"Contains alcohol and often added sugars, both of which can negatively impact cardiovascular health when consumed in excess."
+peach schnapps,negative,"High in sugar and alcohol, which can contribute to high blood pressure, triglycerides, and weight gain."
+peach slice,positive,"Rich in fiber, potassium, and antioxidants which support heart health."
+peanut,positive,"Contains heart-healthy monounsaturated fats, fiber, and plant protein. Choose unsalted versions."
+peanut butter,negative,"Commercial varieties often contain added sugars, sodium, and unhealthy hydrogenated oils, which can increase LDL cholesterol and blood pressure."
+peanut oil,positive,"Rich in monounsaturated fats, which can help lower bad cholesterol levels."
+peanut sauce,negative,"Often high in sodium, sugar, and saturated fats, which can contribute to high blood pressure and cholesterol."
+pear,positive,"Excellent source of dietary fiber, which helps lower cholesterol and blood pressure."
+pear juice,negative,"Lacks the fiber of whole fruit and is a concentrated source of sugar, which can negatively impact blood sugar and triglycerides."
+pearl barley,positive,"A whole grain rich in soluble fiber (beta-glucans), which is known to lower cholesterol levels."
+pearl couscous,neutral,
+pearl onion,positive,Contains antioxidants and compounds that may help reduce blood pressure and inflammation.
+pearl sugar,negative,"A form of refined sugar, which contributes to weight gain, inflammation, and elevated triglycerides when consumed in excess."
+pecan,positive,"Rich in heart-healthy monounsaturated fats, fiber, and antioxidants that can help lower LDL cholesterol."
+pecan half,positive,"Rich in heart-healthy monounsaturated fats, fiber, and antioxidants that can help lower LDL cholesterol."
+pecorino romano cheese,very negative,"Extremely high in sodium and saturated fat, both of which are major risk factors for high blood pressure and high cholesterol."
+pectin,positive,A type of soluble fiber that can help lower LDL (bad) cholesterol levels.
+penne,neutral,
+penne pasta,neutral,
+pepper,positive,Contains antioxidants and anti-inflammatory compounds; bell peppers are rich in vitamin C and potassium.
+pepper jack cheese,negative,"High in saturated fat and sodium, which can contribute to high cholesterol and blood pressure."
+pepper sauce,negative,"Typically very high in sodium, which can increase blood pressure."
+peppercorn,positive,"Contains piperine, an antioxidant with anti-inflammatory properties that may benefit heart health."
+pepperoni,very negative,"A processed meat high in sodium, saturated fat, and nitrates, all strongly linked to increased risk of cardiovascular disease."
+persian cucumber,positive,"Low in calories and a source of potassium and fiber, which support healthy blood pressure."
+persian lime,positive,"Source of vitamin C and flavonoids, which have antioxidant properties and support blood vessel health."
+persian rose petal,neutral,
+petite diced tomato,positive,"Excellent source of lycopene, potassium, and antioxidants, which are linked to lower blood pressure and reduced cardiovascular risk."
+petite pea,positive,"Good source of fiber, plant protein, and heart-healthy micronutrients."
+pho ga soup seasoning,very negative,"Soup seasoning packets are typically extremely high in sodium, a major contributor to high blood pressure."
+phyllo dough,neutral,
+picante sauce,negative,"Commercial varieties are often high in sodium, which can raise blood pressure."
+pickle,very negative,"Extremely high in sodium due to the brining process, which significantly contributes to high blood pressure."
+pickled ginger,negative,The pickling process adds significant amounts of sodium and often sugar.
+pickled mustard cabbage,negative,"The pickling process adds a large amount of sodium, which can increase blood pressure."
+pickling spice,positive,A blend of spices which are rich in antioxidants and anti-inflammatory compounds.
+pie crust,very negative,"Usually made with refined flour and either shortening (containing trans fats) or butter (high in saturated fat), both of which raise bad cholesterol."
+pie crust mix,very negative,Contains refined flour and processed fats (like hydrogenated oils) that are detrimental to cholesterol levels and heart health.
+pie shell,very negative,"Pre-made shells are typically high in refined flour and unhealthy fats like shortening or palm oil, which raise LDL cholesterol."
+pigs foot,very negative,"Very high in saturated fat and cholesterol, which contribute to the development of atherosclerosis."
+piloncillo,negative,"A form of concentrated sugar; excessive sugar intake is linked to obesity, inflammation, and high triglycerides."
+pimento,positive,"A type of pepper rich in vitamins and antioxidants like capsaicin, which may have cardiovascular benefits."
+pimento stuffed green olive,negative,"While olives contain healthy fats, they are packed in brine, making them very high in sodium, which raises blood pressure."
+pimento stuffed olive,negative,"Very high in sodium due to the curing and brining process, which is a risk factor for hypertension."
+pimiento pepper,positive,"A type of pepper rich in vitamins and antioxidants like capsaicin, which may have cardiovascular benefits."
+pimiento stuffed green olive,negative,"Very high in sodium due to the curing and brining process, which is a risk factor for hypertension."
+pimiento stuffed olive,negative,"Very high in sodium due to the curing and brining process, which is a risk factor for hypertension."
+pina colada drink mix,very negative,"Extremely high in added sugar, which contributes to high triglycerides, weight gain, and inflammation."
+pine nut,positive,"Contains heart-healthy monounsaturated fats, magnesium, and vitamin E, which support cardiovascular function."
+pineapple,positive,"Rich in fiber, vitamins, and antioxidants like bromelain, which support heart health by reducing inflammation."
+pineapple chunk,positive,"Rich in fiber, vitamins, and antioxidants like bromelain, which support heart health by reducing inflammation."
+pineapple juice,negative,"Lacks the fiber of whole fruit and is often high in sugar, which can negatively impact blood sugar and triglyceride levels."
+pineapple preserve,very negative,"Extremely high in added sugar, a major contributor to obesity, type 2 diabetes, and cardiovascular disease."
+pineapple ring,positive,"A form of whole pineapple, rich in fiber, vitamins, and antioxidants that support heart health."
+pineapple tidbit,positive,"A form of whole pineapple, rich in fiber, vitamins, and antioxidants that support heart health."
+pink food coloring,neutral,
+pink himalayan salt,negative,"High in sodium, which is a primary driver of high blood pressure, a major risk factor for cardiovascular disease."
+pinot noir wine,positive,"Contains antioxidants like resveratrol, which may have heart-protective benefits when consumed in moderation."
+pinto bean,positive,"Excellent source of soluble fiber, which helps lower cholesterol, and potassium, which helps control blood pressure."
+pisco,negative,"Alcohol, particularly spirits, can raise blood pressure and triglyceride levels, increasing cardiovascular risk."
+pistachio,positive,"Rich in heart-healthy monounsaturated fats, fiber, and antioxidants that can help lower bad (LDL) cholesterol."
+pistachio nut,positive,"Rich in heart-healthy monounsaturated fats, fiber, and antioxidants that can help lower bad (LDL) cholesterol."
+pita bread,negative,"Typically made from refined white flour, which lacks fiber and can contribute to high blood sugar and triglycerides."
+pita bread round,negative,"Typically made from refined white flour, which lacks fiber and can contribute to high blood sugar and triglycerides."
+pita round,negative,"Typically made from refined white flour, which lacks fiber and can contribute to high blood sugar and triglycerides."
+pizza crust,negative,"Usually made with refined flour and can be high in sodium and simple carbohydrates, which are detrimental to heart health."
+pizza dough,negative,"Usually made with refined flour and can be high in sodium and simple carbohydrates, which are detrimental to heart health."
+pizza sauce,negative,"Commercially prepared versions are often very high in sodium and added sugar, which contribute to high blood pressure."
+plain low fat yogurt,positive,"Good source of probiotics, calcium, and protein, which may help manage blood pressure and cholesterol levels. Plain varieties avoid added sugars."
+plain yogurt,positive,"Good source of probiotics, calcium, and protein, which may help manage blood pressure and cholesterol levels. Plain varieties avoid added sugars."
+plantain,positive,"Rich in potassium and fiber, which are beneficial for blood pressure control and overall heart health."
+plantain leaf,neutral,
+plum,positive,Contains fiber and antioxidants that can help reduce inflammation and improve cholesterol levels.
+plum preserve,very negative,"Extremely high in added sugar, a major contributor to obesity, type 2 diabetes, and cardiovascular disease."
+plum tomato,positive,"Excellent source of lycopene, an antioxidant that is strongly linked to improved cardiovascular health, and potassium."
+poblano pepper,positive,"Contains capsaicin and antioxidants like vitamin C, which may help improve cholesterol levels and blood pressure."
+poi,positive,"Made from taro root, a good source of dietary fiber and potassium, which supports heart health."
+polenta,positive,"A whole grain food that provides complex carbohydrates and fiber, which are beneficial for heart health."
+polish kielbasa,very negative,"A processed meat high in sodium and saturated fat, both of which are strongly linked to an increased risk of cardiovascular disease."
+polish sausage,very negative,"A processed meat high in sodium and saturated fat, both of which are strongly linked to an increased risk of cardiovascular disease."
+polskie ogorki,negative,"Pickled cucumbers that are extremely high in sodium, which contributes to high blood pressure."
+pomegranate juice,positive,"High in potent antioxidants that have been shown to improve blood flow, reduce arterial plaque, and lower blood pressure."
+pomegranate molasses,negative,"A concentrated syrup that often contains high amounts of added sugar, negating potential benefits."
+pomegranate seed,positive,"Rich in fiber and heart-healthy antioxidants, which can help reduce inflammation and improve cholesterol profiles."
+pomegranate syrup,negative,"A concentrated syrup that often contains high amounts of added sugar, negating potential benefits."
+poppy seed,positive,"Contains fiber, minerals, and healthy unsaturated fats that can be beneficial for heart health in moderation."
+porcini mushroom,positive,"Good source of potassium, fiber, and antioxidants, which support healthy blood pressure and overall cardiovascular function."
+pork,negative,"General term for a red meat that is often high in saturated fat, a risk factor for high cholesterol and heart disease."
+pork back fat,very negative,"Almost pure saturated fat, which directly raises LDL (bad) cholesterol levels, a major risk factor for heart disease."
+pork backfat,very negative,"Almost pure saturated fat, which directly raises LDL (bad) cholesterol levels, a major risk factor for heart disease."
+pork belly,very negative,"Extremely high in saturated fat, which significantly raises LDL (bad) cholesterol and increases cardiovascular risk."
+pork breakfast chop,negative,"Tends to be a fatty cut of pork, high in saturated fat, contributing to elevated cholesterol."
+pork butt,very negative,"A fatty cut of meat from the shoulder, very high in saturated fat, which increases LDL (bad) cholesterol."
+pork butt roast,very negative,"A fatty cut of meat from the shoulder, very high in saturated fat, which increases LDL (bad) cholesterol."
+pork chop,negative,"Can be high in saturated fat, especially if the fat is not trimmed, contributing to elevated cholesterol levels."
+pork cutlet,negative,"As a form of red meat, it contains saturated fat; leaner than other cuts but still contributes to overall intake."
+pork loin,neutral,
+pork loin chop,neutral,
+pork loin roast,neutral,
+pork roast,negative,"A cut of red meat, which is a source of saturated fat."
+pork sausage,very negative,"Processed red meat, very high in both saturated fat and sodium."
+pork shank,negative,"A fatty cut of red meat, high in saturated fat."
+pork shoulder,negative,"A fatty cut of red meat, high in saturated fat."
+pork shoulder roast,negative,"A fatty cut of red meat, high in saturated fat."
+pork sirloin,negative,"A leaner cut of red meat, but still a source of saturated fat."
+pork sirloin roast,negative,"A leaner cut of red meat, but still a source of saturated fat."
+pork sparerib,negative,"A fatty cut of red meat, high in saturated fat."
+pork steak,negative,"A cut of red meat, which is a source of saturated fat."
+pork stew meat,negative,"Often from fatty cuts of red meat, high in saturated fat."
+pork tenderloin,neutral,
+port wine,negative,Contains alcohol and sugar; excessive intake is a risk factor for heart disease.
+port wine flavored gelatin mix,negative,High in added sugar with no nutritional benefits.
+portobello mushroom,positive,"Good source of potassium and antioxidants, which support heart health."
+portobello mushroom cap,positive,"Good source of potassium and antioxidants, which support heart health."
+portuguese chourico sausage,very negative,"Processed red meat, very high in both saturated fat and sodium."
+portuguese hot pepper sauce,negative,"Can be very high in sodium, which contributes to high blood pressure."
+portuguese linguica sausage,very negative,"Processed red meat, very high in both saturated fat and sodium."
+portuguese sausage,very negative,"Processed red meat, very high in both saturated fat and sodium."
+potato,positive,"Good source of potassium, which helps manage blood pressure."
+potato cooking water,neutral,
+potato flake,neutral,
+potato flour,neutral,
+potato starch,neutral,
+poultry seasoning,neutral,
+powdered milk,negative,"If made from whole milk, it is a source of saturated fat."
+prawn,positive,A source of lean protein and omega-3 fatty acids.
+processed american cheese,very negative,Highly processed and very high in sodium and saturated fat.
+processed cheese sauce,very negative,Highly processed and very high in sodium and unhealthy fats.
+provolone cheese,negative,High in saturated fat and sodium.
+prune,positive,"Excellent source of soluble fiber and potassium, which benefit heart health."
+puff pastry,very negative,"Typically made with butter or shortening, making it very high in saturated and/or trans fats."
+puff pastry sheet,very negative,"Typically made with butter or shortening, making it very high in saturated and/or trans fats."
+pulled pork,very negative,"Made from fatty pork and often prepared with high-sodium, high-sugar sauces."
+pumpkin,positive,"Excellent source of potassium, fiber, and heart-healthy antioxidants like beta-carotene."
+pumpkin puree,positive,"Excellent source of potassium, fiber, and heart-healthy antioxidants like beta-carotene."
+purple daikon radish,positive,A vegetable rich in fiber and antioxidants.
+purple food coloring,neutral,
+purple onion,positive,Contains antioxidants like quercetin that support cardiovascular health.
+purslane,positive,A leafy green that is a rare plant-based source of omega-3 fatty acids.
+quail egg,neutral,
+quark,neutral,
+queijo coalho cheese curd,negative,"A type of cheese, which is high in saturated fat and sodium."
+queso chanco,negative,"A type of cheese, which is high in saturated fat and sodium."
+queso fresco,negative,"A source of saturated fat and sodium, though often less than aged cheeses."
+quick cooking oat,positive,"Excellent source of soluble fiber (beta-glucan), which helps lower cholesterol."
+quick rise yeast,neutral,
+quince,positive,A fruit that provides heart-healthy fiber and antioxidants.
+quince paste,negative,Typically contains a very high amount of added sugar.
+quinoa,positive,"A whole grain rich in fiber, protein, and heart-healthy fats."
+rabbit,positive,"A lean source of protein, low in saturated fat compared to red meat."
+radish,positive,Low-calorie vegetable that provides fiber and antioxidants.
+raisin,positive,"Good source of fiber and potassium, but should be consumed in moderation due to high sugar content."
+ramen noodle,very negative,"Typically highly processed, made from refined flour, and served with very high-sodium seasoning packets."
+rapeseed oil,positive,"High in monounsaturated fats and a source of omega-3 fatty acids, which are beneficial for heart health."
+raspberry,positive,"Rich in fiber, antioxidants, and vitamins, which help reduce inflammation and improve heart health."
+raspberry flavored soda water,neutral,
+raspberry jam,negative,"High in added sugar, which can contribute to weight gain and poor metabolic health."
+recao,neutral,
+recaito,negative,Commercially prepared versions are often very high in sodium.
+red bean curd,negative,Typically preserved in brine and is very high in sodium.
+red bean paste,negative,Typically contains a high amount of added sugar.
+red bell pepper,positive,"Rich in antioxidants, potassium, and vitamins A and C, which support heart health."
+red cabbage,positive,High in fiber and heart-protective antioxidants like anthocyanins.
+red candied cherry,very negative,Extremely high in added sugar with minimal nutritional value.
+red caviar,negative,"While a source of omega-3s, it is extremely high in sodium and cholesterol."
+red chile,positive,"Contains capsaicin, which may have anti-inflammatory and antioxidant benefits."
+red chile flake,positive,"Contains capsaicin, which may have anti-inflammatory and antioxidant benefits."
+red chile paste,negative,Commercially prepared versions are often very high in sodium.
+red chile pepper,positive,"Contains capsaicin, which may have anti-inflammatory and antioxidant benefits."
+red chile powder,positive,"Contains capsaicin, which may have anti-inflammatory and antioxidant benefits."
+red chile sauce,negative,Commercially prepared versions are often high in sodium and sometimes added sugar.
+red chili pepper,positive,"Contains capsaicin, which may have anti-inflammatory and antioxidant benefits."
+red chili powder,positive,"Contains capsaicin, which may have anti-inflammatory and antioxidant benefits."
+red cooking wine,negative,"Contains very high levels of sodium, added for preservation."
+red currant,positive,"A good source of fiber, antioxidants, and vitamin C."
+red currant jam,negative,High in added sugar.
+red curry paste,negative,Commercially prepared versions are typically very high in sodium.
+red food color,neutral,
+red food coloring,neutral,
+red grape,positive,Contains heart-healthy antioxidants like resveratrol and polyphenols.
+red kidney bean,positive,"Excellent source of soluble fiber, plant-based protein, and potassium, which help lower cholesterol and blood pressure."
+red lentil,positive,"Rich in fiber, plant-based protein, and folate, which are beneficial for heart health."
+red miso,negative,"While fermented foods can be beneficial, miso is typically very high in sodium."
+red onion,positive,"Contains heart-healthy antioxidants, such as quercetin, which has anti-inflammatory properties."
+red pepper,positive,"Rich in antioxidants like vitamin C (bell peppers) or capsaicin (chili peppers), both beneficial for heart health."
+red pepper flake,positive,"Contains capsaicin, which may have anti-inflammatory and antioxidant benefits."
+red potato,positive,"A good source of potassium and fiber (especially with skin), which can help manage blood pressure."
+red skinned potato,positive,"A good source of potassium and fiber (especially with skin), which can help manage blood pressure."
+red snapper,positive,"A lean source of protein and omega-3 fatty acids, which are beneficial for heart health."
+red table wine,positive,"Moderate consumption may be beneficial due to antioxidants like resveratrol, but excessive intake is harmful."
+red thai curry paste,negative,Commercially prepared versions are typically very high in sodium.
+red wine,positive,"Moderate consumption may be beneficial due to antioxidants like resveratrol, but excessive intake is harmful."
+red wine vinegar,positive,May help with blood sugar control and is a sodium-free way to add flavor.
+refrigerated pie crust,very negative,"Usually made with refined flour, high in unhealthy fats (saturated or trans fats) and sodium."
+rennet tablet,neutral,
+rhubarb,positive,Good source of fiber and antioxidants.
+rib eye steak,very negative,"A fatty cut of red meat, very high in saturated fat, which is linked to increased LDL (bad) cholesterol."
+rice,negative,White rice is a refined carbohydrate that can raise blood sugar levels and lacks the fiber of whole grains.
+rice cereal,negative,"Typically made from refined rice and often contains added sugars, lacking significant fiber."
+rice flour,neutral,
+rice noodle,neutral,
+rice paper wrapper,neutral,
+rice soup,neutral,
+rice stick noodle,neutral,
+rice vermicelli,neutral,
+rice vermicelli noodle,neutral,
+rice vinegar,neutral,
+rice wine,negative,Alcohol consumption is a risk factor for high blood pressure and other cardiovascular issues.
+rice wine vinegar,neutral,
+rice wrapper,neutral,
+ricotta cheese,negative,"Contains saturated fat, which can contribute to elevated LDL cholesterol levels."
+rigatoni pasta,neutral,
+ripe olive,positive,Source of heart-healthy monounsaturated fats and antioxidants.
+roast beef,negative,"Red meat is a source of saturated fat, which can raise LDL cholesterol."
+roasted red bell pepper,positive,"Rich in antioxidants, potassium, and vitamins which support heart health."
+roasted red pepper,positive,"Rich in antioxidants, potassium, and vitamins which support heart health."
+rock salt,very negative,"High sodium intake is a major cause of high blood pressure, a primary risk factor for cardiovascular disease."
+rock sugar,negative,"High intake of added sugars contributes to obesity, inflammation, and high triglycerides, all risk factors for heart disease."
+rolled oat,positive,"Excellent source of soluble fiber (beta-glucan), which helps lower LDL (bad) cholesterol."
+roma plum tomato,positive,"Rich in lycopene, potassium, and antioxidants, which are linked to a lower risk of heart disease."
+roma tomato,positive,"Rich in lycopene, potassium, and antioxidants, which are linked to a lower risk of heart disease."
+romaine lettuce,positive,"A leafy green low in calories and high in fiber, folate, and antioxidants, which support cardiovascular health."
+romaine lettuce leaf,positive,"A leafy green low in calories and high in fiber, folate, and antioxidants, which support cardiovascular health."
+romano,negative,"High in both sodium and saturated fat, which can increase blood pressure and LDL cholesterol."
+romano cheese,negative,"High in both sodium and saturated fat, which can increase blood pressure and LDL cholesterol."
+rose extract,neutral,
+rose petal,neutral,
+rose petal powder,neutral,
+rose water,neutral,
+rosemary,positive,Contains antioxidants and anti-inflammatory compounds that may improve circulation and heart health.
+rotelle pasta,neutral,
+rotini pasta,neutral,
+round steak,negative,"Red meat is a source of saturated fat, which can raise LDL cholesterol."
+rum,negative,Excessive alcohol consumption is a risk factor for high blood pressure and other cardiovascular issues.
+rum cream liqueur,very negative,"Combines alcohol with high amounts of sugar and saturated fat, all of which are detrimental to cardiovascular health."
+rum flavored extract,neutral,
+rum flavoring,neutral,
+rump roast,negative,"Red meat is a source of saturated fat, which can raise LDL cholesterol."
+russet potato,neutral,
+rutabaga,positive,"Good source of fiber, potassium, and antioxidants, which support blood pressure control and heart health."
+rye flake,positive,"A whole grain rich in fiber, which helps lower cholesterol and improve blood sugar control."
+rye flour,positive,"Whole grain rye flour is rich in fiber, which helps lower cholesterol and improve blood sugar control."
+saffron,positive,Contains antioxidants that may help lower cholesterol and blood pressure.
+saffron powder,positive,Contains antioxidants that may help lower cholesterol and blood pressure.
+saffron thread,positive,Contains antioxidants that may help lower cholesterol and blood pressure.
+sage,positive,Contains antioxidants and anti-inflammatory compounds that may have a beneficial effect on cholesterol levels.
+sake,negative,Alcohol consumption is a risk factor for high blood pressure and other cardiovascular issues.
+salam leaf,neutral,
+salami,very negative,"A processed meat high in sodium, saturated fat, and nitrates, strongly linked to increased risk of heart disease."
+salmon,positive,"Rich in omega-3 fatty acids, which can lower blood pressure, reduce triglycerides, and decrease heart disease risk."
+salmon fillet,positive,"Rich in omega-3 fatty acids, which can lower blood pressure, reduce triglycerides, and decrease heart disease risk."
+salsa,positive,"Typically made from heart-healthy vegetables like tomatoes and onions, but commercial versions can be high in sodium."
+salt,very negative,"High sodium intake is a primary driver of high blood pressure, a major risk factor for cardiovascular disease."
+salt beef,very negative,"A processed red meat that is extremely high in sodium and saturated fat, both linked to increased cardiovascular risk."
+salt pork,very negative,Cured meat product with very high levels of sodium and saturated fat.
+saltine cracker,negative,Made from refined flour and typically high in sodium.
+sambal oelek,negative,"While made from chili peppers, it is extremely high in sodium."
+sardine,positive,"Excellent source of omega-3 fatty acids, which are highly beneficial for heart health."
+sashimi grade tuna,positive,A good source of lean protein and heart-healthy omega-3 fatty acids.
+sauce,neutral,
+sauerkraut,negative,"While fermented, it is prepared with a large amount of salt, making it very high in sodium."
+sausage,very negative,"Processed meat high in saturated fat, sodium, and preservatives, all strongly linked to cardiovascular disease."
+sausage casing,neutral,
+savory,neutral,
+savoy cabbage,positive,"A leafy green vegetable rich in fiber, vitamins, and antioxidants that support heart health."
+sazon seasoning,very negative,A commercial seasoning blend that is typically extremely high in sodium.
+scallion,positive,"Part of the allium family (like onions), which contains compounds beneficial for heart health."
+scallop,positive,"A lean source of protein, low in saturated fat, and contains some omega-3 fatty acids."
+scotch bonnet chile,positive,"Contains capsaicin, which may have benefits for blood pressure and cholesterol."
+scotch bonnet chile pepper,positive,"Contains capsaicin, which may have benefits for blood pressure and cholesterol."
+scotch bonnet hot sauce,negative,"While the peppers are beneficial, commercial hot sauces are typically very high in sodium."
+scotch bonnet pepper,positive,"Contains capsaicin, which may have benefits for blood pressure and cholesterol."
+sea bass,positive,A type of fish that provides heart-healthy omega-3 fatty acids.
+sea bass fillet,positive,A type of fish that provides heart-healthy omega-3 fatty acids.
+sea salt,very negative,"Despite marketing, it is chemically the same as table salt (sodium chloride) and has the same negative impact on blood pressure."
+sea scallop,positive,"A lean source of protein, low in saturated fat, and contains some omega-3 fatty acids."
+seafood seasoning,very negative,A commercial seasoning blend that is typically extremely high in sodium.
+seafood stock,negative,Commercially prepared stocks are often very high in sodium.
+seasoned rice vinegar,negative,"Contains added sodium and sugar, unlike plain rice vinegar."
+seasoned salt,very negative,"Its primary ingredient is salt, making it extremely high in sodium."
+seasoning salt,very negative,"Its primary ingredient is salt, making it extremely high in sodium."
+self rising cornmeal,negative,A refined grain product that contains sodium-based leavening agents.
+self rising flour,negative,A refined carbohydrate that contains sodium-based leavening agents.
+seltzer water,neutral,
+semi sweet chocolate chip,positive,"Contains cocoa flavonoids which can benefit heart health, but also contains sugar and fat; best in moderation."
+semisweet baking chocolate,positive,"Contains cocoa flavonoids which can benefit heart health, but also contains sugar and fat; best in moderation."
+semisweet chocolate,positive,"Contains cocoa flavonoids which can benefit heart health, but also contains sugar and fat; best in moderation."
+semisweet chocolate bar,positive,"Contains cocoa flavonoids which can benefit heart health, but also contains sugar and fat; best in moderation."
+semisweet chocolate chip,positive,"Contains cocoa flavonoids which can benefit heart health, but also contains sugar and fat; best in moderation."
+semolina,negative,"A refined wheat flour, which lacks fiber and can negatively impact blood sugar levels."
+semolina flour,negative,"A refined wheat flour, which lacks fiber and can negatively impact blood sugar levels."
+serrano,positive,"A chili pepper containing capsaicin, which may have benefits for blood pressure and cholesterol."
+serrano chile,positive,"Contains capsaicin, which may have benefits for blood pressure and cholesterol."
+serrano chile pepper,positive,"Contains capsaicin, which may have benefits for blood pressure and cholesterol."
+serrano ham,very negative,"A cured, processed meat that is very high in sodium and saturated fat."
+serrano pepper,positive,"Contains capsaicin, which may have benefits for blood pressure and cholesterol."
+sesame oil,positive,"Rich in unsaturated fats, which are beneficial for cholesterol levels and overall heart health."
+sesame seed,positive,"A good source of fiber, healthy fats, and compounds that may help lower cholesterol."
+sesame seed hamburger bun,negative,"Typically made from refined white flour, a simple carbohydrate with little fiber."
+seville orange marmalade,negative,"High in added sugar, a risk factor for obesity, inflammation, and high triglycerides."
+shallot,positive,Contains antioxidants and compounds that may help lower blood pressure and cholesterol.
+shaoxing rice wine,neutral,
+sheeps milk feta cheese,negative,"High in sodium and saturated fat, which can contribute to high blood pressure and cholesterol."
+sherry,neutral,
+sherry vinegar,positive,Can help with blood sugar control and adds flavor without sodium or fat.
+sherry wine,neutral,
+shichimi togarashi,positive,"A spice blend containing capsaicin from chili peppers, which can have cardiovascular benefits, and adds flavor without sodium."
+shiitake mushroom,positive,Contains compounds like beta-glucans that can help lower cholesterol.
+shoestring potato stick,very negative,"Typically deep-fried, high in sodium, unhealthy fats, and refined carbohydrates."
+short grain brown rice,positive,"A whole grain rich in fiber, which helps lower cholesterol and manage blood sugar."
+short grain rice,neutral,
+short grain white rice,negative,A refined carbohydrate with a high glycemic index and low fiber content.
+shortening,very negative,"A solid fat, often high in unhealthy saturated or trans fats, which raise bad (LDL) cholesterol."
+shrimp,positive,A good source of lean protein and omega-3 fatty acids; low in saturated fat.
+shrimp paste,very negative,"Extremely high in sodium, a major contributor to high blood pressure."
+sichuan pepper,positive,A spice that adds flavor without sodium and may have anti-inflammatory properties.
+silken tofu,positive,A soy product low in saturated fat; soy protein can help lower LDL cholesterol.
+silver tequila,neutral,
+simple syrup,very negative,"A concentrated source of added sugar, which is a major risk factor for cardiovascular disease."
+sirloin,negative,"A cut of red meat, which is a source of saturated fat and linked to increased cardiovascular risk."
+sirloin steak,negative,"A cut of red meat, which is a source of saturated fat and linked to increased cardiovascular risk."
+sirloin tip,negative,"A cut of red meat, which is a source of saturated fat and linked to increased cardiovascular risk."
+skewer,neutral,
+skinless chicken breast,positive,A lean source of protein that is low in saturated fat.
+skirt steak,negative,"A fatty cut of red meat, high in saturated fat."
+small shrimp,positive,A good source of lean protein and omega-3 fatty acids; low in saturated fat.
+small white bean,positive,"Excellent source of soluble fiber, plant-based protein, and minerals that support heart health."
+smelt,positive,An oily fish rich in heart-healthy omega-3 fatty acids.
+smoked ham,very negative,"A processed meat high in sodium and preservatives, strongly linked to increased cardiovascular risk."
+smoked ham hock,very negative,"A processed meat high in sodium, saturated fat, and preservatives."
+smoked paprika,positive,A spice that provides flavor and antioxidants without adding sodium.
+smoked pork chop,very negative,A processed meat high in sodium and preservatives.
+smoked salmon,negative,"Very high in sodium due to the curing and smoking process, which can increase blood pressure."
+smoked sausage,very negative,"A processed meat high in saturated fat, sodium, and preservatives."
+smoked tempeh bacon,negative,"While plant-based, it is often highly processed and very high in sodium."
+snap pea,positive,"A good source of fiber, vitamins, and minerals."
+snow pea,positive,"A good source of fiber, vitamins, and minerals."
+snow pea pod,positive,"A good source of fiber, vitamins, and minerals."
+soba noodle,positive,"Made from buckwheat, which contains fiber and flavonoids beneficial for heart health."
+soaked in cold water,neutral,
+soaked in water,neutral,
+sofrito,positive,"Typically made from a base of heart-healthy vegetables like tomatoes, onions, and garlic."
+sofrito sauce,positive,"Based on heart-healthy vegetables, but sodium content can vary in commercial versions."
+soft brown sugar,negative,"A form of added sugar, which contributes to cardiovascular disease risk when consumed in excess."
+solid white tuna,positive,"A good source of omega-3 fatty acids, but choose low-sodium versions packed in water."
+sour cherry,positive,Rich in antioxidants and anti-inflammatory compounds that may benefit heart health.
+sour cherry preserve,negative,"High in added sugar, which negates many of the fruit's health benefits."
+sour cream,negative,High in saturated fat.
+sour manioc starch,negative,A refined starch with a high glycemic index and minimal nutritional value.
+soy based liquid seasoning,negative,"Typically very high in sodium, which can increase blood pressure, a major risk factor for cardiovascular disease."
+soy milk,positive,"Unsweetened versions are low in saturated fat and a source of polyunsaturated fats, which can help lower LDL cholesterol."
+soy sauce,negative,"Extremely high in sodium, which contributes to high blood pressure."
+soy sauce flavored ramen noodle,very negative,"Typically very high in sodium, refined carbohydrates, and unhealthy fats, all of which are detrimental to cardiovascular health."
+soybean sprout,positive,"A good source of fiber and vitamins, low in calories and fat, contributing to a heart-healthy diet."
+spaghetti,neutral,
+spanish chorizo,very negative,"A processed meat high in saturated fat and sodium, both strongly linked to increased risk of cardiovascular disease."
+spanish chorizo sausage,very negative,"A processed meat high in saturated fat and sodium, both strongly linked to increased risk of cardiovascular disease."
+spanish chorizo sausage link,very negative,"A processed meat high in saturated fat and sodium, both strongly linked to increased risk of cardiovascular disease."
+spanish octopus,positive,"A lean source of protein and omega-3 fatty acids, which are beneficial for heart health."
+spanish olive,positive,"Rich in heart-healthy monounsaturated fats, which can help lower bad cholesterol. However, brine can be high in sodium."
+spanish onion,positive,Contains antioxidants and compounds like quercetin that may help reduce blood pressure and inflammation.
+spanish peanut,positive,"Good source of heart-healthy monounsaturated fats, fiber, and protein. Unsalted varieties are best."
+spanish serrano ham,very negative,"A cured, processed meat high in sodium and saturated fat, increasing the risk of hypertension and high cholesterol."
+spanish smoked paprika,neutral,
+spanish style chorizo,very negative,"A processed meat high in saturated fat and sodium, both strongly linked to increased risk of cardiovascular disease."
+spanish style olive,positive,"Rich in heart-healthy monounsaturated fats, which can help lower bad cholesterol. However, brine can be high in sodium."
+spanish yellow rice mix,negative,"Typically high in sodium and refined carbohydrates, which can negatively impact blood pressure and blood sugar levels."
+sparkling mineral water,neutral,
+sparkling water,neutral,
+spelt flour,positive,"A whole grain flour rich in fiber, which can help lower cholesterol and improve heart health compared to refined flours."
+spicy brown mustard,neutral,
+spinach,positive,"Rich in nitrates, potassium, and antioxidants, which help lower blood pressure and improve blood vessel function."
+split pea,positive,"High in soluble fiber, which helps lower cholesterol, and a good source of plant-based protein."
+sponge cake,negative,"High in refined sugar and flour, which can contribute to weight gain, high blood sugar, and elevated triglycerides."
+spray,neutral,
+spring garlic,positive,Contains compounds like allicin that may help lower cholesterol and blood pressure.
+spring onion,positive,Contains antioxidants and flavonoids that support cardiovascular health.
+spring roll wrapper,neutral,
+spring water,neutral,
+sprinkle,negative,"Primarily composed of sugar, which in excess contributes to negative cardiovascular outcomes."
+squid,neutral,
+sriracha hot sauce,negative,"High in sodium and often contains added sugar, which can contribute to high blood pressure."
+sriracha sauce,negative,"High in sodium and often contains added sugar, which can contribute to high blood pressure."
+star anise,neutral,
+star anise pod,neutral,
+steelhead trout fillet,positive,"An excellent source of omega-3 fatty acids, which are known to reduce inflammation, lower blood pressure, and decrease triglycerides."
+stewed tomato,positive,"Rich in lycopene and potassium, which are beneficial for blood pressure and overall heart health. Watch for added sodium in processed versions."
+straw mushroom,neutral,
+strawberry,positive,"High in antioxidants (anthocyanins), fiber, and potassium, which help lower blood pressure and reduce oxidative stress."
+strawberry flavored syrup,negative,"Typically very high in added sugars (like high-fructose corn syrup), which contribute to weight gain, inflammation, and elevated triglycerides."
+strawberry jam,negative,"High in added sugar, which negatively impacts cardiovascular health when consumed in excess."
+string,neutral,
+sucralose sweetener,neutral,
+sugar,very negative,"Excess consumption is a major contributor to obesity, inflammation, high triglycerides, and insulin resistance, all key risk factors for cardiovascular disease."
+sugar based curing mixture,very negative,"Combines high sugar content with curing agents like sodium and nitrates, both of which are detrimental to cardiovascular health."
+sugar crystal,very negative,"A form of pure sugar; excess consumption is a major contributor to obesity, inflammation, and high triglycerides."
+sugar snap pea,positive,"A good source of fiber, vitamins, and antioxidants, contributing to a heart-healthy diet."
+sultana raisin,neutral,
+sumac,positive,A spice rich in antioxidants that may have anti-inflammatory properties beneficial for heart health.
+sumac powder,positive,"Rich in antioxidants which can help reduce inflammation, a risk factor for heart disease."
+sun dried tomato,positive,"A concentrated source of lycopene and potassium, which are beneficial for heart health. However, some preparations can be high in sodium."
+sunflower oil,positive,"High in unsaturated fats (polyunsaturated and monounsaturated) and vitamin E, which can help lower LDL cholesterol and reduce inflammation."
+sunflower seed kernel,positive,"Excellent source of healthy unsaturated fats, vitamin E, magnesium, and fiber, all of which support cardiovascular health."
+sunflower seed oil,positive,"High in unsaturated fats (polyunsaturated and monounsaturated) and vitamin E, which can help lower LDL cholesterol and reduce inflammation."
+superfine sugar,very negative,"A refined sugar that contributes to weight gain, inflammation, high blood pressure, and elevated triglycerides, all major risk factors for heart disease."
+sushi rice,negative,"A refined carbohydrate with a high glycemic index, which can negatively impact blood sugar levels and contribute to inflammation over time."
+swanson chicken broth,negative,"Commercially prepared broths are typically very high in sodium, which can contribute to high blood pressure."
+swedish anchovy,negative,"While a source of omega-3s, preserved anchovies are typically extremely high in sodium, which can significantly raise blood pressure."
+swedish arrack punsch,negative,"An alcoholic liqueur high in sugar. Excessive alcohol and sugar intake are linked to high blood pressure, triglycerides, and other cardiovascular risks."
+sweet bread roll,negative,"Typically made from refined flour and contains added sugar and unhealthy fats, contributing to poor blood sugar control and weight gain."
+sweet cherry,positive,"Rich in potassium and antioxidants like anthocyanins, which help reduce inflammation and blood pressure."
+sweet chili sauce,negative,"Typically very high in both added sugar and sodium, which are detrimental to cardiovascular health."
+sweet corn,positive,"A source of dietary fiber and antioxidants, which can be beneficial for heart health as part of a balanced diet."
+sweet corn kernel,positive,"A source of dietary fiber and antioxidants, which can be beneficial for heart health as part of a balanced diet."
+sweet manioc starch,neutral,
+sweet onion,positive,"Contains flavonoids like quercetin, which have antioxidant and anti-inflammatory properties beneficial for heart health."
+sweet paprika,positive,"Rich in antioxidants, including carotenoids, which can help protect against oxidative stress."
+sweet pea,positive,"Good source of heart-healthy fiber, plant-based protein, and micronutrients."
+sweet potato,positive,"Excellent source of potassium, fiber, and antioxidants, which help regulate blood pressure and reduce inflammation."
+sweet potato noodle,neutral,
+sweet potato vermicelli,neutral,
+sweet red chili sauce,negative,"Typically very high in both added sugar and sodium, which are detrimental to cardiovascular health."
+sweet rice flour,negative,"A refined flour with a high glycemic index, which can negatively impact blood sugar control."
+sweet soy sauce,negative,"Very high in both sodium from the soy sauce and added sugar, contributing to high blood pressure and other risk factors."
+sweet spanish onion,positive,"Contains flavonoids like quercetin, which have antioxidant and anti-inflammatory properties beneficial for heart health."
+sweet thai basil,positive,Contains beneficial plant compounds and antioxidants with anti-inflammatory properties.
+sweet yellow onion,positive,"Contains flavonoids like quercetin, which have antioxidant and anti-inflammatory properties beneficial for heart health."
+sweetened condensed milk,very negative,"Extremely high in added sugar and contains saturated fat, contributing to elevated triglycerides, weight gain, and increased LDL cholesterol."
+swiss chard,positive,"Rich in potassium, magnesium, and dietary nitrates, which help lower blood pressure and improve blood vessel function."
+swiss cheese,negative,"High in saturated fat and sodium, which can contribute to high cholesterol and blood pressure when consumed in excess."
+szechuan peppercorn,neutral,
+table cream,very negative,"High in saturated fat, which can raise LDL ('bad') cholesterol levels, a major risk factor for heart disease."
+taco seasoning mix,negative,"Pre-made seasoning mixes are often very high in sodium, which can increase blood pressure."
+tahini,positive,"Made from sesame seeds, it's a good source of healthy unsaturated fats, antioxidants, and minerals that support heart health."
+tahini paste,positive,"Made from sesame seeds, it's a good source of healthy unsaturated fats, antioxidants, and minerals that support heart health."
+tamari,negative,"A type of soy sauce that is very high in sodium, a major contributor to high blood pressure."
+tamari sauce,negative,"A type of soy sauce that is very high in sodium, a major contributor to high blood pressure."
+tamarind concentrate,positive,"A source of polyphenols and antioxidants, which may have anti-inflammatory and cholesterol-lowering benefits."
+tamarind juice,positive,"A source of polyphenols and antioxidants, which may have anti-inflammatory and cholesterol-lowering benefits."
+tamarind paste,positive,"A source of polyphenols and antioxidants, which may have anti-inflammatory and cholesterol-lowering benefits."
+tamarind powder,positive,"A source of polyphenols and antioxidants, which may have anti-inflammatory and cholesterol-lowering benefits."
+tamarind soup base,negative,"Commercial soup bases are typically very high in sodium, which can raise blood pressure."
+tandoori masala,positive,"A blend of spices that are rich in antioxidants and have anti-inflammatory properties, assuming no excessive salt is added."
+tangerine,positive,"Rich in vitamin C, flavonoids, and soluble fiber, which are beneficial for blood vessel health and cholesterol levels."
+tangerine zest,positive,"Concentrated source of flavonoids like hesperidin, which have anti-inflammatory and antioxidant benefits for the cardiovascular system."
+tapioca flour,neutral,
+tapioca starch,neutral,
+tarama,very negative,"Made from cured fish roe, it is extremely high in both sodium and dietary cholesterol, which are detrimental to heart health."
+tarragon,neutral,
+tart shell,neutral,
+tea biscuit,neutral,
+tempeh,neutral,
+tempura batter mix,neutral,
+tequila,neutral,
+teriyaki sauce,neutral,
+texas toast thick sliced bread,neutral,
+textured vegetable protein,neutral,
+thai basil,neutral,
+thai basil leaf,neutral,
+thai bird chile pepper,neutral,
+thai chile,neutral,
+thai chile pepper,neutral,
+thai fish sauce,neutral,
+thai green chile,neutral,
+thai red curry paste,neutral,
+thin rice noodle,neutral,
+thousand island salad dressing,neutral,
+thyme,neutral,
+thyme leaf,neutral,
+tiger prawn,neutral,
+tilapia,neutral,
+tilapia fillet,neutral,
+toenjang,neutral,
+tofu,neutral,
+tom yum paste,neutral,
+tomato,neutral,
+tomato juice,neutral,
+tomato paste,neutral,
+tomato puree,neutral,
+tomato sauce,neutral,
+tomato soup,neutral,
+toothpick,neutral,
+top round steak,neutral,
+top sirloin steak,neutral,
+triple sec,neutral,
+tsaoko,neutral,
+tuna,neutral,
+tuna steak,neutral,
+turbinado sugar,neutral,
+turkey,neutral,
+turkey carcass,neutral,
+turkey hot dog,neutral,
+turkey leg,neutral,
+turkish bay leaf,neutral,
+turmeric,neutral,
+turmeric root,neutral,
+turnip,neutral,
+tzatziki sauce,neutral,
+ube,neutral,
+udon noodle,negative,"A refined carbohydrate that can raise blood sugar and triglyceride levels, which are risk factors for cardiovascular disease."
+unbleached all purpose flour,negative,"A refined carbohydrate that can contribute to high blood sugar and triglycerides, lacking the fiber of whole grains."
+unbleached flour,negative,"A refined carbohydrate that can contribute to high blood sugar and triglycerides, lacking the fiber of whole grains."
+unflavored gelatin,neutral,
+unsalted butter,very negative,"High in saturated fat, which significantly raises LDL ('bad') cholesterol levels, a major risk factor for atherosclerosis."
+unsweetened baking chocolate,positive,"Rich in cocoa flavanols, which are antioxidants that can improve blood pressure and blood vessel function."
+unsweetened chocolate,positive,"Rich in cocoa flavanols, which are antioxidants that can improve blood pressure and blood vessel function."
+unsweetened cocoa,positive,Concentrated source of heart-healthy flavanols that can help lower blood pressure and improve cholesterol levels.
+unsweetened cocoa powder,positive,Concentrated source of heart-healthy flavanols that can help lower blood pressure and improve cholesterol levels.
+unsweetened coconut flake,negative,"High in saturated fat, which can increase LDL ('bad') cholesterol levels."
+unsweetened flaked coconut,negative,"High in saturated fat, which can increase LDL ('bad') cholesterol levels."
+vanilla,neutral,
+vanilla bean,neutral,
+vanilla bean ice cream,very negative,"Very high in both saturated fat and added sugars, which contribute to high cholesterol, triglycerides, and obesity."
+vanilla custard powder,negative,"Typically high in sugar and refined starches, which can negatively impact blood sugar and triglyceride levels."
+vanilla extract,neutral,
+vanilla ice cream,very negative,"Very high in both saturated fat and added sugars, which contribute to high cholesterol, triglycerides, and obesity."
+vanilla powder,negative,"Often contains added sugars or maltodextrin, which can negatively impact blood glucose levels."
+vanilla pudding mix,negative,"High in added sugars and refined starches, contributing to elevated blood sugar and triglycerides."
+vanilla rum,negative,Contains alcohol and often added sugars. Excessive alcohol intake is a risk factor for high blood pressure and heart disease.
+vanilla sugar,negative,"Is primarily sugar, and high intake of added sugar is linked to obesity, inflammation, and high triglycerides."
+veal,negative,"A type of red meat, which is higher in saturated fat and cholesterol compared to poultry or fish."
+veal cutlet,negative,"A type of red meat, which is higher in saturated fat and cholesterol compared to poultry or fish."
+veal stock,negative,"Can be high in sodium and saturated fat, both of which are detrimental to cardiovascular health."
+vegan butter,negative,"Often made with palm or coconut oil, which are high in saturated fat, or hydrogenated oils containing trans fats."
+vegan margarine,negative,Can be high in saturated fats (from palm or coconut oil) or unhealthy trans fats from hydrogenation.
+vegan white cheese,negative,"Typically high in saturated fat (from coconut oil), sodium, and refined starches."
+vegetable bouillon,negative,"Extremely high in sodium, which can raise blood pressure."
+vegetable bouillon powder,negative,"Extremely high in sodium, which can raise blood pressure."
+vegetable broth,negative,"Commercially prepared versions are typically very high in sodium, a key contributor to high blood pressure."
+vegetable juice,negative,"While containing vitamins, commercially available vegetable juice is often very high in sodium."
+vegetable oil,negative,"This general term often refers to highly processed oils (like soy, corn) high in omega-6 fatty acids, which can be pro-inflammatory in excess."
+vegetable shortening,very negative,"A solid fat that is a primary source of unhealthy trans fats and/or saturated fats, which severely increase the risk of heart disease."
+vegetable stock,negative,"Commercially prepared versions are typically very high in sodium, a key contributor to high blood pressure."
+vegetarian fish sauce,negative,"Typically very high in sodium, which contributes to high blood pressure."
+vietnamese fish sauce,negative,"Extremely high in sodium, which is a major risk factor for hypertension."
+vietnamese style rice noodle,negative,A refined carbohydrate that can raise blood sugar and triglyceride levels.
+vine ripened tomato,positive,"Excellent source of potassium and lycopene, an antioxidant linked to lower risk of heart disease and lower blood pressure."
+vinegar,positive,Some studies suggest it may help improve blood sugar control and blood pressure.
+vino seco,neutral,"Moderate alcohol consumption may have some benefits, but excessive intake is harmful. The overall effect is complex and dose-dependent."
+violet food coloring,neutral,
+vodka,negative,"Excessive alcohol consumption is a significant risk factor for high blood pressure, cardiomyopathy, and arrhythmias."
+wakame,positive,"A type of seaweed rich in minerals, fiber, and omega-3 fatty acids, which can help lower blood pressure and cholesterol."
+wakame seaweed flake,positive,"A type of seaweed rich in minerals, fiber, and omega-3 fatty acids, which can help lower blood pressure and cholesterol."
+walleye fillet,positive,A lean fish that provides high-quality protein and heart-healthy omega-3 fatty acids.
+walnut,positive,"Excellent source of alpha-linolenic acid (ALA), a plant-based omega-3 fatty acid, which helps lower LDL cholesterol and reduce inflammation."
+walnut half,positive,"Excellent source of alpha-linolenic acid (ALA), a plant-based omega-3 fatty acid, which helps lower LDL cholesterol and reduce inflammation."
+walnut piece,positive,"Excellent source of alpha-linolenic acid (ALA), a plant-based omega-3 fatty acid, which helps lower LDL cholesterol and reduce inflammation."
+wasabi paste,negative,"Commercial paste is often high in sodium and contains little real wasabi, negating potential benefits."
+water,positive,"Proper hydration is essential for maintaining blood volume and cardiovascular function, without adding calories, sugar, or fat."
+water chestnut,positive,"Good source of potassium and fiber, which help regulate blood pressure and cholesterol."
+watercress,positive,"Rich in nitrates and antioxidants, which can lower blood pressure and reduce inflammation."
+watermelon,positive,"Contains lycopene and citrulline, which improve blood flow and lower blood pressure."
+wax bean,positive,"Good source of dietary fiber, which helps manage cholesterol levels."
+waxy potato,neutral,
+wedge,neutral,
+well,neutral,
+wheat,positive,"When consumed as a whole grain, it is high in fiber, which helps lower cholesterol."
+wheat germ,positive,"Rich in fiber, healthy fats, and vitamins that support heart health."
+whipped cream,negative,"High in saturated fat, which can raise LDL (bad) cholesterol levels."
+whipped topping,very negative,"Often contains hydrogenated oils (trans fats) and high sugar content, which are major risk factors for heart disease."
+whipping cream,negative,"High in saturated fat, which can raise LDL (bad) cholesterol levels."
+whiskey,negative,"Excessive alcohol intake can lead to high blood pressure, heart failure, and stroke."
+white anchovy,positive,"Good source of omega-3 fatty acids, but can be high in sodium."
+white asparagus,positive,A good source of fiber and antioxidants.
+white balsamic vinegar,positive,"May help improve blood sugar control and is a low-calorie, fat-free flavoring."
+white bean,positive,"Excellent source of soluble fiber and potassium, which help lower cholesterol and blood pressure."
+white bread,negative,"A refined carbohydrate with a high glycemic index, stripped of beneficial fiber."
+white chocolate,negative,High in sugar and saturated fat without the beneficial flavanols of dark chocolate.
+white cornmeal,negative,A refined grain lacking the fiber found in whole cornmeal.
+white fish fillet,positive,"A lean source of protein, a healthier alternative to red meat."
+white flour,negative,"A refined carbohydrate stripped of fiber, linked to increased cardiovascular risk."
+white miso,negative,"Fermented soy has benefits, but the extremely high sodium content is a major risk factor for high blood pressure."
+white mushroom,positive,Low in calories and a source of potassium and antioxidants.
+white onion,positive,"Contains quercetin, an antioxidant that may benefit heart health."
+white pea bean,positive,"Excellent source of soluble fiber and potassium, which help lower cholesterol and blood pressure."
+white peach,positive,"A good source of fiber, vitamins, and antioxidants."
+white pepper,neutral,
+white peppercorn,neutral,
+white potato,neutral,
+white radish,positive,Low in calories and a good source of fiber and vitamins.
+white rice,negative,"A refined grain with a high glycemic index, linked to increased risk of metabolic syndrome."
+white rum,negative,"Excessive alcohol intake can lead to high blood pressure, heart failure, and stroke."
+white sandwich bread,negative,"A refined carbohydrate with a high glycemic index, stripped of beneficial fiber."
+white sesame seed,positive,"Good source of healthy fats and fiber, which can help lower cholesterol."
+white sugar,very negative,"High intake is strongly linked to inflammation, obesity, high triglycerides, and high blood pressure."
+white vinegar,neutral,
+white wine,negative,"Excessive alcohol intake can lead to high blood pressure, heart failure, and stroke."
+white wine vinegar,positive,"May help improve blood sugar control and is a low-calorie, fat-free flavoring."
+whitefish fillet,positive,"A lean source of protein, a healthier alternative to red meat."
+whole beef rib,very negative,"A fatty cut of red meat, high in saturated fat which significantly raises LDL (bad) cholesterol."
+whole chicken,neutral,
+whole milk,negative,"High in saturated fat, which can raise LDL (bad) cholesterol levels."
+whole milk mozzarella cheese,negative,High in saturated fat and sodium.
+whole rye flour,positive,"A whole grain high in soluble fiber, which helps lower cholesterol."
+whole wheat berry,positive,"An unprocessed whole grain, excellent source of heart-healthy fiber."
+whole wheat bread,positive,"A whole grain food, high in fiber which helps manage cholesterol and blood pressure."
+whole wheat bread crumb,positive,"Made from whole wheat, retaining its fiber and nutrients."
+whole wheat flour,positive,"A whole grain flour high in fiber, beneficial for heart health."
+wide egg noodle,negative,"Typically made from refined white flour, which lacks fiber and can negatively impact blood sugar."
+wild duck,neutral,
+wildflower honey,neutral,
+wine vinegar,neutral,
+wonton wrapper,neutral,
+wood chip,neutral,
+wood chunk,neutral,
+wood ear mushroom,neutral,
+wood fungus mushroom,neutral,
+wood skewer,neutral,
+worcestershire sauce,neutral,
+xylitol,neutral,
+yautia,neutral,
+yeast,neutral,
+yeasted puff pastry,neutral,
+yellow bell pepper,neutral,
+yellow cake mix,neutral,
+yellow chili pepper,neutral,
+yellow food coloring,neutral,
+yellow lentil,neutral,
+yellow onion,neutral,
+yellow plantain,neutral,
+yellow saffron rice,neutral,
+yellow split pea,neutral,
+yellow squash,neutral,
+yellow tomato,neutral,
+yogurt,neutral,
+yuca,neutral,
+yuca cassava root,neutral,
+yukon gold potato,neutral,
+zaatar,neutral,
+zapallo squash,neutral,
+ziti pasta,neutral,
+zucchini,neutral,

@@ -1,0 +1,1634 @@
+ingredient,effect,reason
+acacia honey,neutral,
+achiote,neutral,
+achiote seed,neutral,
+active dry yeast,negative,"Contains a moderate amount of phosphorus, which should be limited in a renal diet."
+adobo sauce,very negative,"Extremely high in sodium, which can increase blood pressure and fluid retention."
+adobo seasoning,very negative,"Extremely high in sodium, which can increase blood pressure and fluid retention."
+aji amarillo,negative,"Peppers are a source of potassium, which needs to be limited."
+aji amarillo chile paste,negative,Concentrated peppers are a significant source of potassium.
+aji amarillo chili paste,negative,Concentrated peppers are a significant source of potassium.
+aji amarillo pepper,negative,"Peppers are a source of potassium, which needs to be limited."
+aji chile,negative,"Peppers are a source of potassium, which needs to be limited."
+aji dulce pepper,negative,"Peppers are a source of potassium, which needs to be limited."
+aji pepper,negative,"Peppers are a source of potassium, which needs to be limited."
+ajies dulce pepper,negative,"Peppers are a source of potassium, which needs to be limited."
+ale,negative,Alcohol can raise blood pressure and some beers are high in potassium and phosphorus.
+aleppo chile,negative,"Peppers are a source of potassium, which needs to be limited."
+aleppo chili flake,negative,Concentrated peppers are a significant source of potassium.
+aleppo pepper flake,negative,Concentrated peppers are a significant source of potassium.
+aleppo red pepper flake,negative,Concentrated peppers are a significant source of potassium.
+all purpose flour,positive,"Refined flour is lower in potassium and phosphorus than whole grain flours, making it a better choice for a renal diet."
+allspice,neutral,
+allspice berry,neutral,
+almond,very negative,"Nuts are very high in potassium, phosphorus, and oxalates."
+almond extract,neutral,
+almond flour,very negative,"Concentrated almonds are very high in potassium, phosphorus, and oxalates."
+almond half,very negative,"Nuts are very high in potassium, phosphorus, and oxalates."
+almond meal,very negative,"Concentrated almonds are very high in potassium, phosphorus, and oxalates."
+almond milk,negative,"Often contains added phosphates and potassium, which should be limited."
+almond paste,very negative,Concentrated almonds are very high in potassium and phosphorus.
+almond sliver,very negative,"Nuts are very high in potassium, phosphorus, and oxalates."
+aluminum foil,neutral,
+amaretto liqueur,negative,Alcohol and high sugar content should be limited.
+american cheese,very negative,"Processed cheese is extremely high in sodium and phosphate additives, which are very harmful for kidney disease."
+ancho chile pepper,negative,Dried peppers are a concentrated source of potassium.
+ancho chili powder,negative,Dried pepper powder is a concentrated source of potassium.
+anchovy,very negative,Extremely high in sodium due to curing.
+anchovy fillet,very negative,Extremely high in sodium due to curing.
+angostura bitter,neutral,
+anise extract,neutral,
+anise oil,neutral,
+anise seed,neutral,
+anise seed powder,neutral,
+annatto powder,neutral,
+annatto seed,neutral,
+apple,positive,"Low in potassium and a good source of fiber, making it a kidney-friendly fruit."
+apple brandy,negative,Alcohol should be limited as it can raise blood pressure and cause dehydration.
+apple cider,negative,"Can be a significant source of potassium, which needs to be limited."
+apple cider vinegar,neutral,
+apple juice,positive,A low-potassium juice option suitable for a renal diet.
+apple pie filling,negative,"Typically very high in added sugar, which should be limited."
+applesauce,positive,"Low in potassium, phosphorus, and sodium, especially unsweetened varieties. A kidney-friendly fruit choice."
+apricot,negative,"High in potassium, which needs to be limited in a kidney-friendly diet."
+apricot jam,negative,"Made from apricots, which are high in potassium. Also typically high in sugar."
+apricot jelly,negative,"Made from apricots, which are high in potassium. Also typically high in sugar."
+apricot preserve,negative,"Made from apricots, which are high in potassium. Also typically high in sugar."
+arborio rice,neutral,
+artichoke heart,negative,High in potassium.
+arugula,positive,"A leafy green that is lower in potassium compared to others like spinach, making it a better choice in moderation."
+asafoetida powder,neutral,
+asiago cheese,very negative,"Very high in both sodium and phosphorus, which are strictly limited in a kidney diet."
+asian fish sauce,very negative,Extremely high in sodium.
+asian five spice powder,neutral,
+asian pear,positive,"A fruit with a lower potassium content compared to many others, making it a good choice for a kidney diet."
+asparagus,negative,Contains a moderate to high amount of potassium.
+asturian fabada bean,very negative,Beans are very high in both potassium and phosphorus.
+avocado,very negative,Extremely high in potassium.
+baby bella mushroom,negative,Mushrooms are a significant source of potassium.
+baby bok choy,positive,"A low-potassium vegetable, making it an excellent choice for a kidney-friendly diet."
+baby carrot,positive,Low in potassium and a good source of fiber. A healthy vegetable choice in moderation.
+baby corn ear,positive,"Low in potassium and phosphorus, making it a safe vegetable choice."
+baby pea,negative,Higher in potassium and phosphorus compared to other kidney-friendly vegetables.
+baby potato,very negative,Potatoes are very high in potassium. Leaching can help but they are generally avoided.
+baby red potato,very negative,Potatoes are very high in potassium. Leaching can help but they are generally avoided.
+baby spinach leaf,very negative,"Very high in potassium and oxalates, which can be problematic for kidney health."
+bacon,very negative,A processed meat that is very high in sodium and often contains phosphorus additives.
+bacon dripping,very negative,High in sodium and unhealthy fats.
+bacon strip,very negative,A processed meat that is very high in sodium and often contains phosphorus additives.
+bakers ammonia,neutral,
+baking potato,very negative,Potatoes are very high in potassium.
+baking powder,very negative,"Contains phosphate additives, which are a significant and easily absorbed source of phosphorus."
+baking soda,very negative,"Is sodium bicarbonate, making it extremely high in sodium."
+balsamic vinegar,neutral,
+bamboo shoot,positive,"Low in potassium, making it a good vegetable choice."
+bamboo skewer,neutral,
+banana,very negative,Famously high in potassium and one of the first fruits to be limited for kidney patients.
+banana extract,neutral,
+banana pepper,positive,Low in potassium and a good way to add flavor without salt.
+barbecue sauce,very negative,"Typically very high in sodium, sugar, and often contains potassium and phosphorus additives."
+barberry,negative,Dried fruits are concentrated sources of potassium.
+basil,positive,"A fresh herb that adds flavor without sodium, potassium, or phosphorus."
+basil leaf,positive,"A fresh herb that adds flavor without sodium, potassium, or phosphorus."
+basmati rice,positive,"White rice is low in phosphorus and potassium, making it a good staple grain."
+bavarian style sauerkraut,negative,Can be very high in sodium due to the brining and fermentation process.
+bay leaf,neutral,
+bay powder,neutral,
+bean,very negative,All types of beans are very high in both potassium and phosphorus.
+bean sprout,positive,"Low in potassium and phosphorus, making it a good addition to meals."
+bean thread,positive,"Also known as glass noodles, they are low in protein, phosphorus, and potassium."
+beef,negative,"A source of high biological value protein, but also high in phosphorus. Must be consumed in strictly controlled portions."
+beef base,very negative,A concentrated product that is extremely high in sodium.
+beef birria,negative,"A stew typically high in sodium, phosphorus, and protein from the meat and broth, which need to be limited in a renal diet."
+beef bouillon,very negative,"Extremely high in sodium, which must be severely restricted for kidney disease to manage blood pressure and fluid retention."
+beef bouillon cube,very negative,"Extremely high in sodium, which must be severely restricted for kidney disease to manage blood pressure and fluid retention."
+beef bouillon granule,very negative,"Extremely high in sodium, which must be severely restricted for kidney disease to manage blood pressure and fluid retention."
+beef broth,very negative,Commercially prepared broths are typically very high in sodium. They also contain potassium and phosphorus.
+beef chuck,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef chuck roast,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef consomme,very negative,"A concentrated broth, making it very high in sodium and a source of potassium and phosphorus."
+beef cube steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef eye of round roast,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef fat,neutral,
+beef flank steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef gravy,very negative,Typically very high in sodium and often contains phosphorus additives.
+beef oxtail,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef pot roast,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef ravioli,negative,"A processed food, typically high in sodium, phosphorus, and protein."
+beef rib eye steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef roast,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef round,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef round steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef rump roast,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef short rib,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef shoulder,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef sirloin,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef sirloin steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef skirt steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef soup bone,negative,"Leaches high amounts of phosphorus and potassium into broths and soups, which should be avoided."
+beef steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef stew meat,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef stock,very negative,Commercially prepared stocks are typically very high in sodium. They also contain potassium and phosphorus.
+beef tenderloin,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef tenderloin steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef tongue,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef top round steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef top sirloin,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef top sirloin steak,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beef tri tip,negative,"Red meat is a source of high biological value protein, but it is also high in phosphorus and potassium, which are restricted in a renal diet."
+beer,negative,Alcohol can raise blood pressure and is dehydrating. Beer can also be a source of potassium and phosphorus.
+beet,negative,"Very high in potassium, which needs to be limited in most renal diets. Also contains oxalates."
+belacan,very negative,A fermented shrimp paste that is extremely high in sodium.
+belacan shrimp paste,very negative,A fermented shrimp paste that is extremely high in sodium.
+bell pepper,positive,"Low in potassium, phosphorus, and sodium, and a good source of vitamins A and C. It is a recommended vegetable for a kidney-friendly diet."
+birds eye chile,neutral,
+bitter melon,neutral,
+bitter orange marinade,very negative,Marinades are typically extremely high in sodium.
+bitter,neutral,
+bittersweet chocolate,negative,Chocolate is very high in both potassium and phosphorus and should be limited or avoided.
+black bean,negative,"High in both potassium and phosphorus, which are typically restricted in a renal diet."
+black bean paste,very negative,"Extremely high in sodium, in addition to the potassium and phosphorus from the beans."
+black bean sauce,very negative,"Extremely high in sodium, in addition to the potassium and phosphorus from the beans."
+black cardamom,neutral,
+black cardamom pod,neutral,
+black cardamom seed,neutral,
+black cumin,neutral,
+black cumin seed,neutral,
+black garbanzo bean,negative,"High in potassium and phosphorus, which need to be restricted in a kidney diet."
+black italian olive,negative,Typically cured in brine and very high in sodium.
+black mustard seed,neutral,
+black olive,negative,Typically cured in brine and very high in sodium.
+black pepper,neutral,
+black peppercorn,neutral,
+black sesame seed,negative,High in phosphorus and potassium.
+black soy sauce,very negative,"Extremely high in sodium, which must be severely limited for kidney health."
+black tea,negative,"High in oxalates, which can contribute to kidney stones, and is a source of potassium."
+black tea leaf,negative,"High in oxalates, which can contribute to kidney stones, and is a source of potassium."
+black treacle,very negative,A form of molasses that is extremely high in potassium.
+blackberry,positive,Low in potassium and a good source of antioxidants beneficial for overall health.
+blood sausage,very negative,"Highly processed meat, very high in sodium, phosphorus, and protein."
+blue food coloring,neutral,
+blueberry,positive,"Low in sodium, potassium, and phosphorus; rich in antioxidants."
+bok choy,negative,"Contains a moderate to high amount of potassium, which should be limited."
+bologna slice,very negative,"Highly processed meat, very high in sodium and phosphorus additives."
+bone in beef shank,negative,"High in protein and phosphorus, especially when cooked with the bone."
+boneless chuck roast,negative,High in protein and phosphorus; portion sizes must be limited.
+boneless country style pork rib,negative,High in protein and phosphorus; portion sizes must be limited.
+bonito flake,negative,Dried fish product that is high in sodium and protein.
+bonito shaving,negative,Dried fish product that is high in sodium and protein.
+boston lettuce,neutral,
+bourbon whiskey,negative,Alcohol can dehydrate the body and put stress on the kidneys.
+braising liquid,negative,Often very high in sodium and can contain leached phosphorus and potassium from cooked ingredients.
+brandy,negative,Alcohol can dehydrate the body and put stress on the kidneys.
+brandy based orange liqueur,negative,Alcohol can dehydrate the body and put stress on the kidneys.
+branzino,neutral,A source of protein and phosphorus that can be included in a kidney diet with proper portion control.
+bratwurst,very negative,"Highly processed meat, very high in sodium, phosphorus, and protein."
+bratwurst sausage,very negative,"Highly processed meat, very high in sodium, phosphorus, and protein."
+bread,neutral,"Impact varies greatly; white bread is generally better than whole wheat (lower phosphorus), but sodium content must be checked."
+bread crumb,negative,Often very high in sodium; check labels for low-sodium versions.
+bread dough,neutral,
+bread flour,neutral,Refined white flour is low in phosphorus and potassium.
+bread machine yeast,neutral,
+breast chop,negative,High in protein and phosphorus; portion sizes must be limited.
+broccoli,negative,"High in potassium and should be eaten in small, controlled portions."
+broccoli floret,negative,"High in potassium and should be eaten in small, controlled portions."
+broccoli in cheese sauce,very negative,"Combines high-potassium broccoli with high-sodium, high-phosphorus cheese sauce."
+broth,very negative,Typically extremely high in sodium unless specified as 'no salt added'.
+brown gravy mix,very negative,Processed mix that is very high in sodium and often contains phosphorus additives.
+brown lentil,very negative,Very high in both potassium and phosphorus.
+brown rice,negative,"As a whole grain, it is higher in phosphorus and potassium than white rice."
+brown sugar,negative,Contains a significant amount of potassium compared to white sugar.
+browning,very negative,A concentrated source of sodium used for color and flavor.
+browning sauce,very negative,Extremely high in sodium and may contain phosphorus additives.
+brushing,neutral,
+bulgur,negative,"A whole grain, which is high in both potassium and phosphorus."
+bulgur wheat,negative,"A whole grain, which is high in both potassium and phosphorus."
+butter,negative,High in saturated fat. Salted butter is very high in sodium. Unsalted should be used sparingly.
+butter bean,negative,Beans are high in potassium and phosphorus.
+butter flavoring,negative,Can contain hidden sodium or phosphate additives.
+butter flavored shortening,very negative,"Highly processed fat, often contains high levels of sodium and phosphate additives."
+buttermilk,very negative,"Dairy product that is high in phosphorus, potassium, and sodium."
+butternut squash,negative,A winter squash that is high in potassium.
+button mushroom,negative,Mushrooms are a significant source of potassium.
+cabbage,positive,"Low in potassium, phosphorus, and sodium, making it an excellent choice for a kidney-friendly diet."
+cabbage leaf,positive,"Low in potassium, phosphorus, and sodium, making it an excellent choice for a kidney-friendly diet."
+cabernet sauvignon wine,negative,Alcohol should be limited or avoided as it can dehydrate and raise blood pressure.
+cacao powder,very negative,Extremely high in both potassium and phosphorus.
+cachaca,negative,Alcohol should be limited or avoided as it can dehydrate and raise blood pressure.
+cacho de cabra pepper,neutral,
+cake flour,neutral,"A refined flour, which is lower in phosphorus and potassium than whole grain flours."
+calabresa,very negative,"A processed sausage, extremely high in sodium and phosphate additives."
+calamari ring,negative,Seafood is a source of phosphorus and can be high in sodium depending on preparation.
+canadian bacon,very negative,"A processed meat, very high in sodium and often contains phosphate additives."
+candied cherry,negative,"Very high in sugar, which should be limited, especially for patients with diabetes."
+candied citron,negative,"Very high in sugar, which should be limited, especially for patients with diabetes."
+candied lemon peel,negative,"Very high in sugar, which should be limited, especially for patients with diabetes."
+candied mixed fruit peel,negative,"Very high in sugar, which should be limited, especially for patients with diabetes."
+candied orange peel,negative,"Very high in sugar, which should be limited, especially for patients with diabetes."
+candlenut,very negative,Nuts are typically very high in phosphorus and potassium.
+candy sprinkle,negative,Primarily sugar with artificial additives; provides no nutritional benefit and high sugar intake is discouraged.
+cane vinegar,positive,"A good way to add flavor to foods without adding sodium, potassium, or phosphorus."
+cannellini bean,negative,Beans are high in potassium and phosphorus.
+canola oil,positive,A healthy fat source that is free of sodium and low in potassium and phosphorus.
+caper,very negative,"Typically packed in brine, making them extremely high in sodium."
+caraway seed,neutral,"Used in small amounts as a spice, its mineral content is negligible."
+carbonated water,negative,Can contain added sodium or phosphoric acid (a source of phosphorus). Check labels carefully.
+cardamom,positive,A spice that can add flavor to food without adding sodium.
+cardamom flavored extract,positive,A good way to add flavor to foods without adding sodium.
+cardamom pod,positive,A spice that can add flavor to food without adding sodium.
+cardamom seed,positive,A spice that can add flavor to food without adding sodium.
+carrot,negative,Contains a significant amount of potassium and should be eaten in limited quantities.
+carrot matchstick,negative,Contains a significant amount of potassium and should be eaten in limited quantities.
+cashew,very negative,Nuts are very high in potassium and phosphorus.
+cashew half,very negative,Nuts are very high in potassium and phosphorus.
+cassava flour,neutral,Lower in potassium and phosphorus compared to many other flours.
+catfish fillet,negative,"While a source of protein, fish is high in phosphorus and must be portion-controlled."
+cauliflower,positive,"A low-potassium, low-phosphorus vegetable that is a great choice for a kidney-friendly diet."
+cayenne,positive,A spice that can add flavor to food without adding sodium.
+cayenne pepper,positive,A spice that can add flavor to food without adding sodium.
+celery,negative,Higher in sodium than most vegetables and contains a moderate amount of potassium.
+celery rib,negative,Higher in sodium than most vegetables and contains a moderate amount of potassium.
+celery salt,very negative,Extremely high in sodium.
+celery seed,neutral,
+celery stalk,neutral,
+cellophane noodle,neutral,
+chai tea bag,neutral,
+chamoy,neutral,
+champagne,neutral,
+champagne vinegar,neutral,
+chana dal,neutral,
+charcoal,neutral,
+chayote squash,neutral,
+cheddar cheese,neutral,
+cheese curd,neutral,
+cheese ravioli,neutral,
+cheese sauce,neutral,
+cheesecloth,neutral,
+cherry,neutral,
+cherry tomato,neutral,
+chestnut,neutral,
+chicken,neutral,
+chicken base,neutral,
+chicken bone,neutral,
+chicken bouillon,neutral,
+chicken bouillon granule,neutral,
+chicken breast,neutral,
+chicken breast half,neutral,
+chicken breast meat,neutral,
+chicken breast tenderloin,neutral,
+chicken broth,neutral,
+chicken chunk,neutral,
+chicken drumette,neutral,
+chicken drumstick,neutral,
+chicken gizzard,neutral,
+chicken leg,neutral,
+chicken leg quarter,neutral,
+chicken liver,neutral,
+chicken meat,neutral,
+chicken part,neutral,
+chicken piece,neutral,
+chicken soup base,neutral,
+chicken stock,neutral,
+chicken tender,neutral,
+chicken thigh,neutral,
+chicken wing,neutral,
+chicken wing drumette,neutral,
+chickpea,neutral,
+chickpea flour,neutral,
+chile flake,neutral,
+chile garlic sauce,neutral,
+chile padi,neutral,
+chile paste,neutral,
+chile pepper,positive,A good source of flavor without adding sodium. Capsaicin may have anti-inflammatory benefits.
+chile powder,negative,Commercial chili powders are often high in sodium.
+chile sauce,very negative,Typically extremely high in sodium.
+chilean sea bass fillet,negative,"High in phosphorus, which must be limited in a kidney-friendly diet."
+chili bean paste,very negative,Extremely high in sodium due to fermentation and processing.
+chili garlic sauce,very negative,Typically extremely high in sodium.
+chili lime seasoning,negative,Seasoning blends are typically very high in sodium.
+chili oil,neutral,
+chili pepper,positive,A good source of flavor without adding sodium. Capsaicin may have anti-inflammatory benefits.
+chili powder,negative,Commercial chili powders are often high in sodium.
+chili sauce,very negative,Typically extremely high in sodium.
+chili seasoning mix,very negative,Seasoning mixes are typically extremely high in sodium.
+chinese barbequed pork,very negative,"A processed meat, which is very high in sodium and often contains phosphate additives."
+chinese broccoli,negative,"High in potassium, which needs to be limited and carefully portioned."
+chinese cabbage,positive,"A low-potassium vegetable, making it a good choice for a kidney-friendly diet."
+chinese chive,neutral,
+chinese cooking wine,negative,Very high in sodium.
+chinese egg noodle,negative,"Made from refined flour, which can be a source of phosphorus and potassium."
+chinese egg noodle nest,negative,"Made from refined flour, which can be a source of phosphorus and potassium."
+chinese eggplant,positive,"A low-potassium vegetable, making it a good choice for a kidney-friendly diet."
+chinese five spice powder,positive,A salt-free way to add flavor to food.
+chinese hot prepared mustard,negative,Prepared mustards are typically high in sodium.
+chinese moo shu pancake,neutral,
+chinese rice vinegar,positive,"A low-sodium, low-potassium, and low-phosphorus way to add flavor."
+chinese rice wine,negative,Often contains a high amount of sodium.
+chinese roasted pork,very negative,"A processed meat, which is very high in sodium and often contains phosphate additives."
+chipotle chile powder,positive,Pure chile powder is a good salt-free way to add flavor. Check labels for added salt.
+chipotle chili powder,positive,Pure chili powder is a good salt-free way to add flavor. Check labels for added salt.
+chipotle mayonnaise,negative,"High in sodium and fat, and may contain phosphate additives."
+chipotle pepper,positive,A good source of flavor without adding sodium. Avoid those canned in high-sodium adobo sauce.
+chive,positive,A low-potassium herb that adds flavor without sodium.
+chocolate chip,negative,Chocolate is high in both potassium and phosphorus.
+chocolate mix,very negative,"Very high in phosphorus, potassium, and sugar."
+chocolate sprinkle,negative,High in sugar and contains phosphorus from chocolate.
+chocolate wafer cookie,negative,"A processed food high in sugar, phosphorus, and potassium."
+chorizo,very negative,"A processed meat, extremely high in sodium and phosphate additives."
+chorizo de bilbao,very negative,"A processed meat, extremely high in sodium and phosphate additives."
+chorizo sausage,very negative,"A processed meat, extremely high in sodium and phosphate additives."
+chourico,very negative,"A processed meat, extremely high in sodium and phosphate additives."
+chourico sausage,very negative,"A processed meat, extremely high in sodium and phosphate additives."
+chow mein noodle,negative,"Often high in sodium and made from refined flour, which contains phosphorus."
+chutney,negative,Typically very high in sugar and sodium.
+ciabatta sandwich roll,negative,Made from refined flour and is often high in sodium and phosphorus.
+cider vinegar,positive,"A low-sodium, low-potassium, and low-phosphorus way to add flavor."
+cilantro,positive,A low-potassium herb that adds flavor without sodium.
+cilantro leaf,positive,A low-potassium herb that adds flavor without sodium.
+cilantro stem,positive,A low-potassium herb that adds flavor without sodium.
+cinnamon,positive,A salt-free spice that adds flavor and may help with blood sugar control.
+cinnamon stick,positive,A salt-free spice that adds flavor and may help with blood sugar control.
+cinnamon sugar,neutral,
+citric acid,positive,Citrate can help prevent the formation of certain types of kidney stones.
+clam,negative,"High in protein and can be high in sodium and potassium, which should be limited."
+clarified butter,neutral,
+clove,neutral,
+club soda,negative,Can be high in sodium and may contain phosphate additives.
+coarse salt,very negative,"Extremely high in sodium, which raises blood pressure and causes fluid retention, straining the kidneys."
+cocoa,negative,"High in potassium, phosphorus, and oxalates, which should be limited in a kidney diet."
+cocoa mix,very negative,Very high in potassium and phosphorus from cocoa and often contains added phosphates and sodium.
+cocoa powder,negative,"High in potassium, phosphorus, and oxalates, which should be limited in a kidney diet."
+coconut,negative,High in potassium.
+coconut cream,negative,"Concentrated source of coconut, making it very high in potassium."
+coconut extract,neutral,
+coconut flake,negative,"Concentrated source of coconut, making it high in potassium."
+coconut flavored rum,negative,Alcohol should be limited for individuals with kidney disease.
+coconut flour,negative,High in potassium and phosphorus.
+coconut milk,negative,High in potassium and phosphorus.
+coconut milk powder,very negative,"A concentrated form of coconut milk, making it extremely high in potassium and phosphorus."
+coconut oil,neutral,
+coconut preserve,negative,High in sugar and potassium from coconut.
+coconut sugar,negative,High in sugar and contains more potassium than regular sugar.
+coconut water,very negative,"Extremely high in potassium, which can be dangerous for damaged kidneys."
+cod,neutral,
+cod fish,neutral,
+cod fillet,neutral,
+coffee,negative,"High in potassium, and fluid intake may need to be restricted."
+coffee bean,negative,High in potassium.
+coffee flavored liqueur,negative,"Contains alcohol and potassium from coffee, both of which should be limited."
+cola,very negative,"Often contains phosphoric acid, a highly absorbable form of phosphorus that is very harmful to kidneys."
+cola flavored carbonated beverage,very negative,"Often contains phosphoric acid, a highly absorbable form of phosphorus that is very harmful to kidneys."
+colby longhorn cheese,very negative,All cheese is very high in sodium and phosphorus.
+coleslaw mix,positive,"Typically contains cabbage, which is a low-potassium, kidney-friendly vegetable."
+collard green,negative,Very high in potassium and oxalates.
+colored sprinkle,neutral,
+condensed beef broth,very negative,Extremely high in sodium.
+condensed cream of chicken soup,very negative,Extremely high in sodium and often contains phosphate additives.
+condensed cream of mushroom soup,very negative,"Extremely high in sodium and potassium, and often contains phosphate additives."
+condensed milk,very negative,"Very high in sugar, phosphorus, and potassium."
+condensed tomato soup,very negative,Extremely high in sodium and potassium from tomatoes.
+confectioners sugar,neutral,
+cooking oil,neutral,
+cooking sherry,very negative,Contains alcohol and is extremely high in sodium.
+cooking spray,neutral,
+cooking wine,very negative,Contains alcohol and is extremely high in sodium.
+coriander,neutral,
+coriander powder,neutral,
+coriander seed,neutral,
+corn,neutral,
+corn flour,neutral,
+corn husk,neutral,
+corn kernel,neutral,
+corn oil,neutral,
+corn syrup,neutral,
+corn tortilla,neutral,
+corned beef,very negative,Extremely high in sodium from the curing process.
+corned beef brisket,very negative,Extremely high in sodium from the curing process.
+cornflakes cereal,negative,Often high in added sodium and may contain phosphorus additives.
+cornichon,very negative,Very high in sodium due to the pickling process.
+cornmeal,neutral,
+cornstarch,positive,"Low in protein, sodium, potassium, and phosphorus; a good thickener for sauces."
+cottage cheese,negative,High in both sodium and phosphorus.
+country style pork rib,negative,High in protein and phosphorus; preparation can add significant sodium.
+couscous,neutral,
+cover,neutral,
+crab meat,negative,High in phosphorus and canned versions are often high in sodium.
+cranberry,positive,Low in potassium and may help prevent urinary tract infections.
+cranberry juice,positive,Low in potassium; choose low-sugar options for best health benefits.
+cranberry sauce,neutral,
+cream,negative,A dairy product that contains phosphorus.
+cream cheese,negative,High in sodium and phosphorus.
+cream of coconut,negative,High in potassium and added sugar.
+cream of tartar,negative,A concentrated source of potassium.
+cream of wheat cereal,positive,A refined hot cereal that is low in phosphorus and potassium.
+creme fraiche,negative,A dairy product that contains phosphorus.
+crescent roll,negative,Processed dough high in sodium and phosphate additives.
+crescent roll dough,negative,Processed dough high in sodium and phosphate additives.
+crystallized ginger,neutral,
+cuban bread,neutral,
+cube,neutral,
+cube steak,negative,Red meat is high in protein and phosphorus.
+cucumber,positive,Low in potassium and good for hydration.
+culantro,neutral,
+cultured buttermilk,negative,Dairy product high in potassium and phosphorus.
+cumin,positive,A salt-free way to add flavor to food.
+cumin seed,positive,A salt-free way to add flavor to food.
+curing salt,very negative,Extremely high in sodium; used to make processed meats.
+currant,negative,Dried fruit that is a concentrated source of potassium.
+curry leaf,neutral,
+curry paste,negative,Often very high in sodium and may contain high-potassium ingredients.
+curry powder,positive,"A good salt-free flavor alternative, assuming no salt is added to the blend."
+custard powder,neutral,
+daikon,positive,A low-potassium vegetable.
+daikon radish,positive,A low-potassium vegetable.
+damask rose petal,neutral,
+danish butter,neutral,
+dark brown sugar,negative,Higher in potassium than white sugar due to molasses content.
+dark chocolate,negative,Very high in both potassium and phosphorus.
+dark chocolate chip,negative,Very high in both potassium and phosphorus.
+dark corn syrup,negative,Higher in potassium than light corn syrup.
+dark raisin,negative,Dried fruit that is a concentrated source of potassium.
+dark rum,neutral,
+dark soy sauce,very negative,"Extremely high in sodium, which can increase blood pressure and fluid retention, straining the kidneys."
+dashi granule,very negative,"A concentrated source of sodium and often potassium, both of which need to be strictly limited."
+dashi kombu,negative,Kombu (seaweed) is very high in potassium.
+dashi stock,very negative,"Typically very high in sodium from soy sauce, salt, and other flavorings."
+date,negative,"Very high in potassium, which can build up to dangerous levels in the blood."
+date paste,negative,"A concentrated form of dates, making it very high in potassium."
+deep frying,negative,"This cooking method adds excessive fat, which can worsen cardiovascular health, a major concern for individuals with kidney disease."
+deli roast pork loin,very negative,"Deli meats are typically processed with very high amounts of sodium and often contain phosphate additives, which are harmful to kidneys."
+dende oil,neutral,
+diakon radish,positive,"A low-potassium vegetable, making it a good choice for a kidney-friendly diet."
+diamond crystal,very negative,"This is a brand of salt (sodium chloride), which must be severely restricted to manage blood pressure and fluid balance."
+diced tomato,negative,Tomatoes and tomato products are high in potassium.
+diet lemon lime soda,negative,"Many dark colas and some other sodas contain phosphoric acid, a form of phosphorus that is easily absorbed and should be avoided."
+dijon mustard,negative,High in sodium.
+dijon style mustard,negative,High in sodium.
+dill,positive,"A fresh herb that can add flavor to food without adding sodium, helping to reduce salt intake."
+dill pickle,very negative,Extremely high in sodium due to the brining and pickling process.
+dill pickle juice,very negative,The brine is a concentrated source of sodium.
+dill pickle slice,very negative,Extremely high in sodium due to the brining and pickling process.
+dill pickle spear,very negative,Extremely high in sodium due to the brining and pickling process.
+dill seed,positive,A spice that can add flavor to food without adding sodium.
+dill weed,positive,An herb that can add flavor to food without adding sodium.
+dinner roll dough,negative,Commercial doughs are often high in sodium and may contain phosphate additives.
+distilled white vinegar,positive,A sodium-free way to add flavor and acidity to dishes.
+double crust pie pastry,negative,"Typically high in sodium, fat, and refined carbohydrates. May contain phosphate additives."
+dragon fruit,positive,A fruit that is relatively low in potassium compared to many other fruits.
+dried apricot,very negative,"Dried fruits are a concentrated source of potassium, and apricots are particularly high."
+dried bonito flake,negative,"High in protein, sodium, and potassium."
+dried chourico sausage,very negative,"A processed, cured meat that is extremely high in sodium, protein, and often phosphate additives."
+dried coconut,negative,High in both potassium and phosphorus.
+dried purple corn,negative,"Corn is a source of phosphorus and potassium, which are concentrated when dried."
+dried red chili flake,positive,"Used in small amounts, it adds flavor without adding sodium."
+dry corn muffin mix,negative,Processed mixes are typically high in sodium and contain phosphate additives.
+dry egg noodle,neutral,
+dry kidney bean,very negative,"Extremely high in both potassium and phosphorus, which must be limited in a kidney-friendly diet."
+dry milk powder,very negative,"A concentrated source of dairy, making it very high in both potassium and phosphorus."
+dry mushroom gravy mix,very negative,Processed mixes are extremely high in sodium and often contain phosphate additives.
+dry mustard,positive,A spice that adds flavor without sodium.
+dry onion soup mix,very negative,Extremely high in sodium.
+dry red wine,neutral,
+dry white wine,neutral,
+dry yeast,neutral,
+duck blood,negative,"Very high in protein and phosphorus, which need to be carefully managed."
+duck breast half,neutral,A source of protein that is acceptable when portion sizes are controlled according to individual dietary needs.
+duck fat,neutral,
+duck leg,neutral,A source of protein that is acceptable when portion sizes are controlled according to individual dietary needs.
+dulce de leche,negative,"Made from concentrated milk, making it high in phosphorus and potassium."
+dumpling wrapper,neutral,
+dungeness crab,negative,"High in protein and phosphorus, and can be high in sodium depending on preparation."
+durian,very negative,A fruit that is exceptionally high in potassium.
+dusting,neutral,"This is a technique, not a specific ingredient. The effect depends on what is used for dusting (e.g., flour, sugar)."
+edible flower,neutral,
+egg,negative,The yolk is very high in phosphorus. Egg whites are a better choice.
+egg noodle,neutral,"A refined pasta that is generally low in potassium and phosphorus, but portion size is important."
+egg roll wrapper,negative,Typically high in sodium.
+egg substitute,negative,Can be high in sodium and may contain phosphate additives.
+egg white,positive,An excellent source of high-quality protein that is low in phosphorus.
+egg yolk,very negative,Very high in phosphorus and should be avoided or severely limited.
+eggnog,very negative,"Made with milk and egg yolks, making it very high in phosphorus and potassium."
+eggplant,positive,"A low-potassium vegetable, making it a good choice for a kidney-friendly diet."
+elbow macaroni,positive,"Refined pasta is a good source of energy and is low in phosphorus, potassium, and sodium."
+elephant garlic,positive,A good way to add flavor without sodium; low in potassium.
+elk steak,negative,Red meat is a source of high-quality protein but is also high in phosphorus and should be limited.
+emmental cheese,very negative,All cheese is high in sodium and phosphorus.
+empanada dough,negative,Typically high in sodium.
+empanada pastry disc,negative,Typically high in sodium.
+empanada pastry round,negative,Typically high in sodium.
+english cucumber,positive,"Low in potassium, phosphorus, and sodium."
+english mustard,negative,Prepared mustards are typically very high in sodium.
+english walnut,very negative,Nuts are very high in phosphorus and potassium.
+enoki mushroom,negative,Mushrooms are a source of potassium and should be limited.
+evaporated milk,very negative,"A concentrated source of dairy, making it very high in phosphorus and potassium."
+extra virgin olive oil,positive,"A healthy fat that is free of sodium, potassium, and phosphorus."
+farina,positive,A refined wheat cereal that is low in phosphorus and potassium.
+farina cereal,positive,A refined wheat cereal that is low in phosphorus and potassium.
+farmers cheese,negative,"While lower than aged cheeses, it is still a source of sodium and phosphorus."
+fava bean,very negative,Beans are very high in both potassium and phosphorus.
+fennel seed,neutral,
+fenugreek,neutral,
+fenugreek leaf,neutral,
+fenugreek seed,neutral,
+fermented black bean,very negative,Extremely high in sodium.
+fermented soybean,very negative,Products like miso and soy sauce are very high in sodium and phosphorus.
+feta cheese,very negative,Very high in sodium and a significant source of phosphorus.
+fettuccine pasta,positive,"Refined pasta is a good source of energy and is low in phosphorus, potassium, and sodium."
+fettuccini noodle,positive,"Refined pasta is a good source of energy and is low in phosphorus, potassium, and sodium."
+fiddlehead fern,negative,A source of potassium and phosphorus.
+filling,neutral,Effect depends entirely on the specific ingredients of the filling.
+fines herb,positive,Using herbs is an excellent way to add flavor to food without using salt.
+fire roasted diced tomato,very negative,Tomatoes and all tomato products are very high in potassium.
+firm silken tofu,negative,Contains moderate amounts of phosphorus and potassium and must be portion controlled.
+firm tofu,negative,Contains moderate amounts of phosphorus and potassium and must be portion controlled.
+fish sauce,very negative,Extremely high in sodium.
+fish stock,negative,Commercial stocks and broths are typically very high in sodium.
+five spice powder,neutral,
+flank steak,negative,Red meat is a source of high-quality protein but is also high in phosphorus and should be limited.
+flat iron steak,negative,Red meat is a source of high-quality protein but is also high in phosphorus and should be limited.
+flat leaf italian parsley,negative,"High in potassium, especially when used in large quantities rather than as a garnish."
+flat leaf parsley,negative,"High in potassium, especially when used in large quantities rather than as a garnish."
+flat rice noodle,positive,"Made from rice flour, which is low in potassium, phosphorus, and sodium."
+flaxseed meal,negative,"High in phosphorus and potassium, which need to be restricted in a renal diet."
+flaxseed oil,positive,"A good source of anti-inflammatory omega-3 fatty acids and is low in sodium, potassium, and phosphorus."
+flour,neutral,
+flour tortilla,negative,Can be high in sodium and phosphorus from leavening agents and preservatives.
+foil,neutral,
+food coloring,neutral,
+french baguette,negative,"Made from refined flour, but is often very high in sodium."
+french bread,negative,"Made from refined flour, but is often very high in sodium."
+french bread baguette,negative,"Made from refined flour, but is often very high in sodium."
+french cut green bean,positive,Green beans are a low-potassium vegetable suitable for a renal diet. Choose 'no salt added' if canned.
+french fry,very negative,"Made from potatoes, which are very high in potassium. They are also typically high in sodium and unhealthy fats."
+french green lentil,very negative,Lentils are very high in both potassium and phosphorus.
+french sandwich roll,negative,Can be very high in sodium.
+french style green bean,positive,Green beans are a low-potassium vegetable suitable for a renal diet. Choose 'no salt added' if canned.
+french fried onion,very negative,"Very high in sodium, fat, and often contains phosphorus additives."
+fresh ginger,positive,Has anti-inflammatory properties and adds flavor without sodium.
+freshly ground black pepper,positive,An excellent salt-free seasoning to add flavor to food.
+fresno chile,positive,Adds flavor without sodium and is low in potassium in typical serving sizes.
+fresno chile pepper,positive,Adds flavor without sodium and is low in potassium in typical serving sizes.
+fried pork skin,very negative,Extremely high in sodium and unhealthy fats.
+fried shallot,negative,High in fat from frying and often high in sodium.
+frozen puff pastry,negative,Typically very high in sodium and unhealthy fats.
+fruit cocktail,negative,"Often packed in high-sugar syrup, and the potassium content can be high depending on the fruits included."
+fruit jam,negative,"Very high in sugar, which should be limited for overall health and in cases of diabetes co-morbidity."
+fruit preserve,negative,"Very high in sugar, which should be limited for overall health and in cases of diabetes co-morbidity."
+fruity red wine,negative,"Contains alcohol and potassium, both of which should be limited or avoided."
+frying,negative,This cooking method adds significant unhealthy fat and can create harmful compounds (AGEs) linked to kidney damage.
+full fat plain greek yogurt,very negative,"Very high in protein, potassium, and phosphorus, all of which are typically restricted."
+furikake seasoning,very negative,A seasoning blend that is typically very high in sodium and potassium (from seaweed).
+gai lan,negative,"Also known as Chinese broccoli, this vegetable is high in potassium."
+galangal,positive,"Similar to ginger, it has anti-inflammatory properties and adds flavor without sodium."
+galangal powder,neutral,
+gandule,very negative,"Also known as pigeon peas, these are beans that are very high in potassium and phosphorus."
+garam masala,positive,A salt-free spice blend that can be used to flavor food instead of salt.
+garbanzo bean,very negative,"Also known as chickpeas, these beans are very high in potassium and phosphorus."
+garlic,positive,Excellent for adding flavor without sodium and has potential anti-inflammatory properties.
+garlic basil spread,negative,"Prepared spreads are typically high in sodium and may contain cheese, which adds phosphorus."
+garlic chili sauce,very negative,Commercially prepared sauces like this are typically extremely high in sodium.
+garlic clove,positive,Excellent for adding flavor without sodium and has potential anti-inflammatory properties.
+garlic marinade,very negative,Marinades are typically extremely high in sodium.
+garlic paste,negative,Often contains added salt; check the label for a salt-free version.
+garlic powder,positive,A good salt-free seasoning to add flavor to food.
+garlic salt,very negative,"A combination of garlic powder and salt, making it very high in sodium."
+gelatin,negative,"A source of protein, which may need to be limited depending on the stage of kidney disease."
+german bologna block,very negative,"A processed meat that is very high in sodium, protein, and phosphorus additives."
+german stone ground mustard,negative,Mustards are often very high in sodium.
+ghee,neutral,
+gin,negative,Alcohol consumption should be limited or avoided with kidney disease.
+ginger,positive,Has anti-inflammatory properties and adds flavor without sodium.
+ginger garlic paste,negative,Often contains added salt; check the label for a salt-free version.
+ginger paste,positive,Anti-inflammatory properties and generally low in potassium. Check label for added sodium.
+ginger root,positive,Anti-inflammatory properties and generally low in potassium.
+gingersnap cookie,negative,"Processed food, high in sugar and likely contains added sodium and phosphorus."
+gluten free all purpose baking flour,neutral,
+glutinous rice flour,neutral,
+glutinous sweet rice,neutral,
+glutinous sticky white rice,neutral,
+glutinous white rice,neutral,
+goat cheese,negative,High in sodium and phosphorus.
+goat meat,negative,"High in protein, phosphorus, and potassium, requiring strict portion control."
+goat stew meat,negative,"High in protein, phosphorus, and potassium, requiring strict portion control."
+gochugaru,neutral,
+gochujang,very negative,Extremely high in sodium.
+gold potato,very negative,Very high in potassium.
+golden mushroom soup,very negative,Canned soups are very high in sodium and often contain phosphate additives.
+golden raisin,very negative,Dried fruit is a concentrated source of potassium.
+golden syrup,neutral,
+gouda cheese,negative,High in sodium and phosphorus.
+graham cracker,negative,"Processed food containing significant sodium, phosphorus, and sugar."
+graham cracker crumb,negative,"Processed food containing significant sodium, phosphorus, and sugar."
+graham cracker crust,negative,"Processed food containing significant sodium, phosphorus, and sugar."
+gram flour,negative,"Made from chickpeas, which are high in potassium and phosphorus."
+granny smith apple,positive,"A low-potassium fruit, which is a good choice for a kidney-friendly diet."
+granulated onion,neutral,
+granulated sugar,neutral,
+grape leaf,negative,"Typically preserved in brine, making it very high in sodium."
+grape tomato,negative,Tomatoes are high in potassium.
+grapefruit juice,very negative,"Can dangerously interact with common medications for blood pressure and cholesterol, often taken by kidney patients."
+grapeseed oil,neutral,
+great northern bean,very negative,Beans are very high in both potassium and phosphorus.
+greek black olive,negative,Very high in sodium due to the curing process.
+greek oregano,neutral,
+greek seasoning,negative,Seasoning blends are typically very high in sodium.
+greek style yogurt,negative,"High in protein, potassium, and phosphorus."
+greek yogurt,negative,"High in protein, potassium, and phosphorus."
+green apple,positive,"A low-potassium fruit, which is a good choice for a kidney-friendly diet."
+green banana,very negative,Bananas are very high in potassium.
+green bean,neutral,
+green bell pepper,positive,A low-potassium vegetable and a good source of vitamins.
+green cabbage,positive,A low-potassium vegetable rich in vitamins C and K.
+green cardamom,neutral,
+green chile,neutral,
+green chile paste,negative,Often contains high levels of added sodium.
+green chile pepper,neutral,
+green curry paste,very negative,Extremely high in sodium.
+green garlic,positive,Provides flavor without adding sodium and is low in potassium.
+green gel food coloring,neutral,
+green grape,positive,A low-potassium fruit.
+green lentil,very negative,Lentils are very high in both potassium and phosphorus.
+green mango,negative,Mangoes are high in potassium.
+green mung bean,negative,"High in potassium and phosphorus, which need to be limited in a kidney-friendly diet."
+green olive,very negative,"Typically cured in brine, making them extremely high in sodium."
+green onion,positive,"Low in sodium, potassium, and phosphorus. A good way to add flavor without salt."
+green onion top,positive,"Low in sodium, potassium, and phosphorus. A good way to add flavor without salt."
+green papaya,neutral,
+green pea,negative,"Contains moderate levels of potassium and phosphorus, which should be limited."
+green pepper,positive,Low in potassium and a good source of vitamins. A kidney-friendly vegetable choice.
+green plantain,very negative,"Extremely high in potassium, which is dangerous for individuals with advanced kidney disease."
+green tea powder,negative,"High in potassium and oxalates, which can contribute to kidney stones."
+grill,neutral,
+grill seasoning,very negative,"Typically very high in sodium and may contain potassium chloride, both of which should be avoided."
+ground beef,negative,"High in protein and phosphorus, which need to be carefully managed in a kidney diet."
+ground black pepper,neutral,
+ground cumin,neutral,
+ground lamb,negative,"High in protein and phosphorus, which need to be carefully managed in a kidney diet."
+ground pork,negative,"High in protein and phosphorus, which need to be carefully managed in a kidney diet."
+gruyere cheese,very negative,"Very high in sodium, phosphorus, and protein."
+guava paste,negative,High in sugar and potassium.
+habanero pepper,positive,"A good way to add flavor without salt, and low in potassium."
+half and half,negative,A dairy product that is high in phosphorus and potassium.
+half and half cream,negative,A dairy product that is high in phosphorus and potassium.
+halloumi cheese,very negative,Extremely high in sodium due to the brining process.
+ham,very negative,A processed meat that is extremely high in sodium and often contains phosphate additives.
+ham bone,very negative,Leaches large amounts of sodium and phosphorus into broths and soups.
+ham hock,very negative,A cured meat that is extremely high in sodium and phosphorus.
+hard boiled egg,negative,"Egg yolks are high in phosphorus. Egg whites are a better option, but the whole egg should be limited."
+hash brown potato,very negative,Potatoes are very high in potassium. Processed versions are also typically high in sodium.
+hazelnut,negative,Nuts are high in potassium and phosphorus.
+heavy cream,negative,A dairy product that is high in phosphorus and potassium.
+heavy whipping cream,negative,A dairy product that is high in phosphorus and potassium.
+herbes de provence,positive,An excellent salt-free way to add flavor to food.
+herring fillet,negative,"Often preserved in salt, making it high in sodium. Also a source of protein and phosphorus to be monitored."
+hibiscus petal,neutral,
+hickory flavored liquid smoke,negative,Can be very high in sodium.
+hijiki seaweed,very negative,Extremely high in potassium and sodium.
+hoagie roll,negative,Refined breads can be high in sodium and may contain phosphate additives.
+hog casing,negative,Used for sausages and is typically high in sodium.
+hoisin sauce,very negative,Extremely high in sodium and sugar.
+hominy,negative,Can be high in phosphorus if processed with phosphate additives.
+honey,negative,A source of sugar and potassium; should be consumed in moderation.
+honey ham,very negative,A processed meat that is extremely high in sodium and often contains phosphate additives.
+horseradish,negative,Prepared versions are often very high in sodium.
+hot chile paste,very negative,Typically very high in sodium.
+hot chile pepper,positive,"A good way to add flavor without salt, and low in potassium."
+hot chocolate mix,very negative,"High in phosphorus and potassium from dairy and cocoa, as well as sugar."
+hot italian sausage,very negative,"A processed meat that is very high in sodium, phosphorus, and protein."
+hot pepper,positive,"A good way to add flavor without salt, and low in potassium."
+hot pepper flake,neutral,
+hot pepper sauce,very negative,Typically extremely high in sodium.
+hot red pepper,positive,"A good way to add flavor without salt, and low in potassium."
+hot sauce,very negative,"Extremely high in sodium, which increases blood pressure and fluid retention, straining the kidneys."
+hummus,negative,"Made from chickpeas, which are high in potassium and phosphorus. Commercial versions are also often high in sodium."
+hungarian hot paprika,neutral,
+hungarian sweet paprika,neutral,
+ice,positive,"Promotes hydration, which is crucial for kidney function, without adding any harmful minerals."
+ice cube,positive,"Promotes hydration, which is crucial for kidney function, without adding any harmful minerals."
+iceberg lettuce,positive,"Low in potassium, phosphorus, and sodium, making it a kidney-friendly vegetable."
+icing sugar,neutral,
+imitation crab,very negative,"Highly processed and very high in sodium and phosphorus additives, which are harmful to kidney health."
+imitation crab meat,very negative,"Highly processed and very high in sodium and phosphorus additives, which are harmful to kidney health."
+instant chocolate pudding mix,very negative,"High in sugar, sodium, and often contains phosphorus additives that are easily absorbed and should be avoided."
+instant coffee granule,negative,"High in potassium, which needs to be limited by many people with kidney disease."
+instant coffee powder,negative,"High in potassium, which needs to be limited by many people with kidney disease."
+instant dry milk powder,very negative,"A concentrated source of potassium, phosphorus, and protein, all of which need to be restricted in advanced kidney disease."
+instant nonfat dry milk,very negative,"A concentrated source of potassium, phosphorus, and protein, all of which need to be restricted in advanced kidney disease."
+instant vanilla pudding mix,very negative,"High in sugar, sodium, and often contains phosphorus additives that are easily absorbed and should be avoided."
+instant yeast,neutral,
+italian cheese blend,very negative,"Cheese is very high in sodium, phosphorus, and protein, making it difficult to fit into a kidney-friendly diet."
+italian flat leaf parsley,positive,A fresh herb that adds flavor to food without adding sodium.
+italian flat leaf parsley leaf,positive,A fresh herb that adds flavor to food without adding sodium.
+italian herb seasoning,positive,"A salt-free way to add flavor to food, helping to reduce sodium intake."
+italian hot sausage link,very negative,"A processed meat that is very high in sodium, protein, and phosphorus."
+italian parsley,positive,A fresh herb that adds flavor to food without adding sodium.
+italian plum,negative,"Contains a moderate to high amount of potassium, which may need to be limited."
+italian prune plum,negative,"Contains a moderate to high amount of potassium, which may need to be limited."
+italian sausage,very negative,"A processed meat that is very high in sodium, protein, and phosphorus."
+italian seasoning,positive,"A salt-free way to add flavor to food, helping to reduce sodium intake."
+italian style crushed tomato,very negative,"Tomatoes are very high in potassium, and canned versions are also high in sodium."
+italian style salad dressing,very negative,Typically very high in sodium and may contain unhealthy fats and phosphorus additives.
+italian tomato,negative,"Very high in potassium, which needs to be restricted on a kidney diet."
+italian vegetable salad,negative,Often contains high-potassium vegetables like tomatoes and high-sodium ingredients like olives and dressing.
+jaa jang myun noodle,negative,Processed noodles and sauces are often high in sodium and phosphorus.
+jalapeno chile pepper,neutral,
+jalapeno pepper,neutral,
+jamaican curry powder,neutral,
+jamaican style curry powder,neutral,
+japanese mayonnaise,negative,Can be high in sodium and fat.
+japanese purple sweet potato,very negative,"All potatoes, including sweet potatoes, are very high in potassium."
+jasmine rice,positive,"White rice is a low-potassium and low-phosphorus grain, making it a good carbohydrate choice for a kidney diet."
+jellyfish,very negative,Typically preserved and sold in a high-sodium brine.
+jerk paste,very negative,A marinade or paste that is typically very high in sodium.
+jerk sauce,very negative,A sauce that is typically very high in sodium.
+jerk seasoning,negative,Commercial seasoning blends are often very high in sodium. A salt-free version would be positive.
+jerk seasoning mix,negative,Commercial seasoning mixes are often very high in sodium. A salt-free version would be positive.
+jicama,positive,"A low-potassium, low-phosphorus vegetable that is a good source of fiber."
+juice,negative,"Many common fruit and vegetable juices (e.g., orange, tomato, prune) are very high in potassium."
+juniper berry,neutral,
+kabob skewer,neutral,
+kaiser roll,negative,Commercial bread products can be high in sodium and phosphorus from additives.
+kalamata olive,very negative,Cured in brine and are extremely high in sodium.
+kale,negative,"Very high in potassium, which needs to be limited in most kidney disease diets."
+kashmiri chile pepper,positive,"Adds flavor to food without adding sodium, helping to reduce salt intake."
+kasseri cheese,very negative,"Cheese is typically very high in both sodium and phosphorus, which are strictly limited in a renal diet."
+kecap manis,very negative,"A type of soy sauce, which is extremely high in sodium."
+kefir,negative,"Dairy products are a significant source of potassium and phosphorus, which need to be restricted."
+ketchup,very negative,Very high in sodium and often contains added sugars.
+key lime juice,positive,A good way to add flavor to foods and drinks without sodium. It is also low in potassium.
+kidney bean,negative,"Very high in both potassium and phosphorus, which must be limited for kidney health."
+kielbasa,very negative,A processed meat that is extremely high in sodium and often contains phosphate additives.
+kielbasa sausage,very negative,A processed meat that is extremely high in sodium and often contains phosphate additives.
+kimchi,very negative,"Fermented and brined, making it extremely high in sodium."
+kiwi,negative,Very high in potassium.
+kluski noodle,neutral,
+kohlrabi bulb,neutral,"Considered a lower-potassium vegetable, generally safe in moderation."
+kombu,very negative,A type of seaweed that is extremely high in potassium and sodium.
+korean chile paste,very negative,"Also known as gochujang, this fermented paste is very high in sodium."
+korean chile powder,positive,"Adds flavor to food without adding sodium, helping to reduce salt intake."
+korean chili pepper flake,positive,"Adds flavor to food without adding sodium, helping to reduce salt intake."
+korean dang myun noodle,neutral,"Sweet potato starch noodles are generally low in protein, sodium, potassium, and phosphorus."
+korean fish cake,very negative,A processed food that is high in both sodium and phosphorus.
+korean red chile flake,positive,"Adds flavor to food without adding sodium, helping to reduce salt intake."
+korean red pepper flake,positive,"Adds flavor to food without adding sodium, helping to reduce salt intake."
+korean red pepper powder,positive,"Adds flavor to food without adding sodium, helping to reduce salt intake."
+korean soy bean paste,very negative,"Also known as doenjang, this fermented paste is extremely high in sodium."
+korean style short rib,negative,Red meat is high in protein and phosphorus. Marinades are typically very high in sodium.
+kosher salt,very negative,"Is a source of pure sodium, which must be strictly limited to control blood pressure and fluid retention."
+lager beer,negative,"Alcohol can raise blood pressure. Beer is also a source of fluids, potassium, and phosphorus."
+lamb,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lamb chop,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lamb loin chop,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lamb meat,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lamb shank,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lamb shoulder,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lamb stew meat,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lard,neutral,"Pure fat, does not contain significant sodium, potassium, or phosphorus. However, overall cardiovascular health is important."
+lasagna noodle,neutral,
+lavash bread,negative,Commercial breads are often a hidden source of sodium and may contain phosphate additives.
+lavender flower,neutral,
+lean beef,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lean beef rib eye steak,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lean ground beef,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lean pork,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+leek,neutral,Can be used in small amounts for flavoring; it is moderate in potassium.
+leg of lamb,negative,A source of high-quality protein but also high in phosphorus. Portions must be carefully controlled.
+lemon,positive,An excellent way to add flavor to foods and drinks without sodium. It is also low in potassium.
+lemon basil,neutral,
+lemon extract,neutral,
+lemon flavored rum,negative,Alcohol consumption should be limited as it can raise blood pressure and strain the kidneys.
+lemon flavored soda,very negative,"Dark colas and many other sodas contain phosphoric acid, a highly absorbable form of phosphorus. They also contribute to fluid and sugar intake."
+lemon grass,positive,A good way to add flavor to foods without sodium.
+lemon juice,positive,"Source of citrate, which can help prevent certain types of kidney stones. Low in potassium and sodium."
+lemon lime soda,negative,"High in sugar and may contain phosphorus additives (phosphoric acid), which should be avoided."
+lemon peel,neutral,
+lemon pepper,negative,"Typically very high in sodium (salt), which needs to be strictly limited in a renal diet."
+lemon pepper seasoning,negative,"Typically very high in sodium (salt), which needs to be strictly limited in a renal diet."
+lemon rind,neutral,
+lemon slice,neutral,
+lemon wedge,neutral,
+lemon zest,neutral,
+lemonade concentrate,negative,"Very high in sugar, which can be problematic, especially for those with diabetes and kidney disease."
+lemongrass,neutral,
+lemongrass paste,neutral,
+lentil,very negative,"Extremely high in both potassium and phosphorus, which must be restricted for most kidney patients."
+lettuce,positive,"A low-potassium vegetable, making it a good choice for salads and sandwiches in a renal diet."
+lettuce leaf,positive,"A low-potassium vegetable, making it a good choice for salads and sandwiches in a renal diet."
+light beer,negative,Alcohol can dehydrate the body and put stress on the kidneys. It should be limited or avoided.
+light brown sugar,negative,"A source of empty calories and sugar, which should be limited, especially for those with diabetes."
+light corn syrup,negative,"A source of empty calories and sugar, which should be limited, especially for those with diabetes."
+light cream,negative,"Dairy products are a significant source of phosphorus and potassium, which need to be limited."
+light rum,negative,Alcohol can dehydrate the body and put stress on the kidneys. It should be limited or avoided.
+light soy sauce,negative,"Extremely high in sodium, even in 'light' versions. Should be avoided or used in very small amounts."
+lima bean,very negative,"Very high in potassium and phosphorus, and should be avoided on a renal diet."
+lime,positive,"Source of citrate, which can help prevent certain types of kidney stones. Low in potassium and sodium."
+lime juice,positive,"Source of citrate, which can help prevent certain types of kidney stones. Low in potassium and sodium."
+lime peel,neutral,
+lime slice,neutral,
+lime wedge,neutral,
+lime zest,neutral,
+lingonberry,positive,"Berries are generally low in potassium and high in antioxidants, making them a good fruit choice."
+linguica,very negative,A processed sausage that is extremely high in sodium and often contains phosphorus additives.
+linguica sausage,very negative,A processed sausage that is extremely high in sodium and often contains phosphorus additives.
+linguine,positive,"Refined pasta is low in phosphorus and potassium, making it a good base for renal-friendly meals."
+linguine pasta,positive,"Refined pasta is low in phosphorus and potassium, making it a good base for renal-friendly meals."
+liquid smoke,negative,"Can be high in sodium and potassium, and should be used with extreme caution or avoided."
+liquid smoke flavoring,negative,"Can be high in sodium and potassium, and should be used with extreme caution or avoided."
+liquor,negative,Alcohol can dehydrate the body and put stress on the kidneys. It should be limited or avoided.
+llautias,negative,"This pastry is often made with sweet potato, which is very high in potassium."
+lobster,negative,High in protein and phosphorus. Portions must be carefully controlled on a renal diet.
+lobster meat,negative,High in protein and phosphorus. Portions must be carefully controlled on a renal diet.
+lobster tail,negative,High in protein and phosphorus. Portions must be carefully controlled on a renal diet.
+long grain basmati rice,positive,"White rice is low in phosphorus and potassium, making it a preferred grain for a renal diet."
+long grain brown rice,very negative,"As a whole grain, it is very high in both phosphorus and potassium and should be avoided."
+long grain rice,positive,"Assuming this is white rice, it is low in phosphorus and potassium, making it a preferred grain."
+long grain white rice,positive,"White rice is low in phosphorus and potassium, making it a preferred grain for a renal diet."
+longhorn cheese,very negative,Cheese is extremely high in both sodium and phosphorus and should be avoided or severely limited.
+low sodium soy sauce,negative,"While lower in sodium than regular soy sauce, it is still a very high-sodium ingredient and should be used sparingly, if at all."
+lumpia wrapper,neutral,
+luncheon meat,very negative,"Highly processed meat, extremely high in sodium and phosphorus additives."
+lutefisk,negative,Fish is a source of high-quality protein but also phosphorus. Preparation often involves high amounts of salt.
+macadamia nut,negative,"All nuts are high in phosphorus and potassium. While lower than some other nuts, they should still be limited."
+macapuno,negative,High in potassium and often packed in high-sugar syrup.
+macapuno string,negative,High in potassium and often packed in high-sugar syrup.
+macaroni,neutral,
+mace,neutral,
+mackerel,negative,"High in protein and phosphorus, which need to be limited in a renal diet."
+madras curry powder,negative,Commercial blends are often high in sodium and potassium.
+mahlab,neutral,
+mahleb,neutral,
+makrut lime leaf,neutral,
+malt vinegar,negative,Can be a source of sodium and phosphorus.
+mandarin orange peel,negative,High in potassium.
+mango nectar,very negative,Very high in both potassium (from mangoes) and added sugar.
+manzanilla olive,very negative,Extremely high in sodium due to the curing process.
+maple syrup,negative,"High in sugar, which should be limited to manage blood sugar and weight."
+maraschino cherry,negative,Very high in added sugar and artificial ingredients.
+margarine,negative,"Often high in sodium, unhealthy fats, and may contain phosphate additives."
+marjoram,neutral,
+marsala,negative,"Contains alcohol and sodium, both of which should be limited."
+marzipan,very negative,"Very high in sugar, potassium, and phosphorus from almonds."
+masa harina,neutral,
+masala curry powder,negative,Commercial blends are often high in sodium and potassium.
+mascarpone cheese,negative,High in phosphorus and saturated fat.
+matzo cake meal,neutral,
+matzo meal,neutral,
+mayonnaise,negative,High in sodium and fat; may contain phosphate additives.
+mayonnaise style sandwich spread,very negative,"High in sodium, fat, and often added sugar and phosphate additives."
+mcintosh apple,positive,"Low in potassium, sodium, and phosphorus, and a good source of fiber."
+meat tenderizer,very negative,Extremely high in sodium.
+meatball,very negative,"Processed meat, typically very high in sodium, protein, and phosphorus."
+meatloaf mix,very negative,"A mix of ground meats high in protein and phosphorus, and often sodium."
+medium grain rice,positive,Refined grains like white rice are low in potassium and phosphorus.
+medium grain white rice,positive,"Low in potassium and phosphorus, making it a suitable grain choice."
+medjool date,very negative,Extremely high in potassium.
+metal skewer,neutral,
+mexican cheese blend,very negative,Very high in sodium and phosphorus.
+mexican oregano,neutral,
+miami style sazon seasoning,very negative,Seasoning blends like this are extremely high in sodium.
+mild cheddar cheese,very negative,Very high in sodium and phosphorus.
+mild italian sausage,very negative,"Processed meat, very high in sodium, protein, and phosphorus."
+mild italian sausage link,very negative,"Processed meat, very high in sodium, protein, and phosphorus."
+milk,negative,High in potassium and phosphorus.
+milk cracker crumb,negative,Crackers are often high in sodium and may contain phosphate additives.
+milkfish,negative,"High in protein and phosphorus, which must be limited."
+millet,negative,"As a whole grain, it is higher in potassium and phosphorus than refined grains."
+miniature cocktail sausage,very negative,"Processed meat, very high in sodium and phosphorus."
+miniature marshmallow,negative,High in sugar and may contain phosphate additives.
+mint,neutral,
+mint leaf,neutral,
+mint sprig,neutral,
+mirin,negative,Contains both sodium and sugar.
+miso paste,very negative,"Extremely high in sodium, which is detrimental for blood pressure and fluid control in kidney disease."
+mixed berry,positive,"Good source of antioxidants and generally low in potassium, making them a kidney-friendly fruit choice."
+mixed candied fruit,negative,"Very high in sugar, which can be problematic, especially for those with diabetes, a common cause of kidney disease."
+mixed color bell pepper,positive,Low in potassium and a good source of vitamins A and C and antioxidants.
+mixed fruit,negative,"Can contain high-potassium fruits like bananas or oranges, which need to be limited in a renal diet."
+mixed herb,positive,"Excellent way to add flavor to food without using salt, helping to manage sodium intake."
+mixed spice,positive,"Can be used as a salt-free way to flavor food, which is crucial for a low-sodium diet."
+mixed vegetable,negative,"May contain high-potassium vegetables like potatoes, tomatoes, or spinach, which often need to be restricted."
+mixed wild mushroom,negative,"Mushrooms are typically high in potassium, which needs to be limited in later stages of kidney disease."
+mochiko,neutral,
+mojo marinade,very negative,"Marinades are typically very high in sodium, which must be strictly limited."
+molasses,very negative,"Extremely high in potassium, which is dangerous for individuals with advanced kidney disease."
+monkfish,neutral,
+monosodium glutamate,very negative,"A form of sodium that contributes to overall sodium intake, which must be strictly limited."
+monterey jack cheese,very negative,"High in both sodium and phosphorus, two minerals that need to be strictly limited in a renal diet."
+montreal style steak seasoning,very negative,A seasoning blend that is typically extremely high in sodium.
+morcilla sausage,very negative,"A processed meat that is very high in sodium, phosphorus, and saturated fat."
+mozzarella cheese,negative,"High in sodium and phosphorus, which should be limited."
+multicolored candy sprinkle,neutral,
+mung bean,negative,"High in both potassium and phosphorus, which need to be restricted."
+mung bean sprout,neutral,
+muscatel wine,negative,"Alcohol should be consumed with caution, and wine contains potassium."
+mushroom,negative,"Typically high in potassium, which needs to be limited."
+mushroom cap,negative,"High in potassium, which needs to be limited."
+mussel,negative,Can be high in sodium and potassium; portion control is essential.
+mustard,very negative,Prepared mustard is typically very high in sodium.
+mustard green,negative,"High in potassium, which often needs to be limited."
+mustard oil,neutral,
+mustard powder,positive,A good salt-free alternative for adding flavor to dishes.
+mustard seed,positive,Can be used to add flavor without adding sodium.
+napa cabbage,positive,"A low-potassium vegetable, making it a good choice for a renal diet."
+navel orange,very negative,"Very high in potassium, a mineral that must be strictly limited in most renal diets."
+navy bean,negative,High in both potassium and phosphorus.
+new potato,very negative,Very high in potassium. Leaching can help but does not remove all of it.
+new york strip steak,negative,High in protein and phosphorus; portion sizes must be strictly controlled.
+non dairy creamer,very negative,"Often contains phosphate additives, which are easily absorbed and very harmful for kidney patients."
+nonfat evaporated milk,very negative,"A concentrated source of phosphorus and potassium, which must be limited."
+nonfat plain yogurt,negative,High in phosphorus and potassium.
+noodle,neutral,
+nori,negative,Seaweed is typically very high in potassium and can be high in sodium.
+nori seaweed,negative,High in potassium and potentially sodium.
+nori seaweed sheet,negative,High in potassium and potentially sodium.
+nuoc mam,very negative,"Extremely high in sodium, making it unsuitable for a renal diet."
+nut,very negative,Generally very high in both potassium and phosphorus.
+nutmeg,positive,A good salt-free spice for flavoring.
+oat,negative,"A whole grain that is a source of phosphorus, which needs to be limited."
+oatmeal,negative,"A source of phosphorus, which needs to be limited."
+octopus,negative,A source of protein but also contains a significant amount of phosphorus.
+oil,positive,"A source of calories without sodium, potassium, or phosphorus. Olive oil has anti-inflammatory benefits."
+okra,neutral,
+okra pod,positive,"A good source of fiber, low in sodium and a good vegetable choice for a kidney-friendly diet."
+olive,very negative,"Typically cured in brine, making them extremely high in sodium."
+olive oil,positive,"A healthy, phosphorus-free fat source with anti-inflammatory properties, excellent for kidney-friendly cooking."
+onion,positive,"Low in sodium, potassium, and phosphorus; an excellent base for flavoring dishes without added salt."
+onion powder,positive,A good salt-free alternative for adding flavor to food.
+onion salt,very negative,Contains a very high amount of sodium due to the added salt.
+orange,negative,"High in potassium, which needs to be limited on most kidney diets."
+orange bell pepper,positive,Low in potassium and a good source of vitamins A and C.
+orange blossom,neutral,
+orange blossom honey,negative,"A source of sugar that should be limited, and it contains more potassium than other sweeteners."
+orange blossom water,neutral,
+orange flower water,neutral,
+orange gel food coloring,neutral,
+orange juice,very negative,"A concentrated source of potassium, which is typically restricted in a kidney diet."
+orange juice concentrate,very negative,A highly concentrated source of potassium that should be avoided.
+orange liqueur,negative,"Contains alcohol and sugar, which should be limited, and may contain significant potassium."
+orange peel,negative,Contains a significant amount of potassium.
+orange zest,neutral,"Typically used in very small amounts, making the potassium contribution negligible."
+oregano,positive,A salt-free herb that is excellent for flavoring food.
+oregano leaf,positive,A salt-free herb that is excellent for flavoring food.
+orzo pasta,neutral,Refined pasta is generally low in potassium and phosphorus.
+oxtail,negative,"High in protein and phosphorus, which need to be limited and portion-controlled."
+oyster sauce,very negative,Extremely high in sodium.
+palm oil,neutral,
+palm sugar,negative,A source of sugar that can be high in potassium.
+panang curry paste,very negative,Commercially prepared pastes are typically very high in sodium.
+pandan leaf,neutral,
+pandan paste,neutral,
+paneer,negative,A type of cheese that is high in protein and phosphorus.
+panko bread crumb,negative,Can be high in sodium and may contain phosphorus additives.
+panko crumb,negative,Can be high in sodium and may contain phosphorus additives.
+panquehue cheese,very negative,"Like most cheeses, it is high in sodium, phosphorus, and protein."
+paprika,positive,A salt-free spice that is excellent for flavoring food.
+parmesan cheese,very negative,"Very high in sodium, phosphorus, and protein."
+parmigiano reggiano,very negative,"Very high in sodium, phosphorus, and protein."
+parmigiano reggiano cheese,very negative,"Very high in sodium, phosphorus, and protein."
+parsley,neutral,"In small amounts as a garnish, it is fine. In large quantities, it is high in potassium."
+parsley leaf,neutral,"In small amounts as a garnish, it is fine. In large quantities, it is high in potassium."
+parsnip,negative,A root vegetable that is high in potassium.
+partridge breast half,negative,"A source of animal protein and phosphorus, which need to be limited."
+passata,very negative,"Made from tomatoes, which are very high in potassium."
+passion fruit,negative,High in potassium.
+pasta,neutral,Refined pasta is generally low in potassium and phosphorus.
+pasta sauce,very negative,Typically tomato-based (high potassium) and very high in sodium.
+pastry,negative,"Often high in unhealthy fats, refined flour, and sodium."
+pastry double crust pie,negative,"High in unhealthy fats, refined flour, and sodium."
+pastry flour,neutral,Refined flour is low in phosphorus and potassium.
+pate,very negative,A processed meat product that is typically very high in sodium and phosphorus.
+pea,negative,Contains moderate amounts of potassium and phosphorus and should be eaten in limited quantities.
+pea pod,positive,A good source of fiber and lower in potassium than shelled peas.
+peach,positive,"A low-potassium, low-sodium fruit that is generally safe for a renal diet."
+peach flavored vodka,negative,Alcohol can dehydrate and put stress on the kidneys.
+peach schnapps,negative,Alcohol and high sugar content can be harmful to kidney health.
+peach slice,positive,"A low-potassium, low-sodium fruit. Choose peaches canned in juice over heavy syrup."
+peanut,negative,"High in phosphorus and potassium, which should be limited in a renal diet."
+peanut butter,negative,"High in phosphorus, potassium, and often contains added sodium."
+peanut oil,neutral,
+peanut sauce,very negative,"Typically very high in sodium, phosphorus, and potassium."
+pear,positive,A low-potassium fruit that is a good choice for a kidney-friendly diet.
+pear juice,negative,A concentrated source of sugar and potassium compared to the whole fruit; should be limited.
+pearl barley,negative,A whole grain that is high in both potassium and phosphorus.
+pearl couscous,neutral,"A refined wheat product, lower in phosphorus and potassium than whole grains."
+pearl onion,positive,Low in potassium and a good way to add flavor without salt.
+pearl sugar,neutral,
+pecan,negative,Nuts are high in phosphorus and potassium.
+pecan half,negative,Nuts are high in phosphorus and potassium.
+pecorino romano cheese,very negative,Extremely high in both sodium and phosphorus.
+pectin,neutral,
+penne,neutral,Refined pasta is lower in phosphorus and potassium than whole grain versions.
+penne pasta,neutral,Refined pasta is lower in phosphorus and potassium than whole grain versions.
+pepper,positive,An excellent salt-free seasoning alternative to help control sodium intake.
+pepper jack cheese,very negative,Processed cheese is very high in sodium and phosphorus additives.
+pepper sauce,very negative,Typically extremely high in sodium.
+peppercorn,positive,A good salt-free seasoning to help manage sodium intake.
+pepperoni,very negative,"A processed, cured meat that is extremely high in sodium and phosphorus."
+persian cucumber,positive,Low in potassium and a good source of hydration.
+persian lime,positive,A good way to add flavor to food and drinks without adding sodium.
+persian rose petal,neutral,
+petite diced tomato,negative,Tomatoes and tomato products are very high in potassium.
+petite pea,negative,Considered a higher potassium and phosphorus vegetable.
+pho ga soup seasoning,very negative,Soup bases and seasoning packets are typically extremely high in sodium.
+phyllo dough,neutral,"Made from refined flour, but check labels for sodium content."
+picante sauce,very negative,"Very high in sodium and made from tomatoes, which are high in potassium."
+pickle,very negative,Extremely high in sodium due to the brining and pickling process.
+pickled ginger,negative,High in sodium from the pickling process.
+pickled mustard cabbage,very negative,Very high in sodium from the pickling process.
+pickling spice,positive,A good way to add flavor without adding salt.
+pie crust,negative,Often high in sodium and may contain phosphorus additives.
+pie crust mix,negative,Often high in sodium and phosphorus from leavening agents.
+pie shell,negative,Often high in sodium and may contain phosphorus additives.
+pigs foot,negative,"High in protein and phosphorus, and often prepared with large amounts of salt."
+piloncillo,neutral,A type of unrefined sugar; should be limited as part of a healthy diet.
+pimento,positive,A type of red pepper that is low in potassium.
+pimento stuffed green olive,very negative,Olives are cured in brine and are extremely high in sodium.
+pimento stuffed olive,very negative,Olives are cured in brine and are extremely high in sodium.
+pimiento pepper,positive,A type of red pepper that is low in potassium.
+pimiento stuffed green olive,very negative,Olives are cured in brine and are extremely high in sodium.
+pimiento stuffed olive,very negative,Olives are cured in brine and are extremely high in sodium.
+pina colada drink mix,negative,High in sugar and may contain phosphorus or potassium additives.
+pine nut,negative,"High in phosphorus and potassium, and should be limited."
+pineapple,neutral,
+pineapple chunk,neutral,
+pineapple juice,neutral,
+pineapple preserve,neutral,
+pineapple ring,neutral,
+pineapple tidbit,neutral,
+pink food coloring,neutral,
+pink himalayan salt,neutral,
+pinot noir wine,neutral,
+pinto bean,neutral,
+pisco,neutral,
+pistachio,neutral,
+pistachio nut,neutral,
+pita bread,neutral,
+pita bread round,neutral,
+pita round,neutral,
+pizza crust,neutral,
+pizza dough,neutral,
+pizza sauce,neutral,
+plain low fat yogurt,neutral,
+plain yogurt,neutral,
+plantain,neutral,
+plantain leaf,neutral,
+plum,neutral,
+plum preserve,neutral,
+plum tomato,neutral,
+poblano pepper,neutral,
+poi,neutral,
+polenta,neutral,
+polish kielbasa,neutral,
+polish sausage,neutral,
+polskie ogorki,neutral,
+pomegranate juice,neutral,
+pomegranate molasses,neutral,
+pomegranate seed,neutral,
+pomegranate syrup,neutral,
+poppy seed,neutral,
+porcini mushroom,neutral,
+pork,neutral,
+pork back fat,neutral,
+pork backfat,neutral,
+pork belly,neutral,
+pork breakfast chop,neutral,
+pork butt,neutral,
+pork butt roast,neutral,
+pork chop,neutral,
+pork cutlet,neutral,
+pork loin,neutral,
+pork loin chop,neutral,
+pork loin roast,neutral,
+pork roast,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork sausage,very negative,"Very high in sodium, protein, and phosphorus additives, which are harmful to kidney function."
+pork shank,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork shoulder,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork shoulder roast,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork sirloin,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork sirloin roast,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork sparerib,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork steak,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork stew meat,negative,"High in protein and phosphorus, which should be limited in a kidney-friendly diet."
+pork tenderloin,negative,"A leaner cut, but still high in protein and phosphorus which should be limited."
+port wine,negative,"Alcohol can raise blood pressure and cause dehydration, stressing the kidneys."
+port wine flavored gelatin mix,neutral,
+portobello mushroom,negative,"High in potassium, which needs to be restricted in most kidney diets."
+portobello mushroom cap,negative,"High in potassium, which needs to be restricted in most kidney diets."
+portuguese chourico sausage,very negative,"Processed meat, extremely high in sodium, protein, and phosphorus additives."
+portuguese hot pepper sauce,negative,Prepared sauces are typically very high in sodium.
+portuguese linguica sausage,very negative,"Processed meat, extremely high in sodium, protein, and phosphorus additives."
+portuguese sausage,very negative,"Processed meat, extremely high in sodium, protein, and phosphorus additives."
+potato,very negative,"Very high in potassium, a mineral that must be strictly limited for kidney patients."
+potato cooking water,very negative,Contains high levels of potassium that has leached from the potatoes during cooking.
+potato flake,very negative,"A concentrated source of potato, making it very high in potassium."
+potato flour,very negative,"A concentrated source of potato, making it very high in potassium."
+potato starch,neutral,Used in small amounts as a thickener and is lower in potassium and phosphorus than other potato products.
+poultry seasoning,negative,Seasoning blends are often very high in sodium (salt).
+powdered milk,very negative,"A concentrated source of dairy, making it very high in both phosphorus and potassium."
+prawn,negative,"High in protein and sodium, both of which should be limited."
+processed american cheese,very negative,"Extremely high in sodium and phosphate additives, which are easily absorbed and very damaging to kidneys."
+processed cheese sauce,very negative,"Extremely high in sodium and phosphate additives, which are easily absorbed and very damaging to kidneys."
+provolone cheese,negative,"High in sodium, phosphorus, and protein."
+prune,very negative,A dried fruit that is extremely high in potassium.
+puff pastry,negative,"Typically high in sodium and phosphorus from salt, butter, and flour."
+puff pastry sheet,negative,"Typically high in sodium and phosphorus from salt, butter, and flour."
+pulled pork,negative,"High in protein and phosphorus, and often prepared with high-sodium sauces."
+pumpkin,negative,A winter squash that is high in potassium.
+pumpkin puree,negative,"A concentrated source of pumpkin, making it high in potassium."
+purple daikon radish,positive,Radishes are low-potassium vegetables that are a good choice for a kidney-friendly diet.
+purple food coloring,neutral,
+purple onion,positive,Onions are a low-potassium vegetable that can add significant flavor without adding sodium.
+purslane,negative,A green leafy vegetable that is moderately high in potassium.
+quail egg,negative,"High in protein, and the yolk is a significant source of phosphorus."
+quark,negative,"A dairy product high in protein, phosphorus, and potassium."
+queijo coalho cheese curd,negative,"Cheese is high in sodium, phosphorus, and protein."
+queso chanco,negative,"Cheese is high in sodium, phosphorus, and protein."
+queso fresco,negative,"Cheese is high in sodium, phosphorus, and protein."
+quick cooking oat,negative,"Oats are a whole grain, which are typically high in phosphorus and potassium."
+quick rise yeast,neutral,
+quince,negative,A fruit that is high in potassium.
+quince paste,negative,"A concentrated fruit product, making it high in potassium."
+quinoa,negative,A whole grain that is high in both phosphorus and potassium.
+rabbit,positive,A source of lean protein that is generally lower in phosphorus compared to other meats.
+radish,positive,"Low in potassium, phosphorus, and sodium, making it a kidney-friendly vegetable."
+raisin,very negative,Dried fruit that is extremely high in potassium.
+ramen noodle,very negative,The accompanying seasoning packet is extremely high in sodium. The noodles may also contain phosphate additives.
+rapeseed oil,neutral,
+raspberry,positive,A low-potassium fruit that is a good source of fiber and antioxidants.
+raspberry flavored soda water,negative,May contain phosphoric acid (a phosphorus additive) or potassium-based preservatives. Check labels carefully.
+raspberry jam,negative,High in sugar and contains a moderate amount of potassium.
+recao,neutral,"An herb used in small quantities, which has a minimal impact on overall mineral intake."
+recaito,negative,Store-bought versions are typically very high in sodium.
+red bean curd,very negative,Fermented and brined product that is extremely high in sodium.
+red bean paste,negative,"Made from red beans, which are high in potassium and phosphorus."
+red bell pepper,positive,Low in potassium and an excellent source of vitamins A and C.
+red cabbage,positive,A low-potassium vegetable rich in vitamins and antioxidants.
+red candied cherry,negative,Very high in sugar and may contain artificial colors and preservatives.
+red caviar,very negative,Extremely high in both sodium and phosphorus.
+red chile,neutral,"Used in small amounts as a spice, it has minimal impact on overall mineral intake."
+red chile flake,neutral,"Used in small amounts as a spice, it has minimal impact on overall mineral intake."
+red chile paste,very negative,Typically very high in sodium.
+red chile pepper,positive,Low in potassium and can be used to add flavor instead of salt.
+red chile powder,neutral,"Used in small amounts as a spice, it has minimal impact on overall mineral intake."
+red chile sauce,very negative,Typically very high in sodium.
+red chili pepper,positive,Low in potassium and can be used to add flavor instead of salt.
+red chili powder,neutral,"Used in small amounts as a spice, it has minimal impact on overall mineral intake."
+red cooking wine,very negative,Extremely high in sodium.
+red currant,neutral,Contains moderate potassium; acceptable in small portions.
+red currant jam,negative,High in sugar and contains a moderate amount of potassium.
+red curry paste,very negative,Typically very high in sodium.
+red food color,neutral,
+red food coloring,neutral,
+red grape,positive,A low-potassium fruit that is a good source of antioxidants.
+red kidney bean,very negative,Very high in both potassium and phosphorus.
+red lentil,very negative,Very high in both potassium and phosphorus.
+red miso,very negative,A fermented paste that is extremely high in sodium.
+red onion,positive,Low in potassium and a good source of flavonoids like quercetin.
+red pepper,positive,"Assuming red bell pepper, which is low in potassium and high in vitamins."
+red pepper flake,neutral,"Used in small amounts as a spice, it has minimal impact on overall mineral intake."
+red potato,very negative,All potatoes are very high in potassium.
+red skinned potato,very negative,All potatoes are very high in potassium.
+red snapper,negative,Fish is a good source of protein but is high in phosphorus and must be portion-controlled.
+red table wine,negative,"Alcohol should be consumed in moderation, and wine contains potassium."
+red thai curry paste,very negative,Typically very high in sodium.
+red wine,negative,"Alcohol should be consumed in moderation, and wine contains potassium."
+red wine vinegar,positive,"A good way to add flavor without salt; low in sodium, potassium, and phosphorus."
+refrigerated pie crust,very negative,Often high in sodium and may contain phosphate additives for preservation and leavening.
+rennet tablet,neutral,Used in very small amounts for cheesemaking and not consumed directly.
+rhubarb,negative,"High in oxalates, which can form crystals and may be harmful to damaged kidneys."
+rib eye steak,negative,"Red meat is high in phosphorus and protein, which must be limited and portion-controlled."
+rice,positive,White rice is a good energy source that is low in potassium and phosphorus.
+rice cereal,positive,"Basic, non-fortified rice cereals are typically low in sodium, potassium, and phosphorus."
+rice flour,positive,"Low in potassium, phosphorus, and sodium; a good flour choice for a kidney-friendly diet."
+rice noodle,positive,"Made from rice, these are low in potassium, phosphorus, and sodium."
+rice paper wrapper,positive,"Low in sodium, potassium, and phosphorus."
+rice soup,negative,Soups and broths are typically very high in sodium.
+rice stick noodle,positive,"Made from rice, these are low in potassium, phosphorus, and sodium."
+rice vermicelli,positive,"Made from rice, these are low in potassium, phosphorus, and sodium."
+rice vermicelli noodle,positive,"Made from rice, these are low in potassium, phosphorus, and sodium."
+rice vinegar,positive,A low-sodium way to add flavor to foods.
+rice wine,negative,Alcohol should be limited as it can dehydrate and stress the kidneys.
+rice wine vinegar,positive,A low-sodium way to add flavor to foods.
+rice wrapper,positive,"Low in sodium, potassium, and phosphorus."
+ricotta cheese,negative,Dairy products are a significant source of phosphorus and potassium.
+rigatoni pasta,neutral,
+ripe olive,very negative,"Olives are typically cured or brined, making them extremely high in sodium."
+roast beef,very negative,Deli and processed meats are very high in sodium and often contain phosphate additives.
+roasted red bell pepper,positive,Red bell peppers are an excellent low-potassium vegetable choice.
+roasted red pepper,positive,Red bell peppers are an excellent low-potassium vegetable choice.
+rock salt,very negative,"A form of pure sodium, which must be strictly limited."
+rock sugar,neutral,
+rolled oat,negative,Whole grains like oats are high in phosphorus and potassium.
+roma plum tomato,negative,Tomatoes and tomato products are high in potassium.
+roma tomato,negative,Tomatoes and tomato products are high in potassium.
+romaine lettuce,positive,"A low-potassium leafy green, good for salads."
+romaine lettuce leaf,positive,"A low-potassium leafy green, good for salads."
+romano,very negative,"Aged, hard cheeses are very high in both sodium and phosphorus."
+romano cheese,very negative,"Aged, hard cheeses are very high in both sodium and phosphorus."
+rose extract,neutral,
+rose petal,neutral,
+rose petal powder,neutral,
+rose water,neutral,
+rosemary,positive,A salt-free herb that can be used to add flavor.
+rotelle pasta,neutral,
+rotini pasta,neutral,
+round steak,negative,"Red meat is high in phosphorus and protein, which may need to be limited."
+rum,negative,Alcohol should be limited as it can dehydrate and stress the kidneys.
+rum cream liqueur,very negative,"Contains alcohol, sugar, and cream (dairy), which is high in phosphorus."
+rum flavored extract,neutral,
+rum flavoring,neutral,
+rump roast,negative,"Red meat is high in phosphorus and protein, which may need to be limited."
+russet potato,very negative,Potatoes are extremely high in potassium.
+rutabaga,negative,A root vegetable that is a significant source of potassium.
+rye flake,negative,Whole grains like rye are high in phosphorus and potassium.
+rye flour,negative,Whole grain flour is high in phosphorus and potassium.
+saffron,positive,A spice that adds flavor without adding sodium.
+saffron powder,positive,A spice that adds flavor without adding sodium.
+saffron thread,positive,A spice that adds flavor without adding sodium.
+sage,positive,A salt-free herb that can be used to add flavor.
+sake,negative,Alcoholic beverage (rice wine) that should be limited.
+salam leaf,neutral,
+salami,very negative,"A cured, processed meat that is extremely high in sodium and phosphate additives."
+salmon,positive,A good source of high-quality protein and anti-inflammatory omega-3 fatty acids.
+salmon fillet,positive,A good source of high-quality protein and anti-inflammatory omega-3 fatty acids.
+salsa,negative,"Typically very high in sodium and contains tomatoes, which are high in potassium."
+salt,very negative,"The primary source of sodium, which must be strictly limited to control blood pressure and fluid retention."
+salt beef,very negative,"A processed, cured meat that is extremely high in sodium and often contains phosphorus additives."
+salt pork,very negative,A cured meat that is extremely high in sodium and often contains phosphorus additives.
+saltine cracker,negative,"A processed food, typically high in sodium and may contain phosphorus additives."
+sambal oelek,negative,A chili paste that is typically very high in sodium.
+sardine,negative,Often canned and high in both sodium and phosphorus.
+sashimi grade tuna,positive,A good source of high-quality protein and omega-3 fatty acids; best consumed in moderation.
+sauce,negative,"Most pre-made sauces are very high in sodium, and some may also be high in potassium or phosphorus."
+sauerkraut,negative,Very high in sodium due to the fermentation and brining process.
+sausage,very negative,A processed meat that is extremely high in sodium and phosphorus additives.
+sausage casing,negative,"Part of a processed meat product, contributing to high sodium and phosphorus content."
+savory,neutral,
+savoy cabbage,positive,A low-potassium vegetable that is a good source of vitamins and fiber.
+sazon seasoning,very negative,A seasoning blend that is typically extremely high in sodium.
+scallion,positive,A low-potassium vegetable that can add flavor to dishes without adding salt.
+scallop,positive,A good source of high-quality protein; should be eaten in moderation due to phosphorus content.
+scotch bonnet chile,neutral,
+scotch bonnet chile pepper,neutral,
+scotch bonnet hot sauce,negative,Commercially prepared hot sauces are typically very high in sodium.
+scotch bonnet pepper,neutral,
+sea bass,positive,A good source of high-quality protein and omega-3 fatty acids.
+sea bass fillet,positive,A good source of high-quality protein and omega-3 fatty acids.
+sea salt,very negative,Contains the same amount of sodium as table salt and must be strictly limited.
+sea scallop,positive,A good source of high-quality protein; should be eaten in moderation due to phosphorus content.
+seafood seasoning,very negative,A seasoning blend that is typically extremely high in sodium.
+seafood stock,negative,Commercially prepared stocks are typically very high in sodium.
+seasoned rice vinegar,negative,Contains added salt and sugar; plain rice vinegar is a better choice.
+seasoned salt,very negative,A salt-based seasoning blend that is extremely high in sodium.
+seasoning salt,very negative,A salt-based seasoning blend that is extremely high in sodium.
+self rising cornmeal,negative,Contains leavening agents which are high in phosphorus and/or sodium.
+self rising flour,negative,Contains leavening agents which are high in phosphorus and/or sodium.
+seltzer water,neutral,
+semi sweet chocolate chip,negative,Chocolate is a source of potassium and phosphorus and should be limited.
+semisweet baking chocolate,negative,Chocolate is a source of potassium and phosphorus and should be limited.
+semisweet chocolate,negative,Chocolate is a source of potassium and phosphorus and should be limited.
+semisweet chocolate bar,negative,Chocolate is a source of potassium and phosphorus and should be limited.
+semisweet chocolate chip,negative,Chocolate is a source of potassium and phosphorus and should be limited.
+semolina,neutral,
+semolina flour,neutral,
+serrano,neutral,
+serrano chile,neutral,
+serrano chile pepper,neutral,
+serrano ham,very negative,A cured meat that is extremely high in sodium.
+serrano pepper,neutral,
+sesame oil,neutral,
+sesame seed,negative,High in phosphorus and should be limited.
+sesame seed hamburger bun,negative,"Processed bread often contains sodium and phosphorus additives, and sesame seeds add more phosphorus."
+seville orange marmalade,negative,"High in sugar and contains oranges, which are high in potassium."
+shallot,neutral,
+shaoxing rice wine,negative,"Contains sodium and alcohol, which can be detrimental to kidney health."
+sheeps milk feta cheese,very negative,Very high in sodium and phosphorus.
+sherry,negative,"Alcohol can dehydrate and raise blood pressure, stressing the kidneys."
+sherry vinegar,positive,"Low in sodium, potassium, and phosphorus; can be used as a salt substitute for flavor."
+sherry wine,negative,"Alcohol can dehydrate and raise blood pressure, stressing the kidneys."
+shichimi togarashi,neutral,
+shiitake mushroom,negative,High in potassium.
+shoestring potato stick,very negative,Very high in sodium and potassium.
+short grain brown rice,negative,Higher in potassium and phosphorus compared to white rice.
+short grain rice,neutral,
+short grain white rice,positive,"Lower in potassium and phosphorus than brown rice, making it a safer grain choice."
+shortening,neutral,
+shrimp,negative,High in phosphorus and often prepared with high amounts of sodium.
+shrimp paste,very negative,Extremely high in sodium.
+sichuan pepper,neutral,
+silken tofu,positive,"A good source of plant-based protein, generally lower in phosphorus than meat."
+silver tequila,negative,"Alcohol can dehydrate and raise blood pressure, stressing the kidneys."
+simple syrup,negative,"High in sugar, which is detrimental to overall health and can worsen conditions like diabetes, a leading cause of kidney disease."
+sirloin,negative,"High in protein and phosphorus, which need to be limited in a kidney-friendly diet."
+sirloin steak,negative,"High in protein and phosphorus, which need to be limited in a kidney-friendly diet."
+sirloin tip,negative,"High in protein and phosphorus, which need to be limited in a kidney-friendly diet."
+skewer,neutral,
+skinless chicken breast,positive,A lean source of high-quality protein; portions should be managed to control protein and phosphorus intake.
+skirt steak,negative,"High in protein and phosphorus, which need to be limited in a kidney-friendly diet."
+small shrimp,negative,High in phosphorus and often prepared with high amounts of sodium.
+small white bean,very negative,Very high in potassium and phosphorus.
+smelt,negative,"A source of protein and phosphorus, which need to be limited."
+smoked ham,very negative,Extremely high in sodium and often contains phosphate additives.
+smoked ham hock,very negative,Extremely high in sodium and often contains phosphate additives.
+smoked paprika,neutral,
+smoked pork chop,very negative,Extremely high in sodium and often contains phosphate additives.
+smoked salmon,very negative,Very high in sodium due to the curing and smoking process.
+smoked sausage,very negative,Extremely high in sodium and often contains phosphate additives.
+smoked tempeh bacon,negative,"High in sodium, potassium, and phosphorus."
+snap pea,positive,"A good source of vitamins and fiber; low in sodium and moderate in potassium, suitable in appropriate portions."
+snow pea,positive,"A good source of vitamins and fiber; low in sodium and moderate in potassium, suitable in appropriate portions."
+snow pea pod,positive,"A good source of vitamins and fiber; low in sodium and moderate in potassium, suitable in appropriate portions."
+soba noodle,negative,"Made from buckwheat, which is higher in potassium and phosphorus than refined grains."
+soaked in cold water,neutral,
+soaked in water,neutral,
+sofrito,negative,Typically contains tomatoes (high potassium) and commercial versions are very high in sodium.
+sofrito sauce,negative,Typically contains tomatoes (high potassium) and commercial versions are very high in sodium.
+soft brown sugar,negative,High in sugar; brown sugar also contains more potassium than white sugar.
+solid white tuna,negative,High in protein and phosphorus; canned versions are typically very high in sodium.
+sour cherry,positive,"A lower-potassium fruit choice, rich in antioxidants."
+sour cherry preserve,negative,Preserves are very high in added sugar.
+sour cream,negative,High in phosphorus and potassium.
+sour manioc starch,positive,"A refined starch that is low in protein, potassium, and phosphorus."
+soy based liquid seasoning,very negative,"Extremely high in sodium, which is harmful for blood pressure and fluid balance in kidney disease."
+soy milk,neutral,
+soy sauce,very negative,"Extremely high in sodium, which must be severely restricted in a kidney-friendly diet."
+soy sauce flavored ramen noodle,very negative,The flavor packet is exceptionally high in sodium and often contains phosphate additives.
+soybean sprout,positive,"Low in sodium, potassium, and phosphorus, making it a kidney-friendly vegetable."
+spaghetti,neutral,
+spanish chorizo,very negative,"A processed, cured meat that is very high in sodium, protein, and often phosphorus additives."
+spanish chorizo sausage,very negative,"A processed, cured meat that is very high in sodium, protein, and often phosphorus additives."
+spanish chorizo sausage link,very negative,"A processed, cured meat that is very high in sodium, protein, and often phosphorus additives."
+spanish octopus,negative,"High in protein and phosphorus, which often need to be limited."
+spanish olive,very negative,"Cured in brine, making them extremely high in sodium."
+spanish onion,positive,"Low in sodium, potassium, and phosphorus; excellent for adding flavor to food without salt."
+spanish peanut,negative,Nuts are typically high in potassium and phosphorus.
+spanish serrano ham,very negative,A cured meat that is extremely high in sodium.
+spanish smoked paprika,positive,A spice that adds flavor without adding sodium.
+spanish style chorizo,very negative,"A processed, cured meat that is very high in sodium, protein, and often phosphorus additives."
+spanish style olive,very negative,"Cured in brine, making them extremely high in sodium."
+spanish yellow rice mix,very negative,Packaged mixes are typically very high in sodium and may contain phosphate additives.
+sparkling mineral water,negative,"Can be high in sodium or other minerals like potassium, which may need to be restricted."
+sparkling water,neutral,
+spelt flour,negative,"As a whole grain, it is higher in potassium and phosphorus than refined white flour."
+spicy brown mustard,negative,"Generally high in sodium and should be used sparingly, if at all."
+spinach,negative,"Very high in potassium, which needs to be limited in most kidney diets."
+split pea,negative,High in both potassium and phosphorus.
+sponge cake,negative,High in sugar and may contain phosphorus from leavening agents.
+spray,neutral,
+spring garlic,positive,Excellent for adding flavor without sodium.
+spring onion,positive,A good way to add flavor without salt. Use in moderation as it contains some potassium.
+spring roll wrapper,neutral,
+spring water,neutral,
+sprinkle,negative,Primarily sugar and may contain phosphate-based additives.
+squid,negative,"High in protein and phosphorus, which often need to be limited."
+sriracha hot sauce,very negative,Very high in sodium.
+sriracha sauce,very negative,Very high in sodium.
+star anise,positive,A spice that adds flavor without adding sodium.
+star anise pod,positive,A spice that adds flavor without adding sodium.
+steelhead trout fillet,negative,High in phosphorus and potassium; protein must be consumed in appropriate portions.
+stewed tomato,very negative,"Tomatoes are very high in potassium, and canned versions often have high added sodium."
+straw mushroom,negative,Mushrooms are a source of potassium; canned versions can have added sodium.
+strawberry,positive,A kidney-friendly fruit that is low in potassium and phosphorus and high in antioxidants.
+strawberry flavored syrup,very negative,Very high in sugar and may contain phosphate additives.
+strawberry jam,negative,"High in sugar, which should be limited."
+string,neutral,Inedible.
+sucralose sweetener,neutral,
+sugar,negative,"Should be limited, especially for those with diabetes, a leading cause of kidney disease."
+sugar based curing mixture,very negative,Contains high amounts of sugar and sodium used for curing meats.
+sugar crystal,negative,"Pure sugar, which should be limited to manage blood sugar and inflammation."
+sugar snap pea,positive,A low-potassium vegetable that is a good source of fiber.
+sultana raisin,negative,Dried fruits are a concentrated source of potassium and sugar.
+sumac,positive,A spice with a tart flavor that is an excellent substitute for salt.
+sumac powder,neutral,
+sun dried tomato,very negative,"Extremely high in potassium, which is often restricted in kidney disease."
+sunflower oil,neutral,
+sunflower seed kernel,negative,"High in both phosphorus and potassium, which need to be limited in a kidney-friendly diet."
+sunflower seed oil,neutral,
+superfine sugar,negative,"High sugar intake can contribute to diabetes and obesity, major risk factors for kidney disease."
+sushi rice,neutral,"White rice is lower in potassium and phosphorus than whole grains, making it a safer choice for many kidney patients."
+swanson chicken broth,very negative,Commercially prepared broths are typically extremely high in sodium.
+swedish anchovy,very negative,Cured fish like anchovies are extremely high in sodium.
+swedish arrack punsch,negative,"Alcoholic beverages can be dehydrating and hard on the kidneys, and liqueurs are high in sugar."
+sweet bread roll,negative,Processed breads are often high in sodium and may contain phosphorus additives.
+sweet cherry,positive,A good source of antioxidants and vitamins; considered a kidney-friendly fruit in moderation due to its potassium content.
+sweet chili sauce,very negative,Typically very high in both sodium and sugar.
+sweet corn,negative,Higher in phosphorus and potassium than many other vegetables; portion control is important.
+sweet corn kernel,negative,Higher in phosphorus and potassium than many other vegetables; portion control is important.
+sweet manioc starch,neutral,
+sweet onion,positive,Low in potassium and provides excellent flavor without adding sodium.
+sweet paprika,neutral,
+sweet pea,negative,Contains moderate to high levels of potassium and phosphorus.
+sweet potato,very negative,"Extremely high in potassium, a mineral that is strictly limited for most kidney patients."
+sweet potato noodle,neutral,"Made from starch, which is low in potassium and phosphorus, unlike the whole vegetable."
+sweet potato vermicelli,neutral,"Made from starch, which is low in potassium and phosphorus, unlike the whole vegetable."
+sweet red chili sauce,very negative,Typically very high in both sodium and sugar.
+sweet rice flour,neutral,
+sweet soy sauce,very negative,Extremely high in sodium and typically high in sugar.
+sweet spanish onion,positive,Low in potassium and provides excellent flavor without adding sodium.
+sweet thai basil,neutral,
+sweet yellow onion,positive,Low in potassium and provides excellent flavor without adding sodium.
+sweetened condensed milk,very negative,Very high in both sugar and phosphorus from the milk.
+swiss chard,very negative,A leafy green that is extremely high in potassium.
+swiss cheese,negative,"High in phosphorus and sodium, which should be limited."
+szechuan peppercorn,neutral,
+table cream,negative,Dairy products are a significant source of phosphorus and potassium.
+taco seasoning mix,very negative,Commercial seasoning mixes are typically extremely high in sodium.
+tahini,negative,"Made from sesame seeds, which are high in phosphorus and potassium."
+tahini paste,negative,"Made from sesame seeds, which are high in phosphorus and potassium."
+tamari,very negative,"A type of soy sauce, which is extremely high in sodium."
+tamari sauce,very negative,"A type of soy sauce, which is extremely high in sodium."
+tamarind concentrate,very negative,"Tamarind is very high in potassium, and the concentrate is even more potent."
+tamarind juice,negative,High in potassium.
+tamarind paste,very negative,"A concentrated source of potassium, which is typically restricted."
+tamarind powder,very negative,"A concentrated source of potassium, which is typically restricted."
+tamarind soup base,very negative,Likely to be very high in both sodium and potassium (from tamarind).
+tandoori masala,negative,Commercial spice blends often contain high amounts of added salt.
+tangerine,positive,A good source of Vitamin C. Can be included in moderation as it contains some potassium.
+tangerine zest,neutral,
+tapioca flour,neutral,
+tapioca starch,neutral,
+tarama,very negative,Fish roe is very high in both phosphorus and sodium.
+tarragon,neutral,
+tart shell,negative,"Typically high in sodium, phosphorus, and refined carbohydrates."
+tea biscuit,negative,"Typically high in sodium, phosphorus, and refined carbohydrates."
+tempeh,negative,"High in phosphorus and potassium, which need to be limited in a kidney diet."
+tempura batter mix,negative,Usually high in sodium and may contain phosphorus additives.
+tequila,negative,"Alcohol can raise blood pressure and dehydrate the body, which is stressful for kidneys."
+teriyaki sauce,very negative,"Extremely high in sodium, which can increase blood pressure and fluid retention."
+texas toast thick sliced bread,negative,White bread is a source of phosphorus and sodium.
+textured vegetable protein,negative,"High in protein, phosphorus, and potassium, requiring strict portion control."
+thai basil,positive,"A salt-free way to add flavor to food. Used in small amounts, it is low in potassium."
+thai basil leaf,positive,"A salt-free way to add flavor to food. Used in small amounts, it is low in potassium."
+thai bird chile pepper,positive,"Adds flavor without sodium, helping to reduce salt intake."
+thai chile,positive,"Adds flavor without sodium, helping to reduce salt intake."
+thai chile pepper,positive,"Adds flavor without sodium, helping to reduce salt intake."
+thai fish sauce,very negative,Extremely high in sodium.
+thai green chile,positive,"Adds flavor without sodium, helping to reduce salt intake."
+thai red curry paste,very negative,Typically very high in sodium from salt and shrimp paste.
+thin rice noodle,positive,"A good low-protein, low-phosphorus, and low-potassium carbohydrate choice."
+thousand island salad dressing,very negative,"Very high in sodium, fat, and often sugar."
+thyme,positive,Herb that provides flavor without adding sodium.
+thyme leaf,positive,Herb that provides flavor without adding sodium.
+tiger prawn,negative,"High in protein and phosphorus, requiring strict portion control."
+tilapia,negative,"A source of high-quality protein but also phosphorus, which must be limited and portioned."
+tilapia fillet,negative,"A source of high-quality protein but also phosphorus, which must be limited and portioned."
+toenjang,very negative,Fermented soybean paste that is extremely high in sodium.
+tofu,negative,"A source of protein, phosphorus, and potassium that requires portion control."
+tom yum paste,very negative,Typically very high in sodium.
+tomato,very negative,"Very high in potassium, which is often restricted in kidney diets."
+tomato juice,very negative,A concentrated source of potassium and often has high added sodium.
+tomato paste,very negative,A highly concentrated source of potassium.
+tomato puree,very negative,A concentrated source of potassium.
+tomato sauce,very negative,Very high in potassium and typically very high in sodium.
+tomato soup,very negative,Very high in potassium and typically very high in sodium.
+toothpick,neutral,
+top round steak,negative,"Red meat is high in protein, phosphorus, and potassium, which can be hard on the kidneys."
+top sirloin steak,negative,"Red meat is high in protein, phosphorus, and potassium, which can be hard on the kidneys."
+triple sec,negative,Alcohol and high sugar content can be detrimental to kidney health.
+tsaoko,positive,A spice that adds flavor without sodium.
+tuna,negative,High in protein and phosphorus. Canned versions are often very high in sodium.
+tuna steak,negative,"High in protein and phosphorus, requiring portion control."
+turbinado sugar,negative,"Excess sugar intake should be avoided, especially with co-morbidities like diabetes."
+turkey,negative,A source of protein and phosphorus that requires careful portion control.
+turkey carcass,negative,Making stock can leach high amounts of phosphorus and potassium into the broth.
+turkey hot dog,very negative,Processed meats are extremely high in sodium and phosphorus additives.
+turkey leg,negative,Dark meat is higher in phosphorus and potassium than breast meat.
+turkish bay leaf,positive,Herb that provides flavor without adding sodium.
+turmeric,positive,"Contains curcumin, which has anti-inflammatory properties that may be beneficial."
+turmeric root,positive,"Contains curcumin, which has anti-inflammatory properties that may be beneficial."
+turnip,positive,"A low-potassium root vegetable, making it a good alternative to potatoes."
+tzatziki sauce,negative,"Can be high in sodium, and the dairy base contains potassium and phosphorus."
+ube,very negative,A type of purple yam that is very high in potassium.
+udon noodle,negative,Often high in sodium and made from refined flour.
+unbleached all purpose flour,neutral,
+unbleached flour,neutral,
+unflavored gelatin,neutral,
+unsalted butter,neutral,
+unsweetened baking chocolate,negative,High in potassium and phosphorus.
+unsweetened chocolate,negative,High in potassium and phosphorus.
+unsweetened cocoa,negative,High in potassium and phosphorus.
+unsweetened cocoa powder,negative,High in potassium and phosphorus.
+unsweetened coconut flake,negative,High in potassium.
+unsweetened flaked coconut,negative,High in potassium.
+vanilla,neutral,
+vanilla bean,neutral,
+vanilla bean ice cream,negative,"High in sugar, phosphorus, and potassium from dairy."
+vanilla custard powder,negative,Often contains high amounts of sugar and phosphate additives.
+vanilla extract,neutral,
+vanilla ice cream,negative,"High in sugar, phosphorus, and potassium from dairy."
+vanilla powder,neutral,
+vanilla pudding mix,negative,High in sugar and often contains phosphate additives.
+vanilla rum,negative,Alcohol should be consumed in moderation.
+vanilla sugar,negative,Added sugar should be limited.
+veal,negative,"High in protein and phosphorus, which should be limited."
+veal cutlet,negative,"High in protein and phosphorus, which should be limited."
+veal stock,very negative,Typically very high in sodium and potassium.
+vegan butter,negative,Can be high in sodium and unhealthy fats.
+vegan margarine,negative,Can be high in sodium and unhealthy fats.
+vegan white cheese,very negative,Often highly processed and very high in sodium and phosphate additives.
+vegetable bouillon,very negative,Extremely high in sodium.
+vegetable bouillon powder,very negative,Extremely high in sodium.
+vegetable broth,very negative,Typically very high in sodium and potassium.
+vegetable juice,very negative,Often high in potassium and sodium.
+vegetable oil,neutral,
+vegetable shortening,negative,A source of unhealthy processed fats.
+vegetable stock,very negative,Typically very high in sodium and potassium.
+vegetarian fish sauce,very negative,Typically very high in sodium.
+vietnamese fish sauce,very negative,Extremely high in sodium.
+vietnamese style rice noodle,neutral,
+vine ripened tomato,very negative,Very high in potassium.
+vinegar,positive,"Can be used as a salt-free flavor enhancer, helping to reduce sodium intake."
+vino seco,negative,Alcohol should be consumed in moderation.
+violet food coloring,neutral,
+vodka,negative,Alcohol should be consumed in moderation.
+wakame,very negative,Very high in potassium and sodium.
+wakame seaweed flake,very negative,Very high in potassium and sodium.
+walleye fillet,negative,"Source of protein and phosphorus, which need to be monitored and limited."
+walnut,very negative,Very high in phosphorus and potassium.
+walnut half,very negative,Very high in phosphorus and potassium.
+walnut piece,very negative,Very high in phosphorus and potassium.
+wasabi paste,negative,Often high in sodium.
+water,positive,"Crucial for flushing toxins, though intake may be restricted in late-stage disease."
+water chestnut,positive,"Low in potassium, phosphorus, and sodium, making it a kidney-friendly vegetable."
+watercress,negative,"High in potassium, which needs to be limited in a renal diet."
+watermelon,negative,Very high in potassium. The high water content can also be an issue for those on fluid restrictions.
+wax bean,neutral,
+waxy potato,very negative,"All potatoes are very high in potassium, which must be strictly limited for kidney disease."
+wedge,very negative,"Typically refers to a potato wedge, which is very high in potassium."
+well,neutral,Not a food ingredient.
+wheat,negative,Whole wheat is high in both phosphorus and potassium.
+wheat germ,very negative,Extremely high in phosphorus and potassium.
+whipped cream,negative,Dairy-based creams are high in phosphorus and saturated fat.
+whipped topping,negative,"Often contains phosphate additives, which are easily absorbed and should be avoided."
+whipping cream,negative,Dairy-based creams are high in phosphorus and saturated fat.
+whiskey,negative,Alcohol can raise blood pressure and be hard on the kidneys. It should be limited or avoided.
+white anchovy,very negative,Extremely high in sodium due to curing and processing.
+white asparagus,neutral,
+white balsamic vinegar,positive,"A good way to add flavor to foods without adding sodium, potassium, or phosphorus."
+white bean,very negative,Very high in both potassium and phosphorus.
+white bread,positive,"Lower in phosphorus and potassium than whole wheat bread, making it a preferred choice in a renal diet."
+white chocolate,negative,High in sugar and contains phosphorus.
+white cornmeal,neutral,
+white fish fillet,positive,A good source of high-quality protein and generally lower in phosphorus than red meat or oily fish.
+white flour,positive,Lower in phosphorus and potassium than whole grain flours.
+white miso,very negative,Extremely high in sodium.
+white mushroom,neutral,
+white onion,positive,Low in potassium and excellent for adding flavor to dishes without using salt.
+white pea bean,very negative,A type of bean that is very high in both potassium and phosphorus.
+white peach,neutral,
+white pepper,neutral,
+white peppercorn,neutral,
+white potato,very negative,"Very high in potassium, which must be strictly limited for kidney disease."
+white radish,positive,"Low in potassium, making it a good vegetable choice for a renal diet."
+white rice,positive,"Lower in phosphorus and potassium than brown rice, making it a preferred grain."
+white rum,negative,Alcohol can raise blood pressure and be hard on the kidneys. It should be limited or avoided.
+white sandwich bread,positive,"Lower in phosphorus and potassium than whole wheat bread, making it a preferred choice in a renal diet."
+white sesame seed,negative,High in phosphorus.
+white sugar,neutral,
+white vinegar,positive,"A good way to add flavor to foods without adding sodium, potassium, or phosphorus."
+white wine,negative,Alcohol can raise blood pressure and be hard on the kidneys. It should be limited or avoided.
+white wine vinegar,positive,"A good way to add flavor to foods without adding sodium, potassium, or phosphorus."
+whitefish fillet,positive,A good source of high-quality protein and generally lower in phosphorus than red meat or oily fish.
+whole beef rib,negative,"High in protein, phosphorus, and saturated fat. Portion control is crucial."
+whole chicken,neutral,"A good protein source, but portion sizes must be controlled to manage protein and phosphorus intake. Skinless is preferred."
+whole milk,very negative,Very high in both phosphorus and potassium.
+whole milk mozzarella cheese,very negative,"High in sodium, phosphorus, and saturated fat."
+whole rye flour,very negative,Whole grain flours are very high in phosphorus and potassium.
+whole wheat berry,very negative,An unprocessed whole grain that is very high in phosphorus and potassium.
+whole wheat bread,very negative,Very high in phosphorus and potassium compared to white bread.
+whole wheat bread crumb,very negative,Made from whole wheat bread and is very high in phosphorus and potassium.
+whole wheat flour,very negative,Very high in phosphorus and potassium.
+wide egg noodle,neutral,"Made from refined flour, but the egg adds some phosphorus. Can be eaten in moderation."
+wild duck,negative,"High in protein and phosphorus, which are difficult for compromised kidneys to process and must be limited."
+wildflower honey,neutral,
+wine vinegar,positive,"A salt-free way to add flavor to foods, helping to reduce overall sodium intake."
+wonton wrapper,negative,Often high in sodium and made from refined flour.
+wood chip,neutral,
+wood chunk,neutral,
+wood ear mushroom,negative,"Contains a moderate amount of potassium, which should be limited in a kidney-friendly diet."
+wood fungus mushroom,negative,"Contains a moderate amount of potassium, which should be limited in a kidney-friendly diet."
+wood skewer,neutral,
+worcestershire sauce,very negative,"Extremely high in sodium, which must be strictly limited to manage blood pressure and fluid balance."
+xylitol,neutral,
+yautia,very negative,"Very high in potassium, which is dangerous for individuals with kidney disease who cannot excrete it properly."
+yeast,negative,"Can be a significant source of phosphorus (especially nutritional yeast), which needs to be restricted."
+yeasted puff pastry,negative,"Typically high in sodium, fat, and may contain phosphate additives which are easily absorbed."
+yellow bell pepper,positive,"Low in potassium, sodium, and phosphorus, and a good source of vitamins A and C."
+yellow cake mix,very negative,"Highly processed, containing high levels of sodium, sugar, and phosphorus additives."
+yellow chili pepper,positive,"Can add flavor without salt, helping to reduce sodium intake."
+yellow food coloring,neutral,
+yellow lentil,very negative,"High in both potassium and phosphorus, which must be strictly restricted in a kidney diet."
+yellow onion,positive,Low in potassium and sodium; an excellent base for flavoring foods without adding salt.
+yellow plantain,very negative,"Very high in potassium, which needs to be strictly limited."
+yellow saffron rice,negative,Pre-packaged rice mixes are typically very high in sodium.
+yellow split pea,very negative,"High in both potassium and phosphorus, which must be strictly restricted in a kidney diet."
+yellow squash,positive,"Low in potassium, making it a kidney-friendly vegetable choice."
+yellow tomato,very negative,"High in potassium, which needs to be strictly limited in most kidney diets."
+yogurt,negative,"High in phosphorus, potassium, and protein, all of which need to be limited in a kidney diet."
+yuca,very negative,"Very high in potassium, which is dangerous for individuals with kidney disease."
+yuca cassava root,very negative,"Very high in potassium, which is dangerous for individuals with kidney disease."
+yukon gold potato,very negative,"Extremely high in potassium. While leaching can help, it remains a high-risk food."
+zaatar,negative,"Spice blends often contain high amounts of added salt, and sesame seeds are a source of phosphorus."
+zapallo squash,negative,"As a type of winter squash, it is typically high in potassium."
+ziti pasta,neutral,
+zucchini,positive,"Low in potassium, making it a kidney-friendly vegetable choice."
