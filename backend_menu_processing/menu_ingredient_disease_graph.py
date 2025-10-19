@@ -241,38 +241,7 @@ class MenuIngredientDiseaseGraph:
             # Build a dictionary mapping normalized (strip+lower) disease strings to their corresponding node in the graph
             self.disease_node_dict = {str(n).strip().lower(): n for n, attrs in self.G.nodes(data=True) if attrs.get('type') == 'disease'}
 
-            '''        
-            # Step 3: Visualize the graph
-            # Filter to only show top N menu titles (with their ingredient and disease relations)
-            menu_nodes = [n for n, d in self.G.nodes(data=True) if d.get('type') == 'menu']
 
-            # Collect all nodes and edges connected to these top menu titles
-            sub_nodes = set(menu_nodes)
-            sub_edges = []
-            for menu in menu_nodes:
-                for neighbor in self.G.neighbors(menu):
-                    sub_nodes.add(neighbor)
-                    sub_edges.append((menu, neighbor, self.G.get_edge_data(menu, neighbor)))
-                    # For each ingredient, add its disease edges (exclude 'neutral' effect)
-                    if self.G.nodes[neighbor].get('type') == 'ingredient':
-                        for ing_neighbor in self.G.neighbors(neighbor):
-                            if self.G.nodes[ing_neighbor].get('type') == 'disease':
-                                edge_data = self.G.get_edge_data(neighbor, ing_neighbor)
-                                effect = edge_data.get('effect', '').lower() if edge_data else ''
-                                if effect in ['positive', 'negative', 'very negative']:
-                                    sub_nodes.add(ing_neighbor)
-                                    sub_edges.append((neighbor, ing_neighbor, edge_data))
-
-            # Build subgraph after collecting all nodes and edges
-            self.G = nx.Graph()
-            for node in sub_nodes:
-                if node in self.G.nodes:
-                    self.G.add_node(node, **self.G.nodes[node])
-            for u, v, d in sub_edges:
-                if d:
-                    self.G.add_edge(u, v, **d)
-            return self.G
-            '''
     @staticmethod
     def visualize_menu_ingredient_disease_graph(graph, top_n_menus=5):
                 # Node color mapping
