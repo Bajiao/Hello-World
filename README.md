@@ -1,3 +1,26 @@
+#For katherine 
+##how to run:
+type into terminal "python .\process_menu_ingredient.py"
+will show graph if works
+## Adding an image to this README
+
+1. Put the image file in the repo (e.g., an `images/` folder or the same folder as this README).
+
+2. Use one of these snippets where you want the image to appear:
+
+- Markdown (local file):
+![Menu preview](images/Vietnamese_Chicken_Salad.png)
+
+- Markdown (if the filename contains spaces, URL‑encode spaces):
+![Menu preview](images/Top_5.png)
+
+
+
+
+
+
+
+
 # Hello-World Repository
 
 This repository contains materials and resources for the Python Fundamentals Tutorial Module, designed for high school students. It includes a comprehensive syllabus, lesson materials, exercises, projects, and additional resources to support learning Python and computer science fundamentals.
