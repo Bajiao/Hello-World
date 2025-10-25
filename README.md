@@ -1,5 +1,7 @@
-#For katherine 
-##how to run:
+
+# For katherine 
+## how to run:
+
 type into terminal "python .\process_menu_ingredient.py"
 will show graph if works
 ## Adding an image to this README
