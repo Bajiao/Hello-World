@@ -12,8 +12,8 @@ openai.api_key = ""
 class PreProcessing:
     '''
     This class provides a suite of static methods for processing menu ingredient data, including:
-    - Splitting ingredient strings into descriptors and core ingredient names using the OpenAI API.
     - Processing all menu titles and writing split ingredient results to CSV.
+    - Splitting ingredient strings into descriptors and core ingredient names using the OpenAI API.
     - Extracting unique core ingredients from processed data.
     - Removing duplicates and normalizing ingredient names using the Gemini API.
     - Annotating each ingredient with its health impact on specific diseases using the Gemini API.
@@ -408,7 +408,7 @@ class PreProcessing:
     @staticmethod
     def menu_ingredient_disease_relationship_preprcessing():
         # Step 1:
-        PreProcessing.split_ingredient()
+        PreProcessing.split_ingredient_for_all_titles()
         # Step 2:
         PreProcessing.get_ingredient_set()
         # Step 3:

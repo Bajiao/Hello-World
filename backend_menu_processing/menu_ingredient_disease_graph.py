@@ -92,6 +92,7 @@ class MenuIngredientDiseaseGraph:
             if d:
                 subG.add_edge(u, v, **d)
         return subG
+
     def get_ingredient_disease_edges(self, ingredient_nodes, disease_node):
         """
         Given a set of ingredient nodes and a disease node, return all edges from ingredient node to the disease node
@@ -202,8 +203,11 @@ class MenuIngredientDiseaseGraph:
                         ingredient = ingredient.decode('utf-8', errors='replace')
                     ingredient = ingredient.strip()
                     ingredient = html.unescape(ingredient)
-                    self.G.add_node(title, type='menu')
-                    self.G.add_node(ingredient, type='ingredient')
+                    # Only add nodes if they don't exist
+                    if not self.G.has_node(title):
+                        self.G.add_node(title, type='menu')
+                    if not self.G.has_node(ingredient):
+                        self.G.add_node(ingredient, type='ingredient')
                     self.G.add_edge(title, ingredient, relation='has_ingredient')
 
         # Step 2: Build graph from ingredient to disease
@@ -229,8 +233,10 @@ class MenuIngredientDiseaseGraph:
                         reason = reason.decode('utf-8', errors='replace')
                     reason = reason.strip()
                     disease_node = disease
-                    self.G.add_node(disease_node, type='disease')
-                    self.G.add_node(ingredient, type='ingredient')
+                    if not self.G.has_node(disease_node):
+                        self.G.add_node(disease_node, type='disease')
+                    if not self.G.has_node(ingredient):
+                        self.G.add_node(ingredient, type='ingredient')
                     # Add edge with effect and reason as attributes
                     self.G.add_edge(ingredient, disease_node, relation='ingredient_disease', effect=effect, reason=reason)
 
@@ -408,19 +414,18 @@ class MenuIngredientDiseaseGraph:
                 plt.show()
 
     def find_best_matched_menu_in_graph(self, menu_title):
-        """
-        Finds the best matched menu title in the graph for a given input menu title.
-        Uses case-insensitive exact match first, then substring match, then fuzzy matching.
-
-        Args:
-            menu_title (str): The input menu title to match.
-        Returns:
-            dict: {
-                'matched_menu': str,
-                'is_exact': bool
-            }
-        """
-        
+        '''Performs matching in the following order:
+        1. Case-insensitive exact match
+        2. AI-powered semantic matching using Gemini model
+            menu_title (str): The input menu title to find a match for in the graph
+            dict: A dictionary containing:
+                - matched_menu (str or None): The best matched menu title found, or None if no match
+                - is_exact (bool): True if an exact match was found, False otherwise
+        Notes:
+            - Uses Google's Gemini AI model as fallback when exact match fails
+            - The Gemini model compares ingredient lists to find semantically similar menus
+            - Returns None if no suitable match is found through any method'''
+                
         # First, try exact match (case-insensitive)
         matched_menu = None
         menu_title = menu_title.strip().lower()
