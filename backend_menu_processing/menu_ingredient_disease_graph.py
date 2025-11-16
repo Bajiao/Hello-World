@@ -410,7 +410,6 @@ class MenuIngredientDiseaseGraph:
                     fontsize=11,
                     frameon=True
                 )
-
                 plt.show()
 
     def find_best_matched_menu_in_graph(self, menu_title):
