@@ -428,6 +428,75 @@ class PreProcessing:
         # PreProcessing.combine_ingredient_disease_annotations(diseases_and_files=disease_files)
         
         
+    @staticmethod
+    def analyze_menus_for_disease_effects(menu_ingredient_disease_graph, disease="diabetes"):
+        """
+        Analyzes all menus in the graph for their health effects on a specified disease.
+        
+        For each menu, this method:
+        - Retrieves all ingredient nodes associated with the menu
+        - Finds edges from those ingredients to the specified disease node
+        - Counts the effects ('positive', 'negative', 'very negative', 'neutral')
+        - Collects reasoning for non-neutral effects
+        - Writes results to a CSV file with columns: menu_title, positive, negative, very_negative, neutral, reasoning
+        
+        Args:
+            disease (str): The disease to analyze menu effects for. Defaults to "diabetes".
+        
+        Returns:
+            None
+        
+        Side Effects:
+            - Creates and writes results to '{disease}_menu_analysis.csv'
+            - Prints status message upon completion
+        """
+        disease_node = menu_ingredient_disease_graph.get_disease_node_from_string(disease)
+
+        # Get all menu nodes
+        menu_nodes = [node for node, attr in menu_ingredient_disease_graph.G.nodes(data=True) if attr.get('type') == 'menu']
+
+        results = []
+        for menu_node in menu_nodes:
+            menu_title = menu_node
+            
+            # Get ingredient neighbors of this menu
+            ingredient_nodes = menu_ingredient_disease_graph.get_ingredient_neighbors_of_menu(menu_node)
+            
+            # Get edges from ingredients to disease
+            edges = menu_ingredient_disease_graph.get_ingredient_disease_edges(ingredient_nodes, disease_node)
+            
+            # Count by effect type
+            effect_counts = {'positive': 0, 'negative': 0, 'very negative': 0, 'neutral': 0}
+            reasoning = []
+            
+            for src, dst, data in edges:
+                effect = data.get('effect', 'neutral').lower()
+                if effect in effect_counts:
+                    effect_counts[effect] += 1
+                    if effect != 'neutral':
+                        ingredient_name = menu_ingredient_disease_graph.G.nodes[src].get('name', src)
+                        reason = data.get('reason', '')
+                        reasoning.append(f"{ingredient_name} ({effect}): {reason}")
+            
+            results.append({
+                'menu_title': menu_title,
+                'positive': effect_counts['positive'],
+                'negative': effect_counts['negative'],
+                'very_negative': effect_counts['very negative'],
+                'neutral': effect_counts['neutral'],
+                'reasoning': ' | '.join(reasoning) if reasoning else 'No significant effects'
+            })
+
+        # Write results to CSV
+        with open(f'{disease}_menu_analysis.csv', 'w', encoding='utf-8', newline='') as f:
+            fieldnames = ['menu_title', 'positive', 'negative', 'very_negative', 'neutral', 'reasoning']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            for result in results:
+                writer.writerow(result)
+
+        print(f"Analysis complete. Results written to {disease}_menu_analysis.csv")
+
 
 def main():
     ########################################################
@@ -438,28 +507,43 @@ def main():
     
     
     menu_ingredient_disease_graph = MenuIngredientDiseaseGraph()
-    
-    #exact match
-    matched_menu = menu_ingredient_disease_graph.find_best_matched_menu_in_graph("Grilled Chicken Adobo")
-    print(matched_menu)
-    matched_menu_node = menu_ingredient_disease_graph.get_menu_node_from_string(matched_menu['matched_menu'])
-    subgraph = menu_ingredient_disease_graph.get_menu_ingredient_disease_subgraph(matched_menu_node)
-    #MenuIngredientDiseaseGraph.visualize_menu_ingredient_disease_graph(subgraph, top_n_menus=5)
-    ingredient_nodes = menu_ingredient_disease_graph.get_ingredient_neighbors_of_menu(matched_menu_node)
-    disease_node = menu_ingredient_disease_graph.get_disease_node_from_string("diabetes")
-    edges = menu_ingredient_disease_graph.get_ingredient_disease_edges(ingredient_nodes, disease_node)
-    #print the edges from ingredient to disease (no neutral edges)
-    print(edges)
-    
-    
-    #llm match
-    matched_menu = menu_ingredient_disease_graph.find_best_matched_menu_in_graph("Chicken Salad")
-    matched_menu_node = menu_ingredient_disease_graph.get_menu_node_from_string(matched_menu['matched_menu'])    
-    subgraph = menu_ingredient_disease_graph.get_menu_ingredient_disease_subgraph(matched_menu_node)
-    MenuIngredientDiseaseGraph.visualize_menu_ingredient_disease_graph(subgraph, top_n_menus=5)
-    
-    MenuIngredientDiseaseGraph.visualize_menu_ingredient_disease_graph(menu_ingredient_disease_graph.G, top_n_menus=5)
-    
+    Test = False
+    if Test:
+        
+        #exact match
+        matched_menu = menu_ingredient_disease_graph.find_best_matched_menu_in_graph("Grilled Chicken Adobo")
+        print(matched_menu)
+        matched_menu_node = menu_ingredient_disease_graph.get_menu_node_from_string(matched_menu['matched_menu'])
+        subgraph = menu_ingredient_disease_graph.get_menu_ingredient_disease_subgraph(matched_menu_node)
+        #MenuIngredientDiseaseGraph.visualize_menu_ingredient_disease_graph(subgraph, top_n_menus=5)
+        ingredient_nodes = menu_ingredient_disease_graph.get_ingredient_neighbors_of_menu(matched_menu_node)
+        disease_node = menu_ingredient_disease_graph.get_disease_node_from_string("diabetes")
+        edges = menu_ingredient_disease_graph.get_ingredient_disease_edges(ingredient_nodes, disease_node)
+        #print the edges from ingredient to disease (no neutral edges)
+        print(edges)
+        
+        
+        #llm match
+        matched_menu = menu_ingredient_disease_graph.find_best_matched_menu_in_graph("Chicken Salad")
+        matched_menu_node = menu_ingredient_disease_graph.get_menu_node_from_string(matched_menu['matched_menu'])    
+        subgraph = menu_ingredient_disease_graph.get_menu_ingredient_disease_subgraph(matched_menu_node)
+        MenuIngredientDiseaseGraph.visualize_menu_ingredient_disease_graph(subgraph, top_n_menus=5)
+        
+        MenuIngredientDiseaseGraph.visualize_menu_ingredient_disease_graph(menu_ingredient_disease_graph.G, top_n_menus=5)
+    else:
+        # Run analysis for every disease node in the graph
+        diseases = []
+        for node, attr in menu_ingredient_disease_graph.G.nodes(data=True):
+            if attr.get('type') == 'disease':
+                # prefer a 'name' attribute if present, otherwise use the node identifier
+                diseases.append(attr.get('name', node))
+
+        for disease in sorted(set(diseases)):
+            print(f"Analyzing menus for disease: {disease}")
+            PreProcessing.analyze_menus_for_disease_effects(menu_ingredient_disease_graph, disease=disease)
+
+        
 if __name__ == "__main__":
     main()
+
 
