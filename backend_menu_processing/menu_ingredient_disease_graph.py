@@ -14,7 +14,7 @@ openai.api_key = ""
 def init_api_keys():
     try:
         load_dotenv()
-        api_key = "AIzaSyAUUvJMHApAPejekPhHnjpay0vKnp3ksj8" 
+        api_key = "<your gemini key>" 
         os.environ["GOOGLE_API_KEY"] = api_key
         genai.configure(api_key=api_key)
     except Exception as exception:
