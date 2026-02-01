@@ -275,7 +275,7 @@ OUTPUT SYSTEMS (All powered by the graph)
 ### **Step 1: Split Ingredients into Descriptors and Core Names**
 **Purpose:** Parse pipe-separated ingredient strings from all_recipes.csv into structured (descriptor, core_ingredient) tuples  
 **Input File:** [all_recipes.csv](backend_menu_processing/data/all_recipes.csv) (raw web-scraped data)  
-**File:** [process_menu_ingredient.py](process_menu_ingredient.py#L65-L100)
+**File:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L65-L100)
 
 ```
 Input CSV Row:
@@ -298,7 +298,7 @@ Output: menu2ingredient.csv
 #### **🤖 LLM API CALL DETAILS: OpenAI GPT-4 Turbo**
 
 **Model:** `gpt-4-1106-preview` (GPT-4 Turbo with Vision)  
-**Code Location:** [process_menu_ingredient.py#L55-L58](process_menu_ingredient.py#L55-L58)
+**Code Location:** [process_menu_ingredient.py#L55-L58](backend_menu_processing/process_menu_ingredient.py#L55-L58)
 
 **API Configuration:**
 ```python
@@ -343,14 +343,14 @@ Ingredient: '{ingredient}'
 **Total Tokens (Est.):** ~50,000-70,000 tokens
 
 **Code Location:** 
-- [PreProcessing.split_ingredient()](process_menu_ingredient.py#L47-L63) - Single ingredient splitting
-- [PreProcessing.split_ingredient_for_all_titles()](process_menu_ingredient.py#L65-L100) - Batch processing all menus
+- [PreProcessing.split_ingredient()](backend_menu_processing/process_menu_ingredient.py#L47-L63) - Single ingredient splitting
+- [PreProcessing.split_ingredient_for_all_titles()](backend_menu_processing/process_menu_ingredient.py#L65-L100) - Batch processing all menus
 
 ---
 
 ### **Step 2: Extract Unique Core Ingredients**
 **Purpose:** Collect all distinct ingredients from all menus  
-**File:** [process_menu_ingredient.py](process_menu_ingredient.py#L102-L145)
+**File:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L102-L145)
 
 ```
 Input:  menu2ingredient.csv (multiple menus with ingredients)
@@ -368,13 +368,13 @@ Output:  allIngredients.csv
          ...
 ```
 
-**Code Location:** [PreProcessing.get_ingredient_set()](process_menu_ingredient.py#L104-L143)
+**Code Location:** [PreProcessing.get_ingredient_set()](backend_menu_processing/process_menu_ingredient.py#L104-L143)
 
 ---
 
 ### **Step 3: Deduplication & Normalization**
 **Purpose:** Remove duplicates and normalize ingredient names (e.g., "onions" → "onion")  
-**File:** [process_menu_ingredient.py](process_menu_ingredient.py#L147-L232)
+**File:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L147-L232)
 
 ```
 Input:  allIngredients.csv (raw list)
@@ -391,7 +391,7 @@ Output:  uniqueIngredients.csv
 #### **🤖 LLM API CALL DETAILS: Google Gemini Flash**
 
 **Model:** `gemini-2.5-flash-lite` (Latest Gemini Flash model with optimizations)  
-**Code Location:** [menu_ingredient_disease_graph.py#L31-L34](menu_ingredient_disease_graph.py#L31-L34)
+**Code Location:** [menu_ingredient_disease_graph.py#L31-L34](backend_menu_processing/menu_ingredient_disease_graph.py#L31-L34)
 
 **API Configuration:**
 ```python
@@ -440,13 +440,13 @@ Ingredients: {json.dumps(ingredient_list)}
 - Writes unique list to `uniqueIngredients.csv`
 - Saves response to `response.txt` for debugging
 
-**Code Location:** [PreProcessing.remove_duplicates()](process_menu_ingredient.py#L149-L232)
+**Code Location:** [PreProcessing.remove_duplicates()](backend_menu_processing/process_menu_ingredient.py#L149-L232)
 
 ---
 
 ### **Step 4: Annotate Ingredients with Disease Effects** (3x for each disease)
 **Purpose:** Classify how each ingredient affects specific diseases  
-**File:** [process_menu_ingredient.py](process_menu_ingredient.py#L234-L299)
+**File:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L234-L299)
 
 ```
 Input:  uniqueIngredients.csv
@@ -473,7 +473,7 @@ Repeat for:
 #### **🤖 LLM API CALL DETAILS: Google Gemini Flash (Batch Annotation)**
 
 **Model:** `gemini-2.5-flash-lite` (Same as Step 3)  
-**Code Location:** [menu_ingredient_disease_graph.py#L31-L34](menu_ingredient_disease_graph.py#L31-L34)
+**Code Location:** [menu_ingredient_disease_graph.py#L31-L34](backend_menu_processing/menu_ingredient_disease_graph.py#L31-L34)
 
 **API Configuration:**
 ```python
@@ -547,13 +547,13 @@ Ingredients: {json.dumps(batch)}
 - Falls back to "neutral" for all ingredients if parsing fails
 - Saves raw response to `response_batch_X.txt` files for debugging
 
-**Code Location:** [PreProcessing.annotate_each_ingredient_causing_disease_using_gemini()](process_menu_ingredient.py#L234-L299)
+**Code Location:** [PreProcessing.annotate_each_ingredient_causing_disease_using_gemini()](backend_menu_processing/process_menu_ingredient.py#L234-L299)
 
 ---
 
 ### **Step 5: Standardize Menu Ingredients**
 **Purpose:** Map raw extracted ingredients to the canonical normalized ingredient list  
-**File:** [process_menu_ingredient.py](process_menu_ingredient.py#L340-L437)
+**File:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L340-L437)
 
 ```
 Input:  menu2ingredient.csv (extracted ingredients per menu)
@@ -578,7 +578,7 @@ Output:  standardized_menu_ingredients.csv
 #### **🤖 LLM API CALL DETAILS: Google Gemini Flash (Semantic Matching)**
 
 **Model:** `gemini-2.5-flash-lite` (Same as Steps 3 & 4)  
-**Code Location:** [menu_ingredient_disease_graph.py#L31-L34](menu_ingredient_disease_graph.py#L31-L34)
+**Code Location:** [menu_ingredient_disease_graph.py#L31-L34](backend_menu_processing/menu_ingredient_disease_graph.py#L31-L34)
 
 **API Configuration:**
 ```python
@@ -655,13 +655,13 @@ Menu ingredient strings: {json.dumps(batch_ingredients)}
 - **Total (Est.):** ~$1.00-2.00 for all menus
 - **Much cheaper than Step 1** (GPT-4 ingredient splitting)
 
-**Code Location:** [PreProcessing.standardize_menu_ingredients()](process_menu_ingredient.py#L340-L437)
+**Code Location:** [PreProcessing.standardize_menu_ingredients()](backend_menu_processing/process_menu_ingredient.py#L340-L437)
 
 ---
 
 ### **Step 6: (OPTIONAL) Combine Ingredient-Disease Annotations**
 **Purpose:** Merge all disease-specific annotations into a single file  
-**File:** [process_menu_ingredient.py](process_menu_ingredient.py#L301-L337)
+**File:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L301-L337)
 
 ```
 Input:  ingredient_diabetes_relation.csv
@@ -679,15 +679,15 @@ Output:  combined_ingredient_disease_annotations.csv
          - butter, kidney_disease, neutral, ...
 ```
 
-**Status:** ⚠️ **Currently Commented Out** in `menu_ingredient_disease_relationship_preprcessing()` at [Line 539-543](process_menu_ingredient.py#L539-L543)
+**Status:** ⚠️ **Currently Commented Out** in `menu_ingredient_disease_relationship_preprcessing()` at [Line 539-543](backend_menu_processing/process_menu_ingredient.py#L539-L543)
 
-**Code Location:** [PreProcessing.combine_ingredient_disease_annotations()](process_menu_ingredient.py#L301-L337)
+**Code Location:** [PreProcessing.combine_ingredient_disease_annotations()](backend_menu_processing/process_menu_ingredient.py#L301-L337)
 
 ---
 
 ### **Final Step: Graph Construction**
 **Purpose:** Connect all nodes (menu → ingredient → disease) into NetworkX graph  
-**File:** [menu_ingredient_disease_graph.py](menu_ingredient_disease_graph.py#L56-L200)
+**File:** [menu_ingredient_disease_graph.py](backend_menu_processing/menu_ingredient_disease_graph.py#L56-L200)
 
 ```
 Input:  standardized_menu_ingredients.csv
@@ -716,7 +716,7 @@ Output:  MenuIngredientDiseaseGraph object
          - Self.disease_node_dict: {normalized_disease → actual_disease}
 ```
 
-**Code Location:** [MenuIngredientDiseaseGraph.connect_graph_from_menu_title_to_ingredient_to_disease()](menu_ingredient_disease_graph.py#L56-L200)
+**Code Location:** [MenuIngredientDiseaseGraph.connect_graph_from_menu_title_to_ingredient_to_disease()](backend_menu_processing/menu_ingredient_disease_graph.py#L56-L200)
 
 **Graph Structure:**
 - Menu nodes color-coded as blue (#1f77b4)
@@ -748,7 +748,7 @@ Output:  MenuIngredientDiseaseGraph object
 
 ## Preprocessing Pipeline Orchestration
 
-**File:** [process_menu_ingredient.py](process_menu_ingredient.py#L535-L560)
+**File:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L535-L560)
 
 ```python
 @staticmethod
@@ -779,7 +779,7 @@ def menu_ingredient_disease_relationship_preprcessing():
     # PreProcessing.combine_ingredient_disease_annotations(diseases_and_files=disease_files)
 ```
 
-**Code Location:** [PreProcessing.menu_ingredient_disease_relationship_preprcessing()](process_menu_ingredient.py#L535-L560)
+**Code Location:** [PreProcessing.menu_ingredient_disease_relationship_preprcessing()](backend_menu_processing/process_menu_ingredient.py#L535-L560)
 
 ---
 
@@ -802,7 +802,7 @@ Edge colors indicate health impact:
   ⚠ Red    = Very Negative effect
 ```
 
-**Visualization Code:** [MenuIngredientDiseaseGraph.visualize_menu_ingredient_disease_graph()](menu_ingredient_disease_graph.py#L319-L433)
+**Visualization Code:** [MenuIngredientDiseaseGraph.visualize_menu_ingredient_disease_graph()](backend_menu_processing/menu_ingredient_disease_graph.py#L319-L433)
 
 ---
 
@@ -818,7 +818,7 @@ python3 backend_menu_processing/process_menu_ingredient.py
 
 ### Using the Recommendation API
 
-**File:** [recommendation_api.py](recommendation_api.py)
+**File:** [recommendation_api.py](backend_menu_processing/recommendation_api.py)
 
 ```python
 from backend_menu_processing.recommendation_api import MenuRecommendationAPI
@@ -841,8 +841,8 @@ comparison = api.compare_menus(
 ### Evaluation & Benchmarking
 
 **Files:** 
-- [evaluate_recommendations.py](evaluate_recommendations.py) - Single evaluation
-- [comprehensive_benchmark.py](comprehensive_benchmark.py) - Multi-iteration benchmark
+- [evaluate_recommendations.py](backend_menu_processing/evaluate_recommendations.py) - Single evaluation
+- [comprehensive_benchmark.py](backend_menu_processing/comprehensive_benchmark.py) - Multi-iteration benchmark
 
 ```bash
 # Single evaluation (25 samples, top 10, diabetes)
@@ -862,7 +862,7 @@ python3 backend_menu_processing/evaluate_recommendations.py \
 
 ### ⚠️ Commented Step 6: Combined Annotations
 
-**Location:** [process_menu_ingredient.py](process_menu_ingredient.py#L539-L543)
+**Location:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L539-L543)
 
 The `combine_ingredient_disease_annotations()` call is commented out because:
 1. **Experimental Purpose:** The system works with separate disease relation files
@@ -883,8 +883,8 @@ PreProcessing.combine_ingredient_disease_annotations(diseases_and_files=disease_
 ### API Key Management
 
 **Files:**
-- [menu_ingredient_disease_graph.py](menu_ingredient_disease_graph.py#L12-L22) - `init_api_keys()` function
-- [process_menu_ingredient.py](process_menu_ingredient.py#L1-L10) - OpenAI API initialization
+- [menu_ingredient_disease_graph.py](backend_menu_processing/menu_ingredient_disease_graph.py#L12-L22) - `init_api_keys()` function
+- [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py#L1-L10) - OpenAI API initialization
 
 **Current Setup:**
 - OpenAI: Line 9 (gpt-4-1106-preview for ingredient splitting)
@@ -1160,9 +1160,9 @@ MenuIngredientDiseaseGraph (loaded in memory)
 
 ## Document Navigation
 
-- **Full Preprocessing Code:** [process_menu_ingredient.py](process_menu_ingredient.py)
-- **Graph Construction:** [menu_ingredient_disease_graph.py](menu_ingredient_disease_graph.py)
-- **Recommendation API:** [recommendation_api.py](recommendation_api.py)
-- **Evaluation:** [evaluate_recommendations.py](evaluate_recommendations.py)
-- **Benchmarking:** [comprehensive_benchmark.py](comprehensive_benchmark.py)
+- **Full Preprocessing Code:** [process_menu_ingredient.py](backend_menu_processing/process_menu_ingredient.py)
+- **Graph Construction:** [menu_ingredient_disease_graph.py](backend_menu_processing/menu_ingredient_disease_graph.py)
+- **Recommendation API:** [recommendation_api.py](backend_menu_processing/recommendation_api.py)
+- **Evaluation:** [evaluate_recommendations.py](backend_menu_processing/evaluate_recommendations.py)
+- **Benchmarking:** [comprehensive_benchmark.py](backend_menu_processing/comprehensive_benchmark.py)
 - **Quick Start:** [QUICK_START.md](QUICK_START.md)
