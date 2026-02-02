@@ -20,6 +20,48 @@
     .upload-form { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; }
     .answer-box, .chatbox, .followup-box { margin-bottom: 16px; }
     
+    /* Tab styles */
+    .tabs-container {
+      margin-bottom: 16px;
+    }
+    
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid #ddd;
+      gap: 0;
+    }
+    
+    .tab-button {
+      padding: 12px 20px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      color: #666;
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s ease;
+      margin-bottom: -2px;
+    }
+    
+    .tab-button:hover {
+      color: #333;
+    }
+    
+    .tab-button.active {
+      color: #0066cc;
+      border-bottom-color: #0066cc;
+    }
+    
+    .tab-content {
+      display: none;
+      padding: 16px 0;
+    }
+    
+    .tab-content.active {
+      display: block;
+    }
+    
     /* Loading spinner styles */
     .spinner {
       display: none;
@@ -43,6 +85,16 @@
       align-items: center;
       gap: 8px;
       flex-wrap: wrap;
+    }
+    /* Reduce vertical spacing inside recommendation/followup boxes */
+    #recommendation-box h1, #recommendation-box h2, #recommendation-box h3,
+    #followup-box h1, #followup-box h2, #followup-box h3 {
+      margin: 6px 0;
+    }
+    #recommendation-box p, #recommendation-box li, #recommendation-box div,
+    #followup-box p, #followup-box li, #followup-box div {
+      margin: 4px 0;
+      line-height: 1.25;
     }
   </style>
 </head>
@@ -79,18 +131,75 @@
       {% endif %}
       <div class="chatbox">
         <h2>Ask Questions</h2>
-        <form method="post" id="questionForm">
-          <textarea name="question" rows="4" placeholder="please enter your question here" id="questionTextarea"></textarea><br>
-          <div class="button-container">
-            <div class="spinner" id="submitSpinner"></div>
-            <input type="submit" value="Ask" id="submitBtn">
+        <div class="tabs-container">
+          <div class="tabs">
+            <button class="tab-button active" data-tab="free-question">Free Question</button>
+            <button class="tab-button" data-tab="customized-analysis">Customized Condition Analysis</button>
           </div>
-        </form>
+          
+          <div id="free-question" class="tab-content active">
+            <form method="post" id="questionForm">
+              <textarea name="question" rows="4" placeholder="please enter your question here" id="questionTextarea"></textarea><br>
+              <div class="button-container">
+                <div class="spinner" id="submitSpinner"></div>
+                <input type="submit" value="Ask" id="submitBtn">
+              </div>
+            </form>
+          </div>
+          
+          <div id="customized-analysis" class="tab-content">
+            <form method="post" id="customizedForm">
+              <label for="conditionSelect">Select Health Condition:</label><br>
+              <select id="conditionSelect" name="condition" style="width:100%; padding:8px; margin-bottom:12px; border:1px solid #ddd; border-radius:4px;">
+                <option value="">-- Choose a condition --</option>
+                <option value="cardiovascular">Cardiovascular Disease</option>
+                <option value="diabetes">Diabetes</option>
+                <option value="kidney">Kidney Disease</option>
+              </select><br>
+              <label for="customQuestion">Additional Questions or Requirements:</label><br>
+              <textarea name="customQuestion" id="customQuestion" rows="4" placeholder="e.g., ask about sodium intake, sugar levels, etc." style="width:100%; padding:8px; border:1px solid #ddd; border-radius:4px;"></textarea><br>
+              {% if matches %}
+                <div id="match-suggestions" style="border:1px solid #eee; padding:8px; margin-bottom:12px; border-radius:6px; background:#fafafa;">
+                  <div id="matchToggleHeader" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;">
+                    <strong style="flex:1;margin-right:8px;">Match Suggestions (you can override):</strong>
+                    <span id="matchToggleText" aria-hidden="true" style="color:#0066cc;padding:4px 8px;font-weight:600;">Show</span>
+                  </div>
+                  <div id="matchSuggestionsContent" style="font-size:0.95rem; margin-top:8px; display:none;">
+                    {% for m in matches %}
+                      <fieldset style="margin-bottom:8px; padding:6px;">
+                        <legend style="font-weight:600;">{{ m.query }}</legend>
+                        <div>
+                          <label><input type="radio" name="override_{{ loop.index0 }}" value="" checked> No override (use automatic match)</label><br>
+                          {% if m.matched_menu %}
+                            <label><input type="radio" name="override_{{ loop.index0 }}" value="{{ m.matched_key }}"> Keep matched: {{ m.matched_menu }}</label><br>
+                          {% endif %}
+                          {% for c in m.candidates %}
+                            <label><input type="radio" name="override_{{ loop.index0 }}" value="{{ c.candidate_key }}"> {{ c.candidate_label or c.candidate_key }} ({{ c.source }} {{ '%.2f'|format(c.score) }})</label><br>
+                          {% endfor %}
+                        </div>
+                      </fieldset>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+              <div class="button-container">
+                <div class="spinner" id="customSubmitSpinner"></div>
+                <input type="submit" value="Analyze" id="customSubmitBtn">
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
       {% if followup %}
         <div id="followup-box" class="followup-box">
           <strong>Follow-up Answer:</strong>
           <div>{{ followup | safe }}</div>
+        </div>
+      {% endif %}
+      {% if recommendation %}
+        <div id="recommendation-box" class="followup-box">
+          <strong>Recommendations:</strong>
+          <div>{{ recommendation | safe }}</div>
         </div>
       {% endif %}
     </div>
@@ -99,6 +208,36 @@
 </html>
 
 <script>
+  // Tab switching functionality
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabContents = document.querySelectorAll('.tab-content');
+  
+  // Helper to activate a tab by id
+  function activateTab(tabId) {
+    tabButtons.forEach(btn => btn.classList.remove('active'));
+    tabContents.forEach(content => content.classList.remove('active'));
+    const btn = Array.from(tabButtons).find(b => b.getAttribute('data-tab') === tabId);
+    if (btn) btn.classList.add('active');
+    const content = document.getElementById(tabId);
+    if (content) content.classList.add('active');
+  }
+
+  // Restore last active tab from localStorage (if present)
+  try {
+    const savedTab = localStorage.getItem('menuChat_activeTab');
+    if (savedTab) {
+      activateTab(savedTab);
+    }
+  } catch (e) {}
+
+  tabButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const tabId = this.getAttribute('data-tab');
+      activateTab(tabId);
+      try { localStorage.setItem('menuChat_activeTab', tabId); } catch (e) {}
+    });
+  });
+  
   // Disable buttons during form submission and show spinner
   document.getElementById('uploadForm').addEventListener('submit', function() {
     const uploadBtn = document.getElementById('uploadBtn');
@@ -109,7 +248,7 @@
     uploadSpinner.style.display = 'inline-block';
   });
 
-  // Function to disable submit button and show spinner
+  // Function to disable submit button and show spinner for free question
   function disableSubmitButton() {
     const submitBtn = document.getElementById('submitBtn');
     const submitSpinner = document.getElementById('submitSpinner');
@@ -119,12 +258,27 @@
     submitSpinner.style.display = 'inline-block';
   }
 
-  // Disable on form submit
+  // Function to disable submit button and show spinner for customized analysis
+  function disableCustomSubmitButton() {
+    const customSubmitBtn = document.getElementById('customSubmitBtn');
+    const customSubmitSpinner = document.getElementById('customSubmitSpinner');
+    customSubmitBtn.disabled = true;
+    customSubmitBtn.style.opacity = '0.5';
+    customSubmitBtn.style.cursor = 'not-allowed';
+    customSubmitSpinner.style.display = 'inline-block';
+  }
+
+  // Disable on form submit for free question
   document.getElementById('questionForm').addEventListener('submit', function() {
     disableSubmitButton();
   });
 
-  // Allow Enter key to submit the form and disable button
+  // Disable on form submit for customized analysis
+  document.getElementById('customizedForm').addEventListener('submit', function() {
+    disableCustomSubmitButton();
+  });
+
+  // Allow Enter key to submit the free question form and disable button
   document.getElementById('questionTextarea').addEventListener('keydown', function(event) {
     if (event.key === 'Enter' && !event.shiftKey) {
       event.preventDefault();
@@ -132,4 +286,58 @@
       document.getElementById('questionForm').submit();
     }
   });
+
+  // Persist conditionSelect value in localStorage so selection stays after submit
+  const conditionSelect = document.getElementById('conditionSelect');
+  const CONDITION_KEY = 'menuChat_selectedCondition';
+
+  // Restore selection from localStorage on load
+  try {
+    const saved = localStorage.getItem(CONDITION_KEY);
+    if (saved && conditionSelect) {
+      // Only set if option exists
+      const opt = Array.from(conditionSelect.options).find(o => o.value === saved);
+      if (opt) conditionSelect.value = saved;
+    }
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+
+  // Save selection when customized form is submitted
+  document.getElementById('customizedForm').addEventListener('submit', function() {
+    try {
+      if (conditionSelect) localStorage.setItem(CONDITION_KEY, conditionSelect.value || '');
+    } catch (e) {}
+  });
+
+  // Match suggestions toggle (collapsed by default) — header clickable
+  const matchHeader = document.getElementById('matchToggleHeader');
+  const matchToggleText = document.getElementById('matchToggleText');
+  const matchContent = document.getElementById('matchSuggestionsContent');
+  const MATCH_KEY = 'menuChat_matchSuggestionsOpen';
+  if (matchHeader && matchContent) {
+    // Initialize state from localStorage
+    try {
+      const open = localStorage.getItem(MATCH_KEY);
+      if (open === '1') {
+        matchContent.style.display = 'block';
+        matchToggleText.textContent = 'Hide';
+      } else {
+        matchContent.style.display = 'none';
+        matchToggleText.textContent = 'Show';
+      }
+    } catch (e) {}
+    matchHeader.addEventListener('click', function() {
+      const isHidden = matchContent.style.display === 'none';
+      if (isHidden) {
+        matchContent.style.display = 'block';
+        matchToggleText.textContent = 'Hide';
+        try { localStorage.setItem(MATCH_KEY, '1'); } catch (e) {}
+      } else {
+        matchContent.style.display = 'none';
+        matchToggleText.textContent = 'Show';
+        try { localStorage.setItem(MATCH_KEY, '0'); } catch (e) {}
+      }
+    });
+  }
 </script>

@@ -1,0 +1,137 @@
+{
+  "mexican.jpeg": {
+    "answer": "<b>Extracted recipes from image:</b><br>• Pepper sunrise Burrito<br>• Cheeseburger Burrito<br>• Turkey Burrito<br>• Fiesta Chicken Burrito<br>• Vegetarian Burrito<br>• Smothered Burrito<br>• Black Bean Burrito<br>• Grilled Sausage Burrito<br>• Fish Taco<br>• Carne Asada Taco<br>• Tacos de Matamoros<br>• Taqueria Style Taco<br>• Chipotle Shrimp Taco<br>• Authentic Breakfast Taco<br>• Shredded Chicken Taco<br>• Oaxacan Taco<br><br>\n        <div style=\"overflow-x:auto; margin-top:12px; max-height:500px;\">\n        <table border=\"1\" style=\"border-collapse:collapse; width:98%; min-width:800px; background:#fff; font-size:1rem;\">\n            <thead style=\"background:#f2f2f2; position:sticky; top:0; z-index:2;\">\n                <tr>\n                    <th style=\"padding:8px; position:sticky; top:0; background:#f2f2f2;\">Recipe Query</th>\n<th style=\"padding:8px; position:sticky; top:0; background:#f2f2f2;\">Most Matched Recipe</th><th style=\"padding:8px; position:sticky; top:0; background:#f2f2f2;\">similarity_score</th>\n                </tr>\n            </thead>\n            <tbody>\n<tr><td style=\"padding:8px;\">Pepper sunrise Burrito</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.299</td></tr><tr><td style=\"padding:8px;\">Cheeseburger Burrito</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.281</td></tr><tr><td style=\"padding:8px;\">Turkey Burrito</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.140</td></tr><tr><td style=\"padding:8px;\">Fiesta Chicken Burrito</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.227</td></tr><tr><td style=\"padding:8px;\">Vegetarian Burrito</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.130</td></tr><tr><td style=\"padding:8px;\">Smothered Burrito</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.276</td></tr><tr><td style=\"padding:8px;\">Black Bean Burrito</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.026</td></tr><tr><td style=\"padding:8px;\">Grilled Sausage Burrito</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.263</td></tr><tr><td style=\"padding:8px;\">Fish Taco</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.258</td></tr><tr><td style=\"padding:8px;\">Carne Asada Taco</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.218</td></tr><tr><td style=\"padding:8px;\">Tacos de Matamoros</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.253</td></tr><tr><td style=\"padding:8px;\">Taqueria Style Taco</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.189</td></tr><tr><td style=\"padding:8px;\">Chipotle Shrimp Taco</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.138</td></tr><tr><td style=\"padding:8px;\">Authentic Breakfast Taco</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.202</td></tr><tr><td style=\"padding:8px;\">Shredded Chicken Taco</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.203</td></tr><tr><td style=\"padding:8px;\">Oaxacan Taco</td><td style=\"padding:8px;\"></td><td style=\"padding:8px;\">1.250</td></tr>\n            </tbody>\n        </table>\n        </div>",
+    "recipes": [
+      "pepper sunrise burrito",
+      "cheeseburger burrito",
+      "turkey burrito",
+      "fiesta chicken burrito",
+      "vegetarian burrito",
+      "smothered burrito",
+      "black bean burrito",
+      "grilled sausage burrito",
+      "fish taco",
+      "carne asada taco",
+      "tacos de matamoros",
+      "taqueria style taco",
+      "chipotle shrimp taco",
+      "authentic breakfast taco",
+      "shredded chicken taco",
+      "oaxacan taco"
+    ],
+    "matches": [
+      {
+        "query": "pepper sunrise burrito",
+        "matched_menu": null,
+        "matched_key": null,
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "cheeseburger burrito",
+        "matched_menu": null,
+        "matched_key": null,
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "turkey burrito",
+        "matched_menu": null,
+        "matched_key": null,
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "fiesta chicken burrito",
+        "matched_menu": "easy chicken curry",
+        "matched_key": "easy chicken curry",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "vegetarian burrito",
+        "matched_menu": "vegetarian borscht",
+        "matched_key": "vegetarian borscht",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "smothered burrito",
+        "matched_menu": "jibarito",
+        "matched_key": "jibarito",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "black bean burrito",
+        "matched_menu": "black beans bacon",
+        "matched_key": "black beans bacon",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "grilled sausage burrito",
+        "matched_menu": "sausage sauerkraut",
+        "matched_key": "sausage sauerkraut",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "fish taco",
+        "matched_menu": "spanish cod",
+        "matched_key": "spanish cod",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "carne asada taco",
+        "matched_menu": "carne guisada",
+        "matched_key": "carne guisada",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "tacos de matamoros",
+        "matched_menu": "macarons french macaroons",
+        "matched_key": "macarons french macaroons",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "taqueria style taco",
+        "matched_menu": null,
+        "matched_key": null,
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "chipotle shrimp taco",
+        "matched_menu": "chipotle barbacoa",
+        "matched_key": "chipotle barbacoa",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "authentic breakfast taco",
+        "matched_menu": null,
+        "matched_key": null,
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "shredded chicken taco",
+        "matched_menu": "thai red chicken curry",
+        "matched_key": "thai red chicken curry",
+        "is_exact": false,
+        "candidates": []
+      },
+      {
+        "query": "oaxacan taco",
+        "matched_menu": null,
+        "matched_key": null,
+        "is_exact": false,
+        "candidates": []
+      }
+    ]
+  }
+}

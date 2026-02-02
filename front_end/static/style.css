@@ -166,6 +166,44 @@ html, body {
   display: flex; flex-direction: column; flex: 2 1 67%; min-width: 0; padding: 0;
   overflow-y: auto;
 }
+
+/* Tighten spacing specifically for recommendation widget to remove extra gaps */
+#recommendation-box.followup-box {
+  margin: 6px 0 8px 0; /* reduce vertical gaps around the widget */
+  padding: 10px 12px; /* reduce internal padding so header sits closer to content */
+  max-height: none; /* allow full height for recommendations */
+}
+
+/* Remove top margin on the first heading inside recommendation content (prevents double spacing after the widget header) */
+/* Replace heavy headings with compact title blocks created by code: use small font and no extra margins */
+.rec-root .rec-title,
+.rec-root .rec-match {
+  font-size: 1rem;
+  margin: 0 0 6px 0 !important;
+  line-height: 1.12;
+}
+.rec-root h1 { margin: 0 0 6px 0; font-size:1.05rem }
+.rec-recipe { padding: 6px 0; border-bottom: 1px solid #f0f6fa; margin: 4px 0; }
+.rec-ingredients, .rec-breakdown, .rec-match, .rec-alert, .rec-note { margin: 4px 0; font-size:0.95rem }
+.rec-item { margin: 2px 0; font-size:0.9rem }
+.rec-alert { color: #b33; font-weight: 600 }
+.rec-note { color: #2a7; font-weight: 600 }
+
+/* Tight list spacing inside recommendations */
+#recommendation-box ul, #recommendation-box ol {
+  margin: 6px 0 6px 18px !important;
+  padding: 0 !important;
+}
+#recommendation-box li {
+  margin: 2px 0 !important;
+  padding: 0 !important;
+}
+
+/* Reduce paragraph spacing inside the recommendation content */
+#recommendation-box p {
+  margin: 4px 0 !important;
+  line-height: 1.2 !important;
+}
 @media (max-width: 900px) {
   .container { flex-direction: column; height: auto; min-height: 100vh; }
   .left-panel, .right-panel { width: 100%; min-width: 0; border: none; box-shadow: none; }

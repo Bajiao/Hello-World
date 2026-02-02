@@ -1,4 +1,5 @@
 import os, sys
+import unicodedata
 import matplotlib.pyplot as plt
 import networkx as nx
 import csv
@@ -7,11 +8,13 @@ import html
 import json
 
 # Import centralized LLM functions
-from llm import (
+from backend_menu_processing.llm import (
     generate_response_gemini,
     load_env_variables,
-    get_project_root
+    get_project_root,
+    get_openai_client,
 )
+from difflib import get_close_matches
 
 
 class MenuIngredientDiseaseGraph:
@@ -23,6 +26,29 @@ class MenuIngredientDiseaseGraph:
         self.connect_graph_from_menu_title_to_ingredient_to_disease()
         # Use menu_node_dict for efficient menu matching
         self.menu_nodes = list(self.menu_node_dict.keys())
+
+    @staticmethod
+    def normalize_string(s: str) -> str:
+        """
+        Normalize strings for matching: lowercase, strip, remove diacritics,
+        remove punctuation, collapse whitespace, remove common stop words.
+        """
+        if s is None:
+            return ""
+        s = str(s)
+        # Unicode normalize and remove diacritics
+        s = unicodedata.normalize('NFKD', s)
+        s = ''.join([c for c in s if not unicodedata.combining(c)])
+        # Lowercase and trim
+        s = s.lower().strip()
+        # Replace punctuation with space
+        s = re.sub(r"[^a-z0-9\s]", ' ', s)
+        # Collapse multiple spaces
+        s = re.sub(r"\s+", ' ', s).strip()
+        # Remove very common non-descriptive words that often appear on menus
+        stop_words = {'style', 'authentic', 'taqueria', 'restaurant', 'the', 'a', 'and', 'with', 'grilled', 'smothered', 'authentic', 'classic'}
+        parts = [p for p in s.split() if p not in stop_words]
+        return ' '.join(parts)
     
     def get_menu_ingredient_disease_subgraph(self, menu_node):
         """
@@ -209,12 +235,12 @@ class MenuIngredientDiseaseGraph:
                     # Add edge with effect and reason as attributes
                     self.G.add_edge(ingredient, disease_node, relation='ingredient_disease', effect=effect, reason=reason)
 
-            # Build a dictionary mapping normalized (strip+lower) menu title strings to their corresponding node in the graph
-            self.menu_node_dict = {str(n).strip().lower(): n for n, attrs in self.G.nodes(data=True) if attrs.get('type') == 'menu'}
-            # Build a dictionary mapping normalized (strip+lower) ingredient strings to their corresponding node in the graph
-            self.ingredient_node_dict = {str(n).strip().lower(): n for n, attrs in self.G.nodes(data=True) if attrs.get('type') == 'ingredient'}
-            # Build a dictionary mapping normalized (strip+lower) disease strings to their corresponding node in the graph
-            self.disease_node_dict = {str(n).strip().lower(): n for n, attrs in self.G.nodes(data=True) if attrs.get('type') == 'disease'}
+            # Build a dictionary mapping normalized menu title strings to their corresponding node in the graph
+            self.menu_node_dict = {self.normalize_string(n): n for n, attrs in self.G.nodes(data=True) if attrs.get('type') == 'menu'}
+            # Build a dictionary mapping normalized ingredient strings to their corresponding node in the graph
+            self.ingredient_node_dict = {self.normalize_string(n): n for n, attrs in self.G.nodes(data=True) if attrs.get('type') == 'ingredient'}
+            # Build a dictionary mapping normalized disease strings to their corresponding node in the graph
+            self.disease_node_dict = {self.normalize_string(n): n for n, attrs in self.G.nodes(data=True) if attrs.get('type') == 'disease'}
 
 
     @staticmethod
@@ -394,22 +420,31 @@ class MenuIngredientDiseaseGraph:
             - The Gemini model compares ingredient lists to find semantically similar menus
             - Returns None if no suitable match is found through any method'''
                 
-        # First, try exact match (case-insensitive)
+        # First, normalize and try exact match
         matched_menu = None
-        menu_title = menu_title.strip().lower()
+        menu_key = self.normalize_string(menu_title)
         is_exact = False
-        if menu_title in self.menu_nodes:
-            matched_menu = menu_title
+        # Exact match against normalized menu keys
+        if menu_key in self.menu_node_dict:
+            matched_menu = menu_key
             is_exact = True
-        # If not in graph, cannot compare, so return None
+        # If not in graph, try a lightweight fuzzy-string match before calling Gemini
         if not matched_menu:
-            # Build a list of menu titles and their ingredient lists for Gemini
+            try:
+                close = get_close_matches(menu_key, list(self.menu_node_dict.keys()), n=1, cutoff=0.60)
+                if close:
+                    matched_menu = close[0]
+                    is_exact = False
+            except Exception:
+                matched_menu = None
+
+        # If still not matched, fall back to Gemini LLM
+        if not matched_menu:
             prompt = (
-                f"You are given an input menu title and its ingredient list, and a list of menu titles with their ingredient lists. "
-                f"Find the menu title from the list whose ingredients are most similar to the input. "
-                f"Return ONLY the best matched menu title as a string. If no menu is sufficiently similar in terms of ingredients, return an empty string.\n"
+                f"You are given an input menu title. From the provided list of menu titles, return ONLY the single best matched menu title string whose name or likely ingredients align with the input. "
+                f"If none are similar, return an empty string.\n"
                 f"Input menu: '{menu_title}'\n"
-                f"Menu list: {json.dumps(self.menu_nodes)}"
+                f"Menu list: {json.dumps(list(self.menu_node_dict.values()))}"
             )
             response = generate_response_gemini(prompt)
             matched_menu = None
@@ -417,20 +452,58 @@ class MenuIngredientDiseaseGraph:
             if response:
                 # Try to extract the matched menu title from the response
                 match = re.search(r"'([^']+)'|\"([^\"]+)\"", response)
+                candidate = None
                 if match:
-                    matched_menu = match.group(1) or match.group(2)
-                    if matched_menu and matched_menu in self.menu_node_dict:
+                    candidate = (match.group(1) or match.group(2)).strip()
+                else:
+                    candidate = response.strip()
+
+                # Normalize candidate to graph key format
+                if candidate:
+                    candidate_key = self.normalize_string(candidate)
+                    if candidate_key in self.menu_node_dict:
+                        matched_menu = candidate_key
                         is_exact = False
                     else:
                         matched_menu = None
-                elif response.strip() in self.menu_node_dict:
-                    matched_menu = response.strip()
-                    is_exact = False
                 else:
                     matched_menu = None
             else:
                 matched_menu = None
                 is_exact = False
+
+        # As an additional optional fallback, allow calling gpt5-nano via OpenAI if Gemini failed.
+        # This path is intended for testing and requires OpenAI credentials.
+        if not matched_menu:
+            try:
+                client = get_openai_client()
+                nano_prompt = (
+                    f"Find the single best match for this menu title from the list. Return only the matched menu title.\n"
+                    f"Input menu: '{menu_title}'\n"
+                    f"Menu list: {json.dumps(list(self.menu_node_dict.values()))}"
+                )
+                resp = client.chat.completions.create(
+                    model="gpt-5-nano",
+                    messages=[{"role": "user", "content": nano_prompt}],
+                    temperature=0.0,
+                    max_tokens=50
+                )
+                text = resp.choices[0].message.content.strip()
+                # parse
+                m = re.search(r"'([^']+)'|\"([^\"]+)\"", text)
+                cand = None
+                if m:
+                    cand = (m.group(1) or m.group(2)).strip()
+                else:
+                    cand = text
+                if cand:
+                    ck = self.normalize_string(cand)
+                    if ck in self.menu_node_dict:
+                        matched_menu = ck
+                        is_exact = False
+            except Exception:
+                # Do not fail if OpenAI call not available
+                pass
 
         if not matched_menu:
             return {
@@ -471,22 +544,22 @@ class MenuIngredientDiseaseGraph:
         Given a menu string (case-insensitive), returns the corresponding node in the graph.
         If not found, returns null.
         """
-        menu_key = str(menu_string).strip().lower()
-        return self.menu_node_dict.get(menu_key, None) if menu_key in self.menu_node_dict else None
+        menu_key = self.normalize_string(menu_string)
+        return self.menu_node_dict.get(menu_key, None)
 
     def get_disease_node_from_string(self, disease_string):
         """
         Given a disease string (case-insensitive), returns the corresponding node in the graph.
         If not found, returns null.
         """
-        disease_key = str(disease_string).strip().lower()
-        return self.disease_node_dict.get(disease_key, None) if disease_key in self.disease_node_dict else None
+        disease_key = self.normalize_string(disease_string)
+        return self.disease_node_dict.get(disease_key, None)
 
     def get_ingredient_node_from_string(self, ingredient_string):
         """
         Given an ingredient string (case-insensitive), returns the corresponding node in the graph.
         If not found, returns null.
         """
-        ingredient_key = str(ingredient_string).strip().lower()
-        return self.ingredient_node_dict.get(ingredient_key, None) if ingredient_key in self.ingredient_node_dict else None
+        ingredient_key = self.normalize_string(ingredient_string)
+        return self.ingredient_node_dict.get(ingredient_key, None)
 

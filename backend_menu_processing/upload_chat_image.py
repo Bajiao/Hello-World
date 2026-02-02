@@ -32,9 +32,14 @@ import pytesseract
 import base64
 import pickle
 
-from langchain.vectorstores import FAISS
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.docstore.document import Document
+# Use langchain v1 compatible community/core packages when available,
+# fall back to older langchain imports for compatibility.
+try:
+    from langchain_community.vectorstores import FAISS
+    from langchain_core.embeddings import Embeddings
+except Exception:
+    from langchain.vectorstores import FAISS
+    from langchain.embeddings.base import Embeddings  # Base class for embedding models
 
 import pandas as pd
 from openai import OpenAI
@@ -127,6 +132,7 @@ class CustomOpenAIEmbeddings(Embeddings):
         # Correctly access the embedding data
         return response.data[0].embedding
     
+
 # Initialize embeddings instance
 embeddings = CustomOpenAIEmbeddings(client)
 
@@ -134,11 +140,20 @@ print(embeddings)
 
 # === Load FAISS Vector Store ===
 # Load pre-built FAISS vector store containing recipe embeddings
-vectorstore = FAISS.load_local(
-    "faiss_vectorstore_recipes", 
-    embeddings=embeddings,
-    allow_dangerous_deserialization=True
-)
+# Load the FAISS vectorstore (use folder_path kwarg for community package compatibility)
+try:
+    vectorstore = FAISS.load_local(
+        folder_path="faiss_vectorstore_recipes",
+        embeddings=embeddings,
+        allow_dangerous_deserialization=True
+    )
+except TypeError:
+    # Older langchain FAISS.load_local accepted the folder path as first positional arg
+    vectorstore = FAISS.load_local(
+        "faiss_vectorstore_recipes",
+        embeddings=embeddings,
+        allow_dangerous_deserialization=True
+    )
 
 # === Load Metadata ===
 # Load pickled metadata containing disease risk scores and health information

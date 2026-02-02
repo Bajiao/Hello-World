@@ -39,6 +39,8 @@ from backend_menu_processing.llm import (
     ask_openai_follow_up,
     get_project_root
 )
+from backend_menu_processing.recommendation_api import MenuRecommendationAPI
+from difflib import SequenceMatcher, get_close_matches
 
 
 # ============================================================================
@@ -211,6 +213,25 @@ def allowed_file(filename):
         True if file has an allowed extension (png, jpg, jpeg), False otherwise
     """
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+
+# In-memory store for uploaded analysis results: { filename: {answer, recipes, matches} }
+UPLOAD_ANALYSIS_RESULTS = {}
+
+
+def normalize_menu_name(name: str) -> str:
+    """Normalize menu/title string similar to preprocessing: strip, lower, unescape, remove extra punctuation and collapse spaces."""
+    if not name:
+        return ""
+    s = html.unescape(name)
+    s = s.strip()
+    s = re.sub(r'\\s+', ' ', s)
+    s = s.strip()
+    # remove surrounding quotes and trailing punctuation
+    s = s.strip('"\'')
+    s = re.sub(r'[\t\r\n]+', ' ', s)
+    s = s.strip()
+    return s
 
 # ============================================================================
 # CHAT AND PROCESSING FUNCTIONS
@@ -467,10 +488,14 @@ def upload_file():
     question = None
     answer = None
     followup = None
+    recommendation = None
 
     if request.method == 'POST':
         uploaded_file = request.files.get('file')
         question = request.form.get('question')
+        # Fields for customized analysis
+        condition = request.form.get('condition')
+        customQuestion = request.form.get('customQuestion')
 
         if uploaded_file and allowed_file(uploaded_file.filename):
             # Handle image upload
@@ -480,10 +505,383 @@ def upload_file():
             ext = filename.rsplit('.', 1)[1].lower()
             if ext in ALLOWED_EXTENSIONS:
                 answer = ask_openai_image(file_path)
+                # Immediately parse recipes and perform matching (exact or LLM fallback)
+                try:
+                    bullets = re.findall(r'•\s*([^<\n]+)', answer)
+                    # Normalize and lowercase to match graph keys
+                    parsed_recipes = [normalize_menu_name(html.unescape(b).strip()).lower() for b in bullets if b and b.strip()]
+                except Exception:
+                    parsed_recipes = []
+
+                matches = []
+                try:
+                    api = MenuRecommendationAPI()
+                    for recipe in parsed_recipes:
+                        # Try exact lookup in graph
+                        node = api.graph.get_menu_node_from_string(recipe)
+                        if node:
+                            try:
+                                matched_key = api.graph.normalize_string(node)
+                            except Exception:
+                                matched_key = str(node).strip().lower()
+                            matches.append({
+                                'query': recipe,
+                                'matched_menu': node,
+                                'matched_key': matched_key,
+                                'is_exact': True
+                            })
+                        else:
+                            # Use LLM/graph fallback as in process_menu_ingredient.main()
+                            try:
+                                best = api.graph.find_best_matched_menu_in_graph(recipe)
+                                matched_menu = best.get('matched_menu') if isinstance(best, dict) else None
+                                is_exact = best.get('is_exact', False) if isinstance(best, dict) else False
+                                # If LLM fallback failed (None), try local vectorstore similarity as a backup
+                                if not matched_menu:
+                                    try:
+                                        docs = vectorstore.similarity_search_with_score(recipe, k=3)
+                                        for doc, sc in docs:
+                                            meta_name = ''
+                                            try:
+                                                meta_name = doc.metadata.get('name') if hasattr(doc, 'metadata') else ''
+                                            except Exception:
+                                                meta_name = ''
+                                            if meta_name:
+                                                cand = normalize_menu_name(meta_name).lower()
+                                                node2 = api.graph.get_menu_node_from_string(cand)
+                                                if not node2:
+                                                    # try fuzzy match against graph keys
+                                                    from difflib import get_close_matches
+                                                    close = get_close_matches(cand, list(api.graph.menu_node_dict.keys()), n=1, cutoff=0.6)
+                                                    if close:
+                                                        node2 = api.graph.menu_node_dict.get(close[0])
+                                                if node2:
+                                                    matched_menu = node2
+                                                    is_exact = False
+                                                    break
+                                    except Exception:
+                                        pass
+                                # Build candidate list (fuzzy + vectorstore metadata)
+                                candidates = []
+                                try:
+                                    menu_key = api.graph.normalize_string(recipe)
+                                    # difflib fuzzy candidates
+                                    close = get_close_matches(menu_key, list(api.graph.menu_node_dict.keys()), n=3, cutoff=0.4)
+                                    for c in close:
+                                        node_label = api.graph.menu_node_dict.get(c)
+                                        # compute ratio
+                                        ratio = SequenceMatcher(None, menu_key, c).ratio()
+                                        candidates.append({'candidate_key': c, 'candidate_label': node_label, 'source': 'fuzzy', 'score': float(ratio)})
+                                except Exception:
+                                    pass
+                                # Add vectorstore metadata candidates
+                                try:
+                                    docs = vectorstore.similarity_search_with_score(recipe, k=3)
+                                    for doc, sc in docs:
+                                        meta_name = ''
+                                        try:
+                                            meta_name = doc.metadata.get('name') if hasattr(doc, 'metadata') else ''
+                                        except Exception:
+                                            meta_name = ''
+                                        if meta_name:
+                                            cand_key = api.graph.normalize_string(meta_name)
+                                            node2 = api.graph.menu_node_dict.get(cand_key)
+                                            candidates.append({'candidate_key': cand_key, 'candidate_label': node2 or meta_name, 'source': 'vector', 'score': float(sc) if sc is not None else 0.0})
+                                except Exception:
+                                    pass
+
+                                try:
+                                    mk = api.graph.normalize_string(matched_menu) if matched_menu else None
+                                except Exception:
+                                    mk = matched_menu.lower() if matched_menu else None
+                                matches.append({
+                                    'query': recipe,
+                                    'matched_menu': matched_menu,
+                                    'matched_key': mk,
+                                    'is_exact': is_exact,
+                                    'candidates': candidates
+                                })
+                            except Exception:
+                                matches.append({
+                                    'query': recipe,
+                                    'matched_menu': None,
+                                    'is_exact': False
+                                })
+                except Exception as e:
+                    print(f"Error computing matches at upload: {e}")
+
+                # Save for later use by Analyze
+                print(f"DEBUG: Saving upload analysis for file={filename}. recipes={parsed_recipes}, matches={matches}", flush=True)
+                UPLOAD_ANALYSIS_RESULTS[filename] = {
+                    'answer': answer,
+                    'recipes': parsed_recipes,
+                    'matches': matches
+                }
+                # Persist analysis results to disk for debugging and offline testing
+                try:
+                    analysis_path = Path(app.config['UPLOAD_FOLDER']) / 'analysis_results.json'
+                    with open(analysis_path, 'w', encoding='utf-8') as af:
+                        # Convert to plain serializable structure
+                        json.dump(UPLOAD_ANALYSIS_RESULTS, af, ensure_ascii=False, indent=2)
+                    print(f"DEBUG: Wrote analysis results to {analysis_path}", flush=True)
+                except Exception as e:
+                    print(f"DEBUG: Failed to write analysis results to disk: {e}", flush=True)
         
         elif question and answer:
             # Handle follow-up question with existing answer
             followup = ask_openai_over_image_output(answer, question)
+
+        # Customized condition analysis flow
+        elif condition:
+            # Use saved upload analysis if available for the most recent upload
+            try:
+                upload_dir = Path(app.config['UPLOAD_FOLDER'])
+                uploaded_files = [f for f in upload_dir.iterdir() if f.is_file() and allowed_file(f.name)]
+                if uploaded_files:
+                    latest_file = max(uploaded_files, key=lambda p: p.stat().st_mtime)
+                    filename = latest_file.name
+                    saved = UPLOAD_ANALYSIS_RESULTS.get(filename)
+                    print(f"DEBUG: Found latest uploaded file: {filename}. saved exists: {bool(saved)}", flush=True)
+                    if saved:
+                        # restore the extracted image analysis HTML so the UI keeps showing it
+                        try:
+                            answer = saved.get('answer')
+                            print(f"DEBUG: Restored saved answer for {filename} (len={len(answer) if answer else 0})", flush=True)
+                        except Exception as e:
+                            print(f"DEBUG: Failed to restore saved answer: {e}", flush=True)
+                    api = MenuRecommendationAPI()
+                    md = f"# Recommendations for {condition}\n\n"
+
+                    # Precompute top menus for disease to fetch scores/ranks
+                    try:
+                        top_menus = api.get_menus_for_disease(condition, top_n=200, ranking="unhealthy")
+                    except Exception:
+                        top_menus = []
+
+                    if not saved:
+                        # Fallback: run extraction+matching now (should be rare)
+                        answer = ask_openai_image(str(latest_file))
+                        bullets = re.findall(r'•\s*([^<\n]+)', answer)
+                        recipes = [normalize_menu_name(html.unescape(b).strip()) for b in bullets if b and b.strip()]
+                        matches = []
+                        for recipe in recipes:
+                            node = api.graph.get_menu_node_from_string(recipe)
+                            if node:
+                                try:
+                                    matched_key = api.graph.normalize_string(node)
+                                except Exception:
+                                    matched_key = str(node).strip().lower()
+                                matches.append({'query': recipe, 'matched_menu': node, 'matched_key': matched_key, 'is_exact': True})
+                            else:
+                                best = api.graph.find_best_matched_menu_in_graph(recipe)
+                                matched_menu = best.get('matched_menu') if isinstance(best, dict) else None
+                                is_exact = best.get('is_exact', False) if isinstance(best, dict) else False
+                                # If LLM fallback failed, try vectorstore similarity as a backup
+                                if not matched_menu:
+                                    try:
+                                        docs = vectorstore.similarity_search_with_score(recipe, k=3)
+                                        for doc, sc in docs:
+                                            meta_name = ''
+                                            try:
+                                                meta_name = doc.metadata.get('name') if hasattr(doc, 'metadata') else ''
+                                            except Exception:
+                                                meta_name = ''
+                                            if meta_name:
+                                                cand = normalize_menu_name(meta_name).lower()
+                                                node2 = api.graph.get_menu_node_from_string(cand)
+                                                if not node2:
+                                                    from difflib import get_close_matches
+                                                    close = get_close_matches(cand, list(api.graph.menu_node_dict.keys()), n=1, cutoff=0.6)
+                                                    if close:
+                                                        node2 = api.graph.menu_node_dict.get(close[0])
+                                                if node2:
+                                                    matched_menu = node2
+                                                    is_exact = False
+                                                    break
+                                    except Exception:
+                                        pass
+                                matches.append({'query': recipe, 'matched_menu': matched_menu, 'is_exact': is_exact})
+                        print(f"DEBUG: Fallback extraction produced recipes={recipes} and matches={matches}", flush=True)
+                    else:
+                            recipes = saved.get('recipes', [])
+                            matches = saved.get('matches', [])
+                            print(f"DEBUG: Using saved recipes={recipes}", flush=True)
+                            print(f"DEBUG: Using saved matches={matches}", flush=True)
+                            # Apply any user overrides submitted in the form (override_0, override_1, ...)
+                            try:
+                                for idx, m in enumerate(matches):
+                                    key = f'override_{idx}'
+                                    if key in request.form:
+                                        val = request.form.get(key)
+                                        if val:
+                                            # If override value corresponds to a normalized key in the graph, use it
+                                            node_override = api.graph.menu_node_dict.get(val)
+                                            if node_override:
+                                                m['matched_menu'] = node_override
+                                                m['is_exact'] = False
+                                                m['user_override'] = True
+                            except Exception as e:
+                                print(f"DEBUG: Failed applying overrides: {e}", flush=True)
+
+                    if not recipes:
+                        md += "No recipes could be extracted from the image for analysis."
+                    else:
+                        # Build structured info per recipe so we can sort by severity (very negative first)
+                        recipe_infos = []
+                        for idx, recipe in enumerate(recipes):
+                            info = {"recipe": recipe, "details": None, "breakdown": [], "vneg": 0, "neg": 0}
+                            matched = matches[idx] if idx < len(matches) else {'matched_menu': None, 'is_exact': False}
+                            matched_menu = matched.get('matched_menu')
+                            print(f"DEBUG: Processing recipe='{recipe}' matched_menu={matched_menu} is_exact={matched.get('is_exact', False)}", flush=True)
+                            if matched_menu:
+                                try:
+                                    details = api.get_menu_details(matched_menu, disease=condition)
+                                except Exception as e:
+                                    print(f"DEBUG: api.get_menu_details failed for matched_menu={matched_menu}: {e}", flush=True)
+                                    details = {'error': str(e)}
+                                info['matched_closest'] = matched_menu
+                                info['is_exact'] = matched.get('is_exact', False)
+                            else:
+                                try:
+                                    details = api.get_menu_details(recipe, disease=condition)
+                                except Exception as e:
+                                    print(f"DEBUG: api.get_menu_details fallback failed for recipe={recipe}: {e}", flush=True)
+                                    details = {'error': str(e)}
+                            if isinstance(details, dict) and details.get('error'):
+                                info['details'] = details
+                                recipe_infos.append(info)
+                                continue
+
+                            info['details'] = details
+                            breakdown = details.get(f'disease_analysis_{condition}', []) if isinstance(details, dict) else []
+                            info['breakdown'] = breakdown
+                            info['vneg'] = sum(1 for b in breakdown if b.get('effect','').lower() == 'very negative')
+                            info['neg'] = sum(1 for b in breakdown if b.get('effect','').lower() == 'negative')
+                            recipe_infos.append(info)
+
+                        # Sort recipes by severity (vneg first, then neg)
+                        recipe_infos.sort(key=lambda r: (r['vneg'], r['neg']), reverse=True)
+
+                        # Render recipes with most discouraged at top
+                        for info in recipe_infos:
+                            recipe = info['recipe']
+                            details = info.get('details') or {}
+                            md += f"## {recipe}\n\n"
+                            if info.get('matched_closest'):
+                                md += f"- Closest match in knowledge graph: **{info['matched_closest']}** (exact={info.get('is_exact', False)})\n\n"
+
+                            if isinstance(details, dict) and details.get('error'):
+                                md += f"- Not found in knowledge graph: {details.get('error')}\n\n"
+                                match = next((m for m in top_menus if m['menu'].lower() == recipe.lower()), None)
+                                if match:
+                                    md += f"- Matched in ranking: score {match['score']}\n\n"
+                                continue
+
+                            # Ingredients
+                            ingredients = details.get('ingredients', [])
+                            md += f"**Ingredients:** {', '.join(ingredients) if ingredients else 'N/A'}\n\n"
+
+                            # Disease-specific breakdown from knowledge graph
+                            breakdown = details.get(f'disease_analysis_{condition}', [])
+                            if breakdown:
+                                md += "**Knowledge Graph Reasoning:**\n"
+                                for b in breakdown:
+                                    ingr = b.get('ingredient', '')
+                                    eff = b.get('effect', '')
+                                    reason = b.get('reason', '')
+                                    md += f"- **{ingr}** — {eff}. {reason}\n"
+                                md += "\n"
+                            else:
+                                md += "- No direct ingredient->disease links found in knowledge graph for this menu.\n\n"
+
+                            # Ranking info if available
+                            found = next((r for r in top_menus if r['menu'].lower() == details.get('menu','').lower()), None)
+                            if found:
+                                rank = next((i for i, r in enumerate(top_menus, 1) if r['menu'] == found['menu']), None)
+                                md += f"- Knowledge graph score: {found['score']}"
+                                if rank:
+                                    md += f" (rank {rank} of {len(top_menus)})"
+                                md += "\n\n"
+
+                            # Alerts and recommendations
+                            vneg = info.get('vneg', 0)
+                            neg = info.get('neg', 0)
+                            if vneg > 0 or neg > 0:
+                                md += f"**ALERT:** This menu contains {vneg} very negative and {neg} negative ingredients for {condition}. Consider requesting modifications (e.g., reduce salt, avoid fried items, remove added sugars).\n\n"
+                            else:
+                                md += f"**Note:** No strongly negative ingredients detected for {condition}.\n\n"
+
+                    # Robust markdown cleanup: normalize whitespace and collapse blank lines
+                    try:
+                        # Normalize CRLF and trailing spaces
+                        md = md.replace('\r\n', '\n')
+                        md = re.sub(r'[ \t]+\n', '\n', md)
+                        # Collapse multiple blank lines into a single blank line (one empty line between blocks)
+                        md = re.sub(r'\n\s*\n+', '\n\n', md)
+                        # Ensure exactly one blank line after headings
+                        md = re.sub(r'(#{1,6} .*?)\n\s*\n+', r'\1\n\n', md)
+                        # Remove stray blank line immediately before list items
+                        md = re.sub(r'\n\s*\n(?=[*-]\s)', '\n', md)
+                        # Remove leading/trailing whitespace
+                        md = md.strip() + '\n'
+                    except Exception:
+                        pass
+
+                    # Optional post-processing with gpt5-nano for custom question
+                    if customQuestion:
+                        try:
+                            client = get_openai_client()
+                            prompt = f"You are a medical nutritionist. Context:\n{md}\nUser question: {customQuestion}\nProvide a concise answer focusing on actionable recommendations and concise alerts. Return plain text." 
+                            resp = client.chat.completions.create(
+                                model="gpt5-nano",
+                                messages=[{"role": "user", "content": prompt}],
+                                temperature=0.7
+                            )
+                            post = resp.choices[0].message.content
+                            md += "\n---\n### Additional Analysis\n\n" + post
+                        except Exception as e:
+                            print(f"gpt5-nano post-processing failed: {e}")
+
+                    # Build compact HTML directly (tighter spacing, div blocks)
+                    html_parts = [f"<div class=\"rec-root\"><h1>Recommendations for {html.escape(condition)}</h1>"]
+                    for info in recipe_infos:
+                        recipe = html.escape(info['recipe'])
+                        details = info.get('details') or {}
+                        html_parts.append(f"<div class=\"rec-recipe\"><div class=\"rec-title\">{recipe}</div>")
+                        if info.get('matched_closest'):
+                            mc = html.escape(info['matched_closest'])
+                            html_parts.append(f"<div class=\"rec-match\">Closest match: <strong>{mc}</strong> (exact={info.get('is_exact', False)})</div>")
+                        if isinstance(details, dict) and details.get('error'):
+                            html_parts.append(f"<div class=\"rec-error\">Not found in knowledge graph: {html.escape(details.get('error'))}</div>")
+                        else:
+                            ingredients = details.get('ingredients', [])
+                            html_parts.append(f"<div class=\"rec-ingredients\"><strong>Ingredients:</strong> {html.escape(', '.join(ingredients) if ingredients else 'N/A')}</div>")
+                            breakdown = details.get(f'disease_analysis_{condition}', [])
+                            if breakdown:
+                                html_parts.append('<div class=\"rec-breakdown\">')
+                                for b in breakdown:
+                                    ingr = html.escape(b.get('ingredient',''))
+                                    eff = html.escape(b.get('effect',''))
+                                    reason = html.escape(b.get('reason',''))
+                                    html_parts.append(f"<div class=\"rec-item\"><strong>{ingr}</strong> — {eff}. {reason}</div>")
+                                html_parts.append('</div>')
+                            else:
+                                html_parts.append('<div class=\"rec-breakdown\">No direct ingredient->disease links found.</div>')
+                            # Alerts
+                            vneg = info.get('vneg', 0)
+                            neg = info.get('neg', 0)
+                            if vneg > 0 or neg > 0:
+                                html_parts.append(f"<div class=\"rec-alert\"><strong>ALERT:</strong> This menu contains {vneg} very negative and {neg} negative ingredients for {html.escape(condition)}.</div>")
+                            else:
+                                html_parts.append(f"<div class=\"rec-note\">No strongly negative ingredients detected for {html.escape(condition)}.</div>")
+                        html_parts.append('</div>')
+                    html_parts.append('</div>')
+                    recommendation = '\n'.join(html_parts)
+                else:
+                    recommendation = "<p>No uploaded images found to analyze.</p>"
+            except Exception as e:
+                print(f"Error during customized analysis: {e}")
+                recommendation = f"<p>Error during analysis: {e}</p>"
         
         elif question:
             # If no answer yet, try to find the most recently uploaded image
@@ -499,11 +897,22 @@ def upload_file():
             except Exception as e:
                 print(f"Error finding previous upload: {e}")
 
+    # Provide saved matches/recipes to the template so users can override suggested matches
+    template_matches = None
+    template_recipes = None
+    if filename and filename in UPLOAD_ANALYSIS_RESULTS:
+        saved = UPLOAD_ANALYSIS_RESULTS.get(filename, {})
+        template_matches = saved.get('matches')
+        template_recipes = saved.get('recipes')
+
     return render_template('menu_chat.html',
                          filename=filename,
                          question=question,
                          answer=answer,
-                         followup=followup)
+                         followup=followup,
+                         recommendation=recommendation,
+                         matches=template_matches,
+                         recipes=template_recipes)
 
 
 @app.route('/uploads/<filename>')

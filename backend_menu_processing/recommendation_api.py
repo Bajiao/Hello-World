@@ -9,7 +9,7 @@ Provides a clean interface to:
 
 import json
 from typing import List, Dict, Any
-from menu_ingredient_disease_graph import MenuIngredientDiseaseGraph
+from backend_menu_processing.menu_ingredient_disease_graph import MenuIngredientDiseaseGraph
 
 
 class MenuRecommendationAPI:
