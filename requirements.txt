@@ -1,0 +1,16 @@
+# Project dependencies (best-effort list gathered from imports)
+# Install with: pip install -r requirements.txt
+
+flask
+openai
+google-generativeai
+httpx
+networkx
+pandas
+python-dotenv
+markdown
+matplotlib
+faiss-cpu
+langchain
+langchain-community
+langchain-core
