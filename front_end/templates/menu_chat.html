@@ -4,8 +4,47 @@
   <meta charset="UTF-8">
   <title>Menu Chat App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    /* Two-column layout: left 20%, right 80% with responsive fallback */
+    .container { display: flex; gap: 16px; align-items: flex-start; width: 100%; box-sizing: border-box; padding: 16px; }
+    .left-panel { width: 20%; min-width: 180px; box-sizing: border-box; }
+    .right-panel { width: 80%; box-sizing: border-box; }
+    @media (max-width: 900px) {
+      .container { flex-direction: column; padding: 12px; }
+      .left-panel, .right-panel { width: 100%; }
+    }
+    .doc-preview img { max-width: 100%; height: auto; border-radius: 6px; }
+    .upload-form { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+    .answer-box, .chatbox, .followup-box { margin-bottom: 16px; }
+    
+    /* Loading spinner styles */
+    .spinner {
+      display: none;
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(0, 0, 0, 0.1);
+      border-top: 3px solid #333;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .button-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -13,9 +52,12 @@
       <div style="width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;">
         <div class="upload-form">
           <h1>Menu Chat</h1>
-          <form method="post" enctype="multipart/form-data">
-            <input type="file" name="file" accept=".png,.jpg,.jpeg"><br>
-            <input type="submit" value="Upload">
+          <form method="post" enctype="multipart/form-data" id="uploadForm">
+            <input type="file" name="file" accept=".png,.jpg,.jpeg" id="fileInput"><br>
+            <div class="button-container">
+              <input type="submit" value="Upload" id="uploadBtn">
+              <div class="spinner" id="uploadSpinner"></div>
+            </div>
           </form>
         </div>
         {% if filename %}
@@ -37,13 +79,16 @@
       {% endif %}
       <div class="chatbox">
         <h2>Ask Questions</h2>
-        <form method="post">
-          <textarea name="question" rows="4" placeholder="Type your question here...">{{ question }}</textarea><br>
-          <input type="submit" value="Ask">
+        <form method="post" id="questionForm">
+          <textarea name="question" rows="4" placeholder="please enter your question here" id="questionTextarea"></textarea><br>
+          <div class="button-container">
+            <div class="spinner" id="submitSpinner"></div>
+            <input type="submit" value="Ask" id="submitBtn">
+          </div>
         </form>
       </div>
       {% if followup %}
-        <div class="followup-box">
+        <div id="followup-box" class="followup-box">
           <strong>Follow-up Answer:</strong>
           <div>{{ followup | safe }}</div>
         </div>
@@ -52,3 +97,39 @@
   </div>
 </body>
 </html>
+
+<script>
+  // Disable buttons during form submission and show spinner
+  document.getElementById('uploadForm').addEventListener('submit', function() {
+    const uploadBtn = document.getElementById('uploadBtn');
+    const uploadSpinner = document.getElementById('uploadSpinner');
+    uploadBtn.disabled = true;
+    uploadBtn.style.opacity = '0.5';
+    uploadBtn.style.cursor = 'not-allowed';
+    uploadSpinner.style.display = 'inline-block';
+  });
+
+  // Function to disable submit button and show spinner
+  function disableSubmitButton() {
+    const submitBtn = document.getElementById('submitBtn');
+    const submitSpinner = document.getElementById('submitSpinner');
+    submitBtn.disabled = true;
+    submitBtn.style.opacity = '0.5';
+    submitBtn.style.cursor = 'not-allowed';
+    submitSpinner.style.display = 'inline-block';
+  }
+
+  // Disable on form submit
+  document.getElementById('questionForm').addEventListener('submit', function() {
+    disableSubmitButton();
+  });
+
+  // Allow Enter key to submit the form and disable button
+  document.getElementById('questionTextarea').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter' && !event.shiftKey) {
+      event.preventDefault();
+      disableSubmitButton();
+      document.getElementById('questionForm').submit();
+    }
+  });
+</script>

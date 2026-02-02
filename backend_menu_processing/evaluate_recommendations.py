@@ -2,27 +2,24 @@ import os
 import json
 import random
 import argparse
-from openai import OpenAI
-import httpx
+from pathlib import Path
 
-from menu_ingredient_disease_graph import MenuIngredientDiseaseGraph, generate_response_gemini, init_api_keys
+from menu_ingredient_disease_graph import MenuIngredientDiseaseGraph
 
-# Load OpenAI API key from env
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if not OPENAI_API_KEY:
-    raise RuntimeError("Set OPENAI_API_KEY in the environment")
+# Import centralized LLM functions
+from llm import (
+    load_env_variables,
+    get_openai_client,
+    get_gemini_client,
+    generate_response_gemini,
+    rank_menus_openai,
+    judge_rankings_gemini
+)
 
-# Verify API key format and show it's loaded
-if not OPENAI_API_KEY.startswith("sk-proj-"):
-    print(f"⚠️  WARNING: API key format suspicious: {OPENAI_API_KEY[:20]}...")
-else:
-    print(f"✅ OpenAI API Key loaded: {OPENAI_API_KEY[:20]}...{OPENAI_API_KEY[-10:]}")
-
-# Initialize Gemini API keys
-init_api_keys()
-
-# Create OpenAI client similar to upload_chat_image.py
-client = OpenAI(api_key=OPENAI_API_KEY, http_client=httpx.Client(verify=False))
+# Load environment and initialize APIs
+load_env_variables()
+client = get_openai_client()
+get_gemini_client()
 
 def sample_menus(graph: MenuIngredientDiseaseGraph, n=25, seed=42):
     menus = [n for n, attrs in graph.G.nodes(data=True) if attrs.get('type') == 'menu']
@@ -74,49 +71,29 @@ def llm_rank_menus(client: OpenAI, graph: MenuIngredientDiseaseGraph, menus, dis
     entries = []
     for m in menus:
         entries.append({"menu": m, "ingredients": get_menu_ingredients(graph, m)})
-    prompt = {
-        "system": f"You are a clinical-aware nutrition assistant. Given a target disease '{disease}', rank the following menus by how NOT RECOMMENDED they are for patients with that disease. Use ingredients to determine unhealthiness. Return ONLY a JSON array of objects with keys: 'menu', 'score' (0-100, higher = more not recommended), and 'reasoning' (1-2 sentences citing key ingredients). No extra text.",
-        "user": f"Menus with ingredients:\n{json.dumps(entries, ensure_ascii=False, indent=2)}"
-    }
     
     try:
-        # Try gpt-4o (more available)
-        model_name = "gpt-4o"
-        print(f"  Calling {model_name}...")
-        resp = client.chat.completions.create(
-            model=model_name,
-            messages=[{"role":"system","content":prompt["system"]},{"role":"user","content":prompt["user"]}],
-            temperature=0
-        )
-        text = resp.choices[0].message.content
+        # Use centralized function
+        arr = rank_menus_openai(client, entries, disease, top_k)
+        if not arr:
+            print("  ⚠ LLM ranking failed. Using graph-based approximation instead.")
+            return graph_rank_menus(graph, menus, disease, top_k=top_k)
     except Exception as e:
         print(f"  ⚠ LLM call failed ({str(e)[:60]}...). Using graph-based approximation instead.")
-        # Fallback: use graph scores as LLM scores
         return graph_rank_menus(graph, menus, disease, top_k=top_k)
     
-    # try to extract JSON array
-    import re
-    match = re.search(r'\[.*\]', text, re.DOTALL)
-    if not match:
-        # fallback: return graph-based
-        print("  ⚠ Could not parse LLM response as JSON. Using graph-based approximation.")
-        return graph_rank_menus(graph, menus, disease, top_k=top_k)
-    try:
-        arr = json.loads(match.group(0))
-    except Exception:
-        # attempt to clean single quotes
-        try:
-            arr = json.loads(match.group(0).replace("'", '"'))
-        except Exception:
-            print("  ⚠ JSON parsing failed. Using graph-based approximation.")
-            return graph_rank_menus(graph, menus, disease, top_k=top_k)
-    # normalize results into expected shape and attach ingredients
+    # Normalize results into expected shape and attach ingredients
     normalized = []
     for item in arr:
         menu = item.get("menu")
         score = float(item.get("score", 0))
         reasoning = item.get("reasoning", "")
-        normalized.append({"menu": menu, "score": score, "reasoning": reasoning, "ingredients": get_menu_ingredients(graph, menu)})
+        normalized.append({
+            "menu": menu,
+            "score": score,
+            "reasoning": reasoning,
+            "ingredients": get_menu_ingredients(graph, menu)
+        })
     normalized.sort(key=lambda r: r["score"], reverse=True)
     return normalized[:top_k]
 

@@ -13,35 +13,23 @@ from typing import List, Dict, Any
 import numpy as np
 from datetime import datetime
 
-from openai import OpenAI
-import httpx
+from menu_ingredient_disease_graph import MenuIngredientDiseaseGraph
 
-from menu_ingredient_disease_graph import MenuIngredientDiseaseGraph, generate_response_gemini, init_api_keys
+# Import centralized LLM functions
+from llm import (
+    load_env_variables,
+    get_openai_client,
+    get_gemini_client,
+    generate_response_gemini,
+    rank_menus_openai,
+    judge_rankings_gemini,
+    get_project_root
+)
 
-# Load API keys - Use provided keys
-OPENAI_API_KEY = "<your openai key>"
-GEMINI_API_KEY = "<your gemini key>"
-
-if not OPENAI_API_KEY:
-    raise RuntimeError("OpenAI API key not set")
-if not GEMINI_API_KEY:
-    raise RuntimeError("Gemini API key not set")
-
-# Verify API key format and show it's loaded
-if not OPENAI_API_KEY.startswith("sk-proj-"):
-    print(f"⚠️  WARNING: OpenAI API key format suspicious: {OPENAI_API_KEY[:20]}...")
-else:
-    print(f"✅ OpenAI API Key loaded: {OPENAI_API_KEY[:20]}...{OPENAI_API_KEY[-10:]}")
-
-if GEMINI_API_KEY:
-    print(f"✅ Gemini API Key loaded: {GEMINI_API_KEY[:20]}...{GEMINI_API_KEY[-10:]}")
-
-# Set environment variables for API keys
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
-
-init_api_keys()
-client = OpenAI(api_key=OPENAI_API_KEY, http_client=httpx.Client(verify=False))
+# Load environment and initialize APIs
+load_env_variables()
+client = get_openai_client()
+get_gemini_client()
 
 
 class BenchmarkResults:
@@ -280,51 +268,32 @@ def graph_rank_menus(graph: MenuIngredientDiseaseGraph, menus, disease, top_k=10
     return results[:top_k], elapsed
 
 
-def llm_rank_menus(client: OpenAI, graph: MenuIngredientDiseaseGraph, 
+def llm_rank_menus(client, graph: MenuIngredientDiseaseGraph, 
                    menus, disease, top_k=10) -> tuple:
     """Rank menus using LLM. Returns (results, time_taken).
     
     NOTE: LLM is NOT provided with ingredients. It only ranks the menus by disease,
     then returns reasoning that explains ingredients to help patients understand.
+    Uses centralized rank_menus_openai function from llm.py
     """
     start_time = time.time()
     
-    # Only provide menu names, NOT ingredients - LLM will determine unhealthiness
-    menu_list = "\n".join([f"- {m}" for m in menus])
-    
-    prompt = {
-        "system": f"You are a clinical-aware nutrition assistant. Given a target disease '{disease}', rank the following menus by how NOT RECOMMENDED they are for patients with that disease. Determine unhealthiness based on your knowledge of typical menu ingredients and disease dietary requirements. Return ONLY a JSON array of objects with keys: 'menu', 'score' (0-100, higher = more not recommended), and 'reasoning' (2-3 sentences explaining why this menu is not recommended for {disease} patients, including typical ingredients that would be problematic). No extra text.",
-        "user": f"Menus to rank for {disease}:\n{menu_list}"
-    }
+    # Prepare menus with generic ingredient handling
+    menus_with_ingredients = [
+        {"menu": m, "ingredients": get_menu_ingredients(graph, m)}
+        for m in menus
+    ]
     
     try:
-        resp = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[{"role":"system","content":prompt["system"]},{"role":"user","content":prompt["user"]}],
-            temperature=0
-        )
-        text = resp.choices[0].message.content
-    except Exception as e:
-        print(f"  ⚠️  LLM call failed: {str(e)}")
-        print(f"     Using graph fallback.")
-        elapsed = time.time() - start_time
-        return graph_rank_menus(graph, menus, disease, top_k=top_k)[0], elapsed
-    
-    # Parse JSON
-    import re
-    match = re.search(r'\[.*\]', text, re.DOTALL)
-    if not match:
-        elapsed = time.time() - start_time
-        return graph_rank_menus(graph, menus, disease, top_k=top_k)[0], elapsed
-    
-    try:
-        arr = json.loads(match.group(0))
-    except Exception:
-        try:
-            arr = json.loads(match.group(0).replace("'", '"'))
-        except Exception:
+        # Use centralized function
+        arr = rank_menus_openai(client, menus_with_ingredients, disease, top_k)
+        if not arr:
             elapsed = time.time() - start_time
             return graph_rank_menus(graph, menus, disease, top_k=top_k)[0], elapsed
+    except Exception as e:
+        print(f"  ⚠️  LLM call failed: {str(e)}")
+        elapsed = time.time() - start_time
+        return graph_rank_menus(graph, menus, disease, top_k=top_k)[0], elapsed
     
     normalized = []
     for item in arr:
@@ -342,6 +311,7 @@ def llm_rank_menus(client: OpenAI, graph: MenuIngredientDiseaseGraph,
     elapsed = time.time() - start_time
     
     return normalized[:top_k], elapsed
+
 
 
 def gemini_judge_ab(graph: MenuIngredientDiseaseGraph, disease, menus, 

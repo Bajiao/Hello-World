@@ -5,44 +5,13 @@ import csv
 import re
 import html
 import json
-import openai
-from dotenv import load_dotenv
-import google.generativeai as genai
 
-# Set your OpenAI API key here
-openai.api_key = ""
-def init_api_keys():
-    try:
-        load_dotenv()
-        api_key = "<your gemini key>" 
-        os.environ["GOOGLE_API_KEY"] = api_key
-        genai.configure(api_key=api_key)
-    except Exception as exception:
-        print("Error in initializing API keys:", exception)
-
-def generate_response_gemini(prompt: str):
-    # Ensure API key is set before making a call
-    if not os.environ.get("GOOGLE_API_KEY"):
-        init_api_keys()
-    generation_config = {
-                            "temperature": 0.01,
-                            "top_p": 1,
-                            "top_k": 1,
-                            "max_output_tokens": 32000,
-                        }
-    model_name = 'gemini-2.5-flash-lite'
-    model = genai.GenerativeModel(model_name=model_name, generation_config=generation_config)
-    prompt_parts = [prompt]
-    try:
-        response = model.generate_content(prompt_parts)
-        if hasattr(response, "text") and response.text:
-            return response.text
-        else:
-            print("No valid response text returned from Gemini.")
-            return None
-    except Exception as exception:
-        print("Error generating response:", exception)
-        return None
+# Import centralized LLM functions
+from llm import (
+    generate_response_gemini,
+    load_env_variables,
+    get_project_root
+)
 
 
 class MenuIngredientDiseaseGraph:

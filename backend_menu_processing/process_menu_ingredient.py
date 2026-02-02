@@ -1,13 +1,19 @@
 import os
 import sys
-import openai
 import ast
 import csv
 import json
 import re
-import google.generativeai as genai
-from menu_ingredient_disease_graph import MenuIngredientDiseaseGraph, generate_response_gemini, init_api_keys
-openai.api_key = ""
+from pathlib import Path
+
+# Import LLM functions from centralized module
+from llm import (
+    split_ingredient_openai,
+    generate_response_gemini,
+    annotate_ingredient_disease_gemini,
+    get_data_dir
+)
+from menu_ingredient_disease_graph import MenuIngredientDiseaseGraph
 
 class PreProcessing:
     '''
@@ -42,26 +48,8 @@ class PreProcessing:
     # split_ingredient function using OpenAI API
     @staticmethod
     def split_ingredient(ingredient):
-        prompt = (
-            f"Extract this ingredient string into two fields: "
-            f"(1) quantity, measurement, or descriptor; "
-            f"(2) core ingredient name. The core ingredient name is usually the last word or words in the string, but not always. It should not include preparation methods or other descriptors. "
-            f"Return ONLY the Python tuple: (descriptor, ingredient). Do not include any explanation or extra text. "
-            f"Example: '2 cups chopped onions' -> ('2 cups chopped', 'onions'). "
-            f"Ingredient: '{ingredient}'"
-        )
-        response = openai.chat.completions.create(
-            model="gpt-4-1106-preview",
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=80,
-            temperature=0
-        )
-        result = response.choices[0].message.content.strip()
-        try:
-            return ast.literal_eval(result)
-        except Exception as e:
-            print(f"Error parsing result: {result}\nException: {e}")
-            return (None, ingredient)
+        """Use centralized LLM module for ingredient splitting."""
+        return split_ingredient_openai(ingredient)
 
     ####################################################
     #This function processes all titles and writes results to a CSV file
@@ -223,7 +211,6 @@ class PreProcessing:
             - Writes annotated results to `output_file`.
             - Prints status messages and errors to the console.
         """
-        init_api_keys()
         output_file = f"ingredient_{disease}_relation.csv"
         with open(input_file, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
@@ -237,35 +224,24 @@ class PreProcessing:
 
                 for i in range(0, len(ingredients), batch_size):
                     batch = ingredients[i:i+batch_size]
-                    prompt = (
-                        f"For the disease '{disease}', classify the health impact of each ingredient in the following list as 'positive', 'neutral', 'negative', and 'very negative'. "
-                        f"Return ONLY a JSON array of objects, each with keys 'ingredient', 'effect' (one of 'positive', 'neutral', 'negative', 'very negative'), and 'reason' (a short explanation if it is not 'neutral'). "
-                        f"If there is no known effect, use 'neutral'.\n"
-                        f"Ingredients: {json.dumps(batch)}"
-                    )
-                    response_text = generate_response_gemini(prompt)
-                    print(f"Gemini response for batch {i//batch_size + 1}:", response_text)
-                    with open(f'response_batch_{i//batch_size + 1}.txt', 'w', encoding='utf-8') as resp_file:
-                        resp_file.write(response_text if response_text else "")
-                    try:
-                        match = re.search(r'\[.*\]', response_text or "", re.DOTALL)
-                        if match:
-                            data = json.loads(match.group(0))
-                            for entry in data:
-                                ingredient = entry.get("ingredient", "")
-                                effect = entry.get("effect", "neutral").lower()
-                                reason = entry.get("reason", "")
-                                writer.writerow({"ingredient": ingredient, "effect": effect, "reason": reason})
-                        else:
-                            print("No JSON array found in Gemini response, writing neutral for all in batch.")
-                            for ingredient in batch:
-                                writer.writerow({"ingredient": ingredient, "effect": "neutral", "reason": ""})
-                    except Exception as e:
-                        print(f"Error parsing Gemini response: {e}")
+                    print(f"Processing batch {i//batch_size + 1}/{(len(ingredients)-1)//batch_size + 1} for {disease}...")
+                    
+                    # Use centralized Gemini function
+                    annotations = annotate_ingredient_disease_gemini(batch, disease)
+                    
+                    if annotations:
+                        for entry in annotations:
+                            ingredient = entry.get("ingredient", "")
+                            effect = entry.get("effect", "neutral").lower()
+                            reason = entry.get("reason", "")
+                            writer.writerow({"ingredient": ingredient, "effect": effect, "reason": reason})
+                    else:
+                        print(f"Failed to annotate batch {i//batch_size + 1}, marking all as neutral")
                         for ingredient in batch:
                             writer.writerow({"ingredient": ingredient, "effect": "neutral", "reason": ""})
                     out_f.flush()
-                print(f"Annotated results written to {output_file}.")
+                    
+                print(f"✓ Annotated results written to {output_file}")
     
     @staticmethod
     def combine_ingredient_disease_annotations(diseases_and_files, output_file='combined_ingredient_disease_annotations.csv'):

@@ -7,14 +7,17 @@
   box-shadow: 0 4px 24px #b3e0ff22, 0 2px 12px #b3e0ff30;
   font-family: 'Quicksand', 'Comic Neue', cursive, sans-serif;
   width: 100%;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 14px;
-  margin-bottom: 24px;
+  max-width: none;
+  margin: 14px 0 24px 0;
+  /* Prevent horizontal scrollbar caused by long unbroken text; allow vertical scrolling if content is long */
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 420px; /* increased so the follow-up section is longer */
+  white-space: pre-wrap; /* preserve paragraphs but wrap long lines */
+  word-break: break-word; /* break long words/URLs to avoid overflow */
 }
 .right-panel {
-  align-items: center;
+  align-items: stretch; /* allow children to take full width */
 }
 
 html, body {
@@ -86,12 +89,12 @@ html, body {
 }
 .chatbox {
   width: 100%;
-  max-width: 700px;
+  max-width: none;
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 4px 24px #b3e0ff22, 0 2px 12px #b3e0ff30;
   padding: 28px 24px 24px 24px;
-  margin-top: 18px;
+  margin: 18px 0;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -143,8 +146,7 @@ html, body {
   box-shadow: 0 4px 16px #7ecbff66;
 }
 .answer-box {
-  margin-top: 14px;
-  margin-bottom: 24px;
+  margin: 14px 0 24px 0;
   background: #fff;
   border-radius: 18px;
   padding: 24px 24px 18px 24px;
@@ -153,9 +155,7 @@ html, body {
   box-shadow: 0 4px 24px #b3e0ff22, 0 2px 12px #b3e0ff30;
   font-family: 'Quicksand', 'Comic Neue', cursive, sans-serif;
   width: 100%;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: none;
 }
 .left-panel {
   flex: 1 1 33%; min-width: 220px; max-width: 480px; background: #f7fbff; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 8px; border-right: 1px solid #d0f0ff;
